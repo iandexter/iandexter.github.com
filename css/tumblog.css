@@ -1,0 +1,23 @@
+body{font:normal 1em/120% Helvetica,Verdana,san-serif;width:80%;margin:1em auto 1em auto;padding:1.5em;border:1px solid #fff;}
+a{text-decoration:none;}
+ul{list-style:none;}
+li{padding:0 0 0 19px;}
+h2#tumblog{margin-bottom:0;padding-bottom:0;}
+#main{margin:0;border:1px dotted #999;padding:1em;}
+a img{border:none;}
+ul#elsewhere{list-style:none;padding:0;margin:0;}
+#elsewhere li{display:inline;padding:0;margin:0;}
+body{font:normal 0.8em/140% Verdana,Helvetica,sans-serif;margin:0 auto 0 auto;padding:10px;background-color:#fff;}
+h1{font-size:150%;}
+h2{font-size:100%;}
+a{text-decoration:none;}
+span.timestamp{padding-right:5px;font-size:80%;}
+.coredump, .delicious, .diecastminis, .flickr, .twitter, .lastfm, .reader, .tumblr{background-color:#fff;background-repeat:no-repeat;background-position:0% 50%;padding-left:20px;}
+.coredump{background-image:url("http://static.iandexter.com/img/iandexter.com.favicon.ico");}
+.delicious{background-image:url("http://static.iandexter.com/img/del.icio.us.ico");}
+.diecastminis{background-image:url("http://static.iandexter.com/img/mewantminis.ico");}
+.flickr{background-image:url("http://static.iandexter.com/img/flickr.ico");}
+.twitter{background-image:url("http://static.iandexter.com/img/twitter.ico");}
+.lastfm{background-image:url("http://static.iandexter.com/img/last.fm.png");}
+.reader{background-image:url("http://static.iandexter.com/img/reader.ico");}
+.tumblr{background-image:url("http://static.iandexter.com/img/tumblr.ico");}
