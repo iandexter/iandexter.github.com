@@ -13,8 +13,6 @@
 * With extensive experience in formulating and implementing open source and proprietary solutions
 * Handled independent projects in elearning and content management systems
 
----
-
 ### Skill areas (years of experience / proficiency)
 * Systems administration (10 years / advanced)
 * Web and network administration (5 years / proficient)
