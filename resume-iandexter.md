@@ -1,18 +1,17 @@
 # Ian Dexter R. Marquez
-## Linux systems administrator
 
 * <im@iandexter.net>
 * <http://iandexter.net>, <http://www.linkedin.com/in/iandexter>
 * +63 (917) 887 6260
 
 ---
-
-> * Experienced Linux and web administrator
-> * Red Hat Certified Engineer and Microsoft Certified Professional
-> * Trend Micro Certifiied Security Professional
-> * Certified in ITIL Foundation in IT Service Management
-> * With extensive experience in formulating and implementing open source and proprietary solutions
-> * Handled independent projects in elearning and content management systems
+## Linux systems administrator
+* Experienced Linux and web administrator
+* Red Hat Certified Engineer and Microsoft Certified Professional
+* Trend Micro Certifiied Security Professional
+* Certified in ITIL Foundation in IT Service Management
+* With extensive experience in formulating and implementing open source and proprietary solutions
+* Handled independent projects in elearning and content management systems
 
 ---
 
