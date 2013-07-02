@@ -5,7 +5,7 @@
 
 > Highly skilled information technologist with more than 10 years extensive hands-on experience in handling enterprise IT initiatives and leveraging open source and proprietary solutions. With proven competence in administering Linux and Unix platforms using various automation tools. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.  (Last update: 01 July 2013)
 
-[overview]
+<div id="overview_section">
 ## Overview
 
 ### Skill areas (years / proficiency)
@@ -50,7 +50,9 @@
 #### Web and content development
 * Drupal, WordPress
 * TWiki, MediaWiki, Dokuwiki
-[/overview]
+</div>
+
+- - -
 
 ## Professional Experience
 
