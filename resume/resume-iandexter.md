@@ -5,8 +5,6 @@
 
 > Highly skilled information technologist with more than 10 years extensive hands-on experience in handling enterprise IT initiatives and leveraging open source and proprietary solutions. With proven competence in administering Linux and Unix platforms using various automation tools. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.  (Last update: 01 July 2013)
 
-<div id="overview_section">
-
 ## Overview
 
 ### Skill areas (years / proficiency)
@@ -52,15 +50,13 @@
 * Drupal, WordPress
 * TWiki, MediaWiki, Dokuwiki
 
-</div>
-
 - - -
 
 ## Professional Experience
 
 
 ### Linux  system administrator -- April 2010 to present
-[Asian Development Bank](http://www.adb.org), Pasig City (_under RCG IT, Inc._)
+#### [Asian Development Bank](http://www.adb.org), Pasig City (*under RCG IT, Inc.*)
 
 Maintains AIX, SuSE and Red Hat enterprise Linux servers in the Bank's data center for its mission-critical applications like ERP, data warehousing, financials, and business intelligence. The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries.
 
@@ -79,7 +75,7 @@ Maintains AIX, SuSE and Red Hat enterprise Linux servers in the Bank's data cent
 
 
 ### Senior software engineer -- May 2007 to April 2010
-[Accenture](http://www.accenture.com), Pasig City
+#### [Accenture](http://www.accenture.com), Pasig City
 
 Supported the global identity management infrastructure of a leading financial services firm. Accenture is an industry leader in global management consulting, technology services, and outsourcing.
 
@@ -92,7 +88,7 @@ Supported the global identity management infrastructure of a leading financial s
 
 
 ### Unix system administrator -- January 2007 to April 2007
-[Asian Development Bank](http://www.adb.org), Pasig City (_under Cytronics, Inc._)
+#### [Asian Development Bank](http://www.adb.org), Pasig City (*under Cytronics, Inc.*)
 
 Operated and maintained Unix servers in the Bank's data center. 
 
@@ -101,7 +97,7 @@ Operated and maintained Unix servers in the Bank's data center.
 
 
 ### Systems engineer -- April 2006 to January 2007
-[Trend Micro, Inc.](http://www.trendmicro.com), Quezon City
+#### [Trend Micro, Inc.](http://www.trendmicro.com), Quezon City
 
 Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Center infrastructure. Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments.
 
@@ -113,7 +109,7 @@ Provided intermediate-level technical and engineering support for Trend Micro en
 
 
 ### Linux and web administrator -- July 2004 to March 2006
-[Philippine Rice Research Institute](http://www.philrice.gov.ph), Science City of Munoz
+#### [Philippine Rice Research Institute](http://www.philrice.gov.ph), Science City of Munoz
 
 Managed Linux servers of the corporate intranet in the local and wide area networks, and numerous web-based services for the organization. Developed a portal for the Open Academy for Philippine Agriculture, the [Pinoy Farmers' Internet](http://www.openacademy.ph). The Philippine Rice Research Institute is a premier research and development facility in Asia that pioneers and promotes rice science and technology.
 
@@ -125,7 +121,7 @@ Managed Linux servers of the corporate intranet in the local and wide area netwo
 
 
 ### Network administrator -- April 2002 to July 2004
-[National Irrigation Administration](http://www.nia.gov.ph), Quezon City
+#### [National Irrigation Administration](http://www.nia.gov.ph), Quezon City
 
 Designed and implemented the NIA Central Office local area network, and implemented services such as Active Directory, intranet, web, e-mail, and instant messaging. The National Irrigation Administration is the lead Philippine agency that provides irrigation services, development, operation and maintenance.
 
@@ -136,7 +132,7 @@ Designed and implemented the NIA Central Office local area network, and implemen
 
 
 ### Community relations / information assistant -- February 1999 to March 2002
-National Irrigation Administration, Science City of Mu&ntilde;oz
+#### National Irrigation Administration, Science City of Mu&ntilde;oz
 
 Implemented the public information infrastructure for the Casecnan Multipurpose Irrigation and Power Project (CMIPP) and frequently assigned to IT-related activities. The CMIPP is NIA's flagship project in provisioning irrigation services to northern Central Luzon, and supplementary power to the Luzon grid of the National Power Corporation.
 
@@ -148,7 +144,7 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
 ## Education and Credentials
 
 * **Bachelor of Science in Computing**, major in Computer Science (2011)
-Technological University of the Philippines, Manila
+  Technological University of the Philippines, Manila
 
 * **[Red Hat Certified Engineer](https://www.redhat.com/wapps/training/certification/verify.html?certNumber=805008554934387&isSearch=False&verify=Verify)** (October 2008)
 
