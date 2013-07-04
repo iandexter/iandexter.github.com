@@ -2,7 +2,7 @@
 
 * 26 Dona Narcisa Avenue, Kapitan Pepe Subdivision 3100 Cabanatuan City PHILIPPINES
 * 37 Pvt Aurellana St, Bagong Ilog, Pasig City PHILIPPINES
-* <http://www.iandexter.net> || <im@iandexter.net> || +63 917 887 6260
+* <http://www.iandexter.net> | <im@iandexter.net> | +63 917 887 6260
 
 
 > Highly skilled information technologist with more than 10 years extensive hands-on experience in handling enterprise IT initiatives and leveraging open source and proprietary solutions. With proven competence in administering Linux and Unix platforms using various automation tools. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.  (Last update: 01 July 2013)
@@ -10,6 +10,14 @@
 
 
 ## Overview
+
+### Current interests
+* DevOps
+* Python
+* Flask
+* Ansible
+* Git
+* Markdown
 
 ### Skill areas (years/proficiency)
 * Unix/Linux systems administration (10/advanced)
@@ -71,7 +79,7 @@ Maintains AIX, SuSE and Red Hat enterprise Linux servers in the Bank's data cent
 * Wrote an orchestration tool that provides "self-service" capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks had to go through the service request queues before being acted on. The tool significantly decreased these requests from development and operations teams, improving their own workflows.
 * Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than hour.
 * Automated the security baseline configuration for Linux servers as part of compliance requirements for the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions by more than 60%.
-* Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a source code repository, and pulled by the corresponding servers, thus improving the scheduling workflow and minimizing errors.
+* Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a source code repository, and pulled by the corresponding servers, thus improving the scheduling workflow and minimizing errors. This project was accepted in the [League of Professional System Administrators (LOPSA)](https://lopsa.org/) [Mentorship Program](https://lopsa.org/mentor).
 * Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in higher response times from different operations teams when acting on service alerts.
 * Writes and maintains various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.
 * As subject-matter expert, provides quality control and source code review for automation tools and scripts used in the Unix infrastructure.
@@ -165,4 +173,4 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
 
 ## References
 
-_Available upon request._
+_Available on request._
