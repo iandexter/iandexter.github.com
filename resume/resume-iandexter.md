@@ -18,6 +18,8 @@
 * Ansible
 * Git
 * Markdown
+* OpenShift
+* PaaS, IaaS
 
 ### Skill areas (years/proficiency)
 * Unix/Linux systems administration (10/advanced)
