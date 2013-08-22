@@ -5,7 +5,7 @@
 * <http://www.iandexter.net> | <im@iandexter.net> | +63 917 887 6260
 
 
-> Highly skilled information technologist with more than 10 years extensive hands-on experience in handling enterprise IT initiatives and leveraging open source and proprietary solutions. With proven competence in administering Linux and Unix platforms using various automation tools, and in tight collaboration with software development teams in the areas of continuous integration, rapid deployment, and application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.  (Last update: 14 August 2013)
+> Highly skilled IT generalist with more than 10 years extensive experience in handling enterprise IT initiatives while leveraging open source and proprietary solutions. With proven competence in administering Linux and Unix platforms using various automation tools, in tight collaboration with global software development and operations teams in the areas of continuous integration, rapid deployment, and application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.  (Last update: 22 August 2013)
 
 
 
@@ -13,17 +13,15 @@
 
 ### Current interests
 * DevOps
-* Python
-* Flask
-* Ansible
-* OpenShift
 * PaaS, IaaS
+* OpenShift, OpenStack, Google App Engine
 
 ### Skill areas (years/proficiency)
 * Unix/Linux systems administration (10/advanced)
-* Identity management (2/proficient)
-* Web design, development and management (3/proficient)
+* Infrastructure automation, application deployment and support (6/advanced)
 * Network design, development and administration (5/proficient)
+* Web design, development and management (3/proficient)
+* Identity management (2/proficient)
 
 ### Languages
 * Bash (10/advanced)
@@ -51,9 +49,9 @@
 * Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix (1/proficient)
 * Ethereal/Wireshark, Sniffer, tcpdump (5/proficient)
 * Cisco IOS, F5 BIG-IP ZebOS (2/proficient)
-* VMware, VirtualBox (5/proficient)
+* VMware, VirtualBox (6/proficient)
 * Subversion, git (5/proficient)
-* Amazon Web Services, OpenShift, OpenStack (1/basic)
+* Amazon Web Services, OpenShift, OpenStack, Google App Engine (1/basic)
 
 #### Identity management
 * Sun Directory Server (2/proficient)
