@@ -1,0 +1,129 @@
+\documentclass[10pt, a4paper, final]{article}
+
+%%% PACKAGES and FORMATTING
+\usepackage[margin=1.5cm, vcentering=true]{geometry}
+
+\usepackage[english]{babel}
+\usepackage[UKenglish]{isodate}
+\cleanlookdateon
+
+\usepackage[hidelinks, final]{hyperref}
+\hypersetup{
+  pdfauthor = {%(( name %))},
+  pdftitle = {Resume - %(( name %))},
+  pdfsubject = {Generated using Python and LaTeX},
+  pdfkeywords = {%( for k in keywords %)%(( k %)), %( endfor %)resume, LaTeX, Python, Jinja2}
+}
+
+\usepackage[default,osfigures,scale=0.85]{opensans}
+\usepackage[T1]{fontenc}
+
+\usepackage{titlesec}
+\titleformat{\section}{\sc\large\raggedright}{}{0em}{}
+\titleformat{\subsection}{\bf\raggedright}{}{0em}{}
+\titlespacing{\section}{0pt}{7pt}{3pt}
+\titlespacing{\subsection}{2pt}{7pt}{2pt}
+
+\usepackage{paralist}
+\usepackage{setspace}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.1pt}
+\renewcommand{\footrule}{\hbox to\headwidth{%
+  \color{gray}\leaders\hrule height \footrulewidth\hfill}}
+\fancyfoot[L]{\small \textcolor{gray}{Updated on \textsc{\today} using Python and \LaTeX.}}
+
+\usepackage{lipsum}
+
+\pagestyle{fancy}
+\setlength{\parindent}{0cm}
+%%% end - PACKAGES and FORMATTING
+
+\begin{document}
+
+%%% TITLE
+\begin{minipage}[c]{0.5\textwidth}
+  \begin{flushleft}\begin{spacing}{1}
+    \Huge %(( name %))
+
+    \Large %(( title %))
+  \end{spacing}\end{flushleft}
+\end{minipage}
+\begin{minipage}[c]{0.5\textwidth}
+  \begin{flushright}\begin{spacing}{1}\small
+   %( for p in contact.phone %) %(( p %)) %( endfor %)
+
+   %( for e in contact.email %) \href{mailto:%(( e %))}{%(( e %))} %( endfor %)
+
+   %( for w in contact.web %) \href{%(( w.link %))}{%(( w.link %))} %( endfor %)
+  \end{spacing}\end{flushright}
+\end{minipage}
+\vspace{1em}
+\hrulefill
+%%% end - TITLE
+
+%%% SUMMARY
+%(( summary %))
+%%% end - SUMMARY
+
+\vspace{2em}
+
+%%% OVERVIEW
+\begin{minipage}[t]{0.3\linewidth}
+  \begin{section}*{Qualifications}
+    \vspace{0.25em}
+   %( for e in credentials.education %) \textbf{%(( e.degree %)) major in %(( e.major %))}, \textsc{%(( e.year %))}
+
+    %(( e.school %))
+    %( endfor %)
+    \vspace{1em}
+
+   %( for c in credentials.certification %) \textbf{%(( c.title %))}, \textsc{%(( c.date %))}
+
+   %( endfor %) \vspace{2em}
+    \small
+    \begin{subsection}*{Interests}
+      \begin{inparadesc}%( for i in overview.interests %)
+        \item %(( i %))%( if not loop.last %),%( endif %)%( endfor %)
+      \end{inparadesc}
+    \end{subsection}
+    \vspace{1em}
+    \begin{subsection}*{Skill areas}
+      \begin{compactitem}%( for s in overview.skills %)
+        \item %(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %))) %( endfor %)
+      \end{compactitem}
+    \end{subsection}
+    \vspace{1em}
+    \begin{subsection}*{Languages}
+      \begin{compactitem}%( for l in overview.languages %)
+        \item %(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %))) %( endfor %)
+      \end{compactitem}
+    \end{subsection}
+    \vspace{1em}
+    \begin{subsection}*{Platforms}
+      \begin{compactitem}%( for p in overview.platforms %)
+        \item %(( p.platform %)) (%(( p.years %)) %( if p.years > 1 %)years%( else %)year%( endif %) / %(( p.proficiency %))) %( endfor %)
+      \end{compactitem}
+    \end{subsection}
+  \end{section}
+\end{minipage}
+%%% end- OVERVIEW
+\hfill
+%%% EXPERIENCE
+\begin{minipage}[t]{0.65\linewidth}
+  \begin{section}*{Experience}%( for e in experience %)
+    \begin{subsection}*{%(( e.title %)) \hfill\textsc{%(( e.start %)) to %(( e.end %))}}
+     %( if e.organization.link %) \href{%(( e.organization.link %))}{\textit{%(( e.organization.name %))}} %( else %) \textit{%(( e.organization.name %))}%( endif %)%( if e.organization.under %)(under %(( e.organization.under %)))%( endif %)
+
+      %(( e.summary %)) %(( e.organization.description %))
+    \end{subsection}
+    \vspace{1em}
+  %( endfor %)\end{section}
+\end{minipage}
+%%% end - EXPERIENCE
+
+\end{document}
