@@ -2,13 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Filename:         buildr.py
-Author:           im4
-HeadURL:          $HeadURL: https://svn.asiandevbank.org/ccau-unix/sysadmin/im4/bin/python.inc $
-Last revised by:  $Author: im4 $
-Last commit:      $Revision: 4481 $
-Last commit date: $Date: 2013-02-28 15:08:58 +0800 (Thu, 28 Feb 2013) $
-Description:      Generates resume from JSON data using Jinja2 templates.
+Generates resume from JSON data using Jinja2 templates.
 """
 
 import json
