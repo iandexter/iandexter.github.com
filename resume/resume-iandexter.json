@@ -4,8 +4,8 @@
       "title":"Linux system administrator",
       "contact":{
          "home":[
-            "26 Dona Narcisa Avenue, Kapitan Pepe Subdivision 3100 Cabanatuan City PHILIPPINES",
-            "37 Pvt Aurellana St, Bagong Ilog, Pasig City PHILIPPINES"
+            "26 Dona Narcisa Avenue, Kapitan Pepe Subdivision, 3100 Cabanatuan City PHILIPPINES",
+            "37 Pvt Aurellana St, Bagong Ilog, 1600 Pasig City PHILIPPINES"
          ],
          "email":[
             "im@iandexter.net"
@@ -20,7 +20,7 @@
             "+63 917 887 6260"
          ]
       },
-      "summary":"Highly skilled IT generalist with more than 10 years extensive experience in handling enterprise IT initiatives while leveraging open source and proprietary solutions. With proven competence in administering Linux and Unix platforms using various automation tools, in tight collaboration with global software development and operations teams in the areas of continuous integration, rapid deployment, and application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
+      "summary":"With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
       "overview":{
          "interests":[
             "DevOps",
@@ -215,11 +215,11 @@
                "under":"RCG IT, Inc.",
                "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
             },
-            "summary":"Maintains AIX, SuSE and Red Hat enterprise Linux servers in the Bank's data center for its mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
+            "summary":"Develops and maintains automation tools for managing the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
             "tasks":[
                "Provides platform-level support to the Bank's development and infrastructure operations teams.",
                "Coordinates with various software development teams for continuous integration, rapid deployment, performance monitoring and tuning, and application support.",
-               "Develops and maintain tools for application deployment, monitoring, and performance tuning.",
+               "Develops and maintains tools for application deployment, monitoring, and performance tuning.",
                "Documents testing and deployment scenarios for the Unix infrastructure requirements of the Bank.",
                "Supports Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software."
             ],
