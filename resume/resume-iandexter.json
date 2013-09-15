@@ -76,6 +76,11 @@
                "proficiency":"proficient"
             },
             {
+               "language":"Python",
+               "years":2,
+               "proficiency":"proficient"
+            },
+            {
                "language":"SQL",
                "years":2,
                "proficiency":"proficient"
