@@ -54,11 +54,20 @@ def load_json(json_file = None):
 def get_keywords(json_data = None):
     keywords = []
     for k in json_data['overview']['skills']:
-        keywords.append(k['area'])
+        keywords.append(k['area'].replace(',', ';'))
     for k in json_data['overview']['platforms']:
         keywords.append(k['platform'])
     for k in json_data['overview']['languages']:
         keywords.append(k['language'])
+    for k in json_data['overview']['tools']:
+        for t in k["tools"]:
+            keywords.append(t["tool"])
+    for k in json_data['overview']['interests']:
+        keywords.append(k)
+    keywords = ','.join([ k.replace(', ', ',') for k in keywords ]).split(',')
+    keywords = list(set(keywords))
+    keywords.sort()
+    keywords = [ k.replace(';', ',') for k in keywords ]
     return keywords
 
 def render_resume():

@@ -12,7 +12,7 @@
   pdfauthor = {%(( name %))},
   pdftitle = {Resume - %(( name %))},
   pdfsubject = {Generated using Python and LaTeX},
-  pdfkeywords = {%( for k in keywords %)%(( k %)), %( endfor %)resume, LaTeX, Python, Jinja2}
+  pdfkeywords = {%( for k in keywords %)%(( k %)), %( endfor %)resume, LaTeX, Jinja2}
 }
 
 \usepackage[default,osfigures,scale=0.85]{opensans}
@@ -71,7 +71,7 @@
 \vspace{2em}
 
 %%% OVERVIEW
-\begin{minipage}[t]{0.3\linewidth}
+\begin{minipage}[t]{0.32\linewidth}
   \begin{section}*{Qualifications}
     \vspace{0.25em}
    %( for e in credentials.education %) \textbf{%(( e.degree %)) major in %(( e.major %))}, \textsc{%(( e.year %))}
