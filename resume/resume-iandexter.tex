@@ -15,14 +15,15 @@
   pdfkeywords = {Amazon Web Services, Ansible, Apache, Application deployment and support, Bash/Shell, CentOS, Cisco IOS, Courier, Debian, DevOps, Dokuwiki, Dovecot, Drupal, Ethereal/Wireshark, F5 BIG-IP ZebOS, Fedora, Google App Engine, IBM AIX, IaaS, Identity management, Infrastructure automation, Javascript, MediaWiki, Microsoft Windows 2003 Server, MySQL, Nagios, NetCool, Network design, development and administration, OpenShift, OpenStack, Oracle, PHP, PaaS, Perl, Postfix, PostgreSQL, Procmail, Puppet, Python, Red Hat Enterprise Linux, SQL, Sendmail, Sniffer, Squid, SuSE Linux Enterprise Server, Subversion, Sun Directory Server, Sun Identity Manager, Sun Solaris, Sybase, TWiki, Tomcat, Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix, Ubuntu, Unix/Linux systems administration, VMware, VirtualBox, Web design, development and management, WordPress, git, tcpdump, resume, LaTeX, Jinja2}
 }
 
-\usepackage[default,osfigures,scale=0.85]{opensans}
+\usepackage[osf]{libertine}
+\renewcommand*\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 
 \usepackage{titlesec}
 \titleformat{\section}{\sc\large\raggedright}{}{0em}{}
 \titleformat{\subsection}{\bf\raggedright}{}{0em}{}
-\titlespacing{\section}{0pt}{7pt}{3pt}
-\titlespacing{\subsection}{2pt}{7pt}{2pt}
+\titlespacing{\section}{0pt}{5ex}{1ex}
+\titlespacing{\subsection}{0pt}{0.5ex}{0ex}
 
 \usepackage{paralist}
 \usepackage{setspace}
@@ -38,6 +39,7 @@
 \fancyfoot[L]{\small \textcolor{gray}{Last update: \textsc{\today}}}
 
 \pagestyle{fancy}
+\setlength{\parskip}{0cm}
 \setlength{\parindent}{0cm}
 %%% end - PACKAGES and FORMATTING
 
@@ -68,7 +70,7 @@
 With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.
 %%% end - SUMMARY
 
-\vspace{2em}
+\vspace{1em}
 
 %%% OVERVIEW
 \begin{minipage}[t]{0.32\linewidth}
@@ -183,7 +185,7 @@ With more than 10 years extensive experience in administering Linux and Unix pla
     \begin{subsection}*{Community relations / information assistant \hfill\textsc{February 1999 to March 2002}}
       \textit{National Irrigation Administration}
 
-      Implemented the public information infrastructure for the Casecnan Multipurpose Irrigation and Power Project (CMIPP), and frequently assigned to IT-related activities. The CMIPP is NIA's flagship project in providing irrigation services to northern Central Luzon and supplementary power to the Luzon grid of the National Power Corporation.
+      Implemented the public information infrastructure for the Casecnan Multipurpose Irrigation and Power Project (CMIPP), and frequently assigned to IT-related activities. The CMIPP is NIA's flagship project that provide irrigation services to northern Central Luzon and supplementary power to the Luzon grid of the National Power Corporation.
     \end{subsection}
     \vspace{1em}
   \end{section}

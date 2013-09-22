@@ -15,14 +15,15 @@
   pdfkeywords = {%( for k in keywords %)%(( k %)), %( endfor %)resume, LaTeX, Jinja2}
 }
 
-\usepackage[default,osfigures,scale=0.85]{opensans}
+\usepackage[osf]{libertine}
+\renewcommand*\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 
 \usepackage{titlesec}
 \titleformat{\section}{\sc\large\raggedright}{}{0em}{}
 \titleformat{\subsection}{\bf\raggedright}{}{0em}{}
-\titlespacing{\section}{0pt}{7pt}{3pt}
-\titlespacing{\subsection}{2pt}{7pt}{2pt}
+\titlespacing{\section}{0pt}{5ex}{1ex}
+\titlespacing{\subsection}{0pt}{0.5ex}{0ex}
 
 \usepackage{paralist}
 \usepackage{setspace}
@@ -38,6 +39,7 @@
 \fancyfoot[L]{\small \textcolor{gray}{Last update: \textsc{\today}}}
 
 \pagestyle{fancy}
+\setlength{\parskip}{0cm}
 \setlength{\parindent}{0cm}
 %%% end - PACKAGES and FORMATTING
 
@@ -68,7 +70,7 @@
 %(( summary %))
 %%% end - SUMMARY
 
-\vspace{2em}
+\vspace{1em}
 
 %%% OVERVIEW
 \begin{minipage}[t]{0.32\linewidth}
