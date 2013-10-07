@@ -1,0 +1,52 @@
+%( filter upper %)%(( name %))%( endfilter %)
+%(( title %))
+
+%( for p in contact.phone %) * %(( p %)) %( endfor %)
+%( for e in contact.email %) * <%(( e %))> %( endfor %)
+%( for w in contact.web %) * <%((w.link %))> %( endfor %)
+%( for h in contact.home %) * %(( h %))
+%( endfor %)
+
+%(( summary %))
+[Last update: %(( last_update %))]
+
+
+OVERVIEW
+
+Interests: %( for i in overview.interests %)%(( i %))%( if not loop.last %), %( endif %)%( endfor %)
+
+Qualifications
+--------------
+%( for e in credentials.education %)%(( e.degree %)) major in %(( e.major %)), %(( e.year %))
+%(( e.school %))
+%( endfor %)
+%( for c in credentials.certification %) * %(( c.title %)), %(( c.date %))
+%( endfor %)
+
+Skill areas
+-----------
+%( for s in overview.skills %) * %(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %)))
+%( endfor %)
+Languages
+---------
+%( for l in overview.languages %) * %(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %)))
+%( endfor %)
+Platforms
+---------
+%( for p in overview.platforms %) * %(( p.platform %)) (%(( p.years %)) %( if p.years > 1 %)years%( else %)year%( endif %) / %(( p.proficiency %)))
+%( endfor %)
+Tools
+-----
+%( for t in overview.tools %) * %(( t.name %)): %( for n in t.tools %)%(( n.tool %))%( if not loop.last %), %( endif %)%( endfor %)
+%( endfor %)
+
+EXPERIENCE
+%( for e in experience %)
+%(( e.title %)) -- %(( e.start %)) to %(( e.end %))
+%(( e.organization.name %)) %( if e.organization.link %)<%(( e.organization.link %))>%( endif %) %( if e.organization.under %)(under %(( e.organization.under %)))%( endif %)
+
+%(( e.summary %)) %(( e.organization.description %))
+
+%( for t in e.tasks %) * %(( t %))
+%( endfor %)
+%( endfor %)
