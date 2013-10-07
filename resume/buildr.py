@@ -3,7 +3,7 @@
 
 """
 Generates a CV or resume from JSON data using various templates
-(LaTeX, plaintext, or HTML).
+(LaTeX, plain-text, or HTML).
 """
 
 import json
@@ -86,7 +86,7 @@ def render_cv():
 def parse_opts():
     usage = """
     Generates a CV or resume from JSON data using various templates
-    (LaTeX, plaintext, or HTML).
+    (LaTeX, plain-text, or HTML).
 
     %s [options]
     """ % sys.argv[0]
@@ -96,9 +96,9 @@ def parse_opts():
     parser.add_option('-d', '--data', dest='data_file',
         default='cv.json', help='JSON data file')
     parser.add_option('-t', '--template', dest='template_file',
-        default='cv.tex.j2', help='Template file (LaTeX|plaintext|HTML)')
+        default='cv.tex.j2', help='Template file (LaTeX|plain-text|HTML)')
     parser.add_option('-o', '--output', dest='output_file',
-        default='cv.tex', help='Output file (LaTeX|plaintext|HTML)')
+        default='cv.tex', help='Output file (LaTeX|plain-text|HTML)')
     parser.add_option('-v', '--verbose', action="store_true",
         default=False, help='Be more verbose')
 
@@ -123,15 +123,16 @@ def main():
     cv_data[u'last_update'] = strftime("%d %b %Y", localtime())
 
     link_marker = '\\[([^\\]]+)\\]\\(([^\\)]+)\\)'
-    if opts.template_file.find('.tex.'):
+    if '.tex.' in opts.template_file:
         if opts.verbose:
             print "Converting LaTeX \href links"
         link_sub = r'\\href{\2}{\1}'
-    if opts.template_file.find('.txt.'):
+    if '.txt.' in opts.template_file:
         if opts.verbose:
-            print "Converting to links"
+            print "Converting to plaintext links"
         link_sub = r'\1 <\2>'
-    transform(cv_data, link_marker, link_sub)
+    if '.(tex|txt).' in opts.template_file:
+        transform(cv_data, link_marker, link_sub)
 
     if opts.verbose:
         print "Rendering using %s" % opts.template_file
