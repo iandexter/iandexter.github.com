@@ -8,12 +8,13 @@
  * 37 Pvt Aurellana St, Bagong Ilog, 1600 Pasig City PHILIPPINES
 
 
-> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 07 Oct 2013]
+> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 7 Oct 2013]
 
 
 ## Overview
 
-### Interests: DevOps, PaaS, IaaS, OpenShift, OpenStack, Google App Engine
+### Interests
+DevOps, PaaS, IaaS, OpenShift, OpenStack, Google App Engine
 
 ### Qualifications
 **Bachelor of Science in Computing** major in Computer Science, 2011

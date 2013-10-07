@@ -120,18 +120,18 @@ def main():
         print "Loading JSON from %s" % opts.data_file
     cv_data = load_json(opts.data_file)['cv']
     cv_data[u'keywords'] = get_keywords(cv_data)
-    cv_data[u'last_update'] = strftime("%d %b %Y", localtime())
+    cv_data[u'last_update'] = strftime("%-d %b %Y", localtime())
 
     link_marker = '\\[([^\\]]+)\\]\\(([^\\)]+)\\)'
     if '.tex.' in opts.template_file:
         if opts.verbose:
             print "Converting LaTeX \href links"
         link_sub = r'\\href{\2}{\1}'
+        transform(cv_data, link_marker, link_sub)
     if '.txt.' in opts.template_file:
         if opts.verbose:
             print "Converting to plaintext links"
         link_sub = r'\1 <\2>'
-    if '.(tex|txt).' in opts.template_file:
         transform(cv_data, link_marker, link_sub)
 
     if opts.verbose:

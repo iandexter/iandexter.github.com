@@ -12,7 +12,8 @@
 
 ## Overview
 
-### Interests: %( for i in overview.interests %)%(( i %))%( if not loop.last %), %( endif %)%( endfor %)
+### Interests
+%( for i in overview.interests %)%(( i %))%( if not loop.last %), %( endif %)%( endfor %)
 
 ### Qualifications
 %( for e in credentials.education %)**%(( e.degree %))** major in %(( e.major %)), %(( e.year %))
