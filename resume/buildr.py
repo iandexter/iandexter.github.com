@@ -15,7 +15,7 @@ import sys
 from optparse import OptionParser
 from time import localtime, strftime
 
-__version__ = '0.3'
+__version__ = '0.4'
 
 def objwalk(obj, path = (), memo = None):
     """From http://code.activestate.com/recipes/577982-recursively-walk-python-objects/"""
@@ -105,6 +105,28 @@ def parse_opts():
     (opts, args) = parser.parse_args()
     return (opts, args)
 
+def search_replace(json_data = None, template_file = None):
+    transform_list = {
+        'tex': [
+            { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
+              '_sub': r'\\href{\2}{\1}'
+            },
+            { '_regex': '\&ntilde;', '_sub': r'{\\~n}' },
+            { '_regex': '([\d+])%', '_sub': r'\1\\%' }
+        ],
+        'txt': [
+            { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
+              '_sub': r'\1 <\2>'
+            },
+            { '_regex': '\&ntilde;', '_sub': r'n' }
+        ]
+    }
+
+    for k,v in transform_list.items():
+        if k in template_file:
+            for t in v:
+                transform(json_data, t['_regex'], t['_sub'])
+
 def main():
     (opts, args) = parse_opts()
 
@@ -122,17 +144,9 @@ def main():
     cv_data[u'keywords'] = get_keywords(cv_data)
     cv_data[u'last_update'] = strftime("%-d %b %Y", localtime())
 
-    link_marker = '\\[([^\\]]+)\\]\\(([^\\)]+)\\)'
-    if '.tex.' in opts.template_file:
-        if opts.verbose:
-            print "Converting LaTeX \href links"
-        link_sub = r'\\href{\2}{\1}'
-        transform(cv_data, link_marker, link_sub)
-    if '.txt.' in opts.template_file:
-        if opts.verbose:
-            print "Converting to plaintext links"
-        link_sub = r'\1 <\2>'
-        transform(cv_data, link_marker, link_sub)
+    if opts.verbose:
+        print "Converting special characters"
+    search_replace(cv_data, opts.template_file)
 
     if opts.verbose:
         print "Rendering using %s" % opts.template_file

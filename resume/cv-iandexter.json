@@ -223,18 +223,18 @@
           "under":"RCG IT, Inc.",
           "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
         },
-        "summary":"Develops and maintains automation tools for managing the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
+        "summary":"Develops and maintains automation tools to manage the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
         "tasks":[
           "Provides platform-level support to the Bank's development and infrastructure operations teams.",
-          "Coordinates with various software development teams for continuous integration, rapid deployment, performance monitoring and tuning, and application support.",
+          "Coordinates with various software development teams on continuous integration, rapid deployment, performance monitoring and tuning, and application support.",
           "Develops and maintains tools for application deployment, monitoring, and performance tuning.",
           "Documents testing and deployment scenarios for the Unix infrastructure requirements of the Bank.",
           "Supports Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software.",
-          "Maintains an automation script for deploying Oracle applications that streamlines the development process. The deployment script, used within the Oracle web UI, was not actively maintained, and with numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, the feature requests and bugs have been reduced to less than 10%.",
-          "Wrote an orchestration tool that provides 'self-service' capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks had to go through the service request queues before being acted on. The tool significantly decreased these requests from development and operations teams, improving their own workflows.",
+          "Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, the feature requests and bugs were reduced to less than 10%.",
+          "Wrote an orchestration tool that provides self-service capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks from the development and operations previously went through the service request queues before being acted on by other teams. The use of the tool significantly decreased these requests, improving workflows across various teams.",
           "Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than hour.",
-          "Automated the security baseline configuration for Linux servers as part of compliance requirements for the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions by more than 60%.",
-          "Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a source code repository, and pulled by the corresponding servers, thus improving the scheduling workflow and minimizing errors. This project was accepted in the [League of Professional System Administrators (LOPSA) Mentorship Program](https://lopsa.org/mentor).",
+          "Automated the security baseline configuration for Linux servers as part of compliance requirements at the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions to more than 60%.",
+          "Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a repository, and pulled by the corresponding servers, thus improving the scheduling workflow, and minimizing errors. This project was accepted in the [League of Professional System Administrators (LOPSA) Mentorship Program](https://lopsa.org/mentor).",
           "Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in higher response times from different operations teams when acting on service alerts.",
           "Writes Nagios plugins and scripts for a monitoring dashboard. The dashboard, used by analysts for a critical business application, provides a single interface for tracking message workflows across various platforms.",
           "Writes and maintains various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.",
@@ -293,12 +293,12 @@
           "under":"",
           "description":"Accenture is an industry leader in global management consulting, technology services, and outsourcing."
         },
-        "summary":"Supported the global identity management and web infrastructure of a leading financial services firm.",
+        "summary":"Supported the global directory services, identity management, and web infrastructure of a leading financial services firm.",
         "tasks":[
           "Maintained the firm's directory services and identity management infrastructure using third-party open source and internally developed tools.",
           "Supported the firm's global web and enterprise products infrastructure.",
           "Worked closely with global software development teams in the areas of application deployment, monitoing and support.",
-          "Resolved infrastructure issues reported through automated alerts and from the global help desk.",
+          "Resolved infrastructure issues reported through automated alerts, and from the global help desk.",
           "Subject-matter expert and training resource for shell scripting and Linux administration.",
           "Created a web application that interfaced with a service fulfillment facility. The application significantly streamlined the creation and closure of service requests for common tasks.",
           "Wrote and maintained various scripts to automate administrative tasks, including a tool for group management notification, a helper script that gathers LDAP information from various sources, and checkout scripts that provide inputs for the global monitoring framework."
@@ -342,7 +342,7 @@
         },
         "summary":"Operated and maintained Unix servers in the Bank's data center.",
         "tasks":[
-          "Ensured 99.999% uptime of development, staging and production Unix (Solaris, AIX, and SLES) servers in the Bank's data center.",
+          "Ensured 99.999% uptime of production Unix (Solaris, AIX, and SLES) servers in the Bank's data center.",
           "Projects included the deployment of Subversion repositories for more than 20 software development projects; server consolidation; staging and installation of centralized log servers for Unix and Windows platforms; and testing and deployment of server backup strategies (on SAN) for about 100 Unix servers."
         ],
         "areas":[

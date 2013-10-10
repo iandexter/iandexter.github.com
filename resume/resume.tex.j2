@@ -20,8 +20,8 @@
 \usepackage[T1]{fontenc}
 
 \usepackage{titlesec}
-\titleformat{\section}{\sc\large\raggedright}{}{0em}{}
-\titleformat{\subsection}{\bf\raggedright}{}{0em}{}
+\titleformat{\section}{\sc\large\raggedright}{}{}{}
+\titleformat{\subsection}{\bf\raggedright}{}{0}{}
 \titlespacing{\section}{0pt}{5ex}{1ex}
 \titlespacing{\subsection}{0pt}{0.5ex}{0ex}
 
@@ -36,7 +36,7 @@
 \renewcommand{\footrulewidth}{0.1pt}
 \renewcommand{\footrule}{\hbox to\headwidth{%
   \color{gray}\leaders\hrule height \footrulewidth\hfill}}
-\fancyfoot[L]{\small \textcolor{gray}{Last update: \textsc{\today}}}
+\fancyfoot[R]{\small \textcolor{gray}{Last update: \textsc{\today}}}
 
 \pagestyle{fancy}
 \setlength{\parskip}{0cm}
@@ -62,7 +62,7 @@
    %( for w in contact.web %) \href{%(( w.link %))}{%(( w.link %))} %( endfor %)
   \end{spacing}\end{flushright}
 \end{minipage}
-\vspace{0.5em}
+\vspace{1em}
 \hrulefill
 %%% end - TITLE
 
@@ -70,7 +70,7 @@
 %(( summary %))
 %%% end - SUMMARY
 
-\vspace{0.5em}
+\vspace{1.5em}
 
 %%% OVERVIEW
 \begin{minipage}[t]{0.32\linewidth}
