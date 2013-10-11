@@ -59,9 +59,7 @@
 
 %%% ADDRESS
 \begin{center}\begin{spacing}{1}\small
-  %( for p in contact.phone %)%(( p %))%( endfor %)~\textbullet~
-  %( for e in contact.email %)\href{mailto:%(( e %))}{%(( e %))}%( endfor %)~\textbullet~
-  %( for w in contact.web %)\href{%(( w.link %))}{%(( w.link %))}%( endfor %)\\
+  %( for p in contact.phone %)%(( p %))%( endfor %)~\textbullet~%( for e in contact.email %)\href{mailto:%(( e %))}{%(( e %))}%( endfor %)~\textbullet~%( for w in contact.web %)\href{%(( w.link %))}{%(( w.link %))}%( endfor %)\\
   %( for h in contact.home %)%(( h %))\\
   %( endfor %)
 \end{spacing}\end{center}
