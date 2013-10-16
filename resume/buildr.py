@@ -119,6 +119,11 @@ def search_replace(json_data = None, template_file = None):
               '_sub': r'\1 <\2>'
             },
             { '_regex': '\&ntilde;', '_sub': r'n' }
+        ],
+        'html': [
+            { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
+              '_sub': r'<a href="\2">\1</a>'
+            }
         ]
     }
 

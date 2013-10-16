@@ -1,0 +1,10 @@
+body { font: normal 10pt/150% 'Roboto',sans-serif; width: 55%; margin: 1em auto 1em auto; padding: 1.5em; border: 1px solid #fff; }
+h1 { font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 250%; }
+h2 { font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 180%; }
+h3 { font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 150%; }
+h4 { font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 110%; }
+#title h1, #title h2 { padding: 0; margin: 0; }
+#title { padding-bottom: 1em; }
+#experience h3 { font-weight: 400; font-size: 120%; }
+.tab-content { height: 500px; overflow-y: auto; }
+.tab-pane { padding-top: 1em; }
