@@ -147,7 +147,7 @@ def main():
         print "Loading JSON from %s" % opts.data_file
     cv_data = load_json(opts.data_file)['cv']
     cv_data[u'keywords'] = get_keywords(cv_data)
-    cv_data[u'last_update'] = strftime("%-d %b %Y", localtime())
+    cv_data[u'last_update'] = strftime("%-d %B %Y", localtime())
 
     if opts.verbose:
         print "Converting special characters"

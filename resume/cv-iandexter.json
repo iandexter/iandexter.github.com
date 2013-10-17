@@ -597,6 +597,34 @@
           "email":""
         }
       }
+    ],
+    "downloads":[
+      {
+        "name":"One-page resume",
+        "links":[
+          {
+            "type":"PDF",
+            "url":"resume-iandexter.pdf"
+          }
+        ]
+      },
+      {
+        "name":"Full CV",
+        "links":[
+          {
+            "type":"PDF",
+            "url":"cv-iandexter.pdf"
+          },
+          {
+            "type":"plain text",
+            "url":"cv-iandexter.txt"
+          },
+          {
+            "type":"Markdown",
+            "url":"cv-iandexter.md"
+          }
+        ]
+      }
     ]
   }
 }
