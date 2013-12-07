@@ -35,6 +35,7 @@
     </ul>
     <div class="tab-content">
       <div id="overview" class="tab-pane active">
+      <noscript><h2>Overview</h2></noscript>
         <h3>Qualifications</h3>
         <ul>
           %(- for e in credentials.education -%)<li><strong>%(( e.degree %))</strong> major in %(( e.major %)), %(( e.year %))<br />%(( e.school %))</li>%(- endfor -%)
@@ -48,6 +49,7 @@
         </ul>
       </div>
       <div id="experience" class="tab-pane">
+      <noscript><h2>Experience</h2></noscript>
         %(- for e in experience -%)
         <div id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))">
           <h3>%(( e.title %)) &mdash; %(( e.start %)) to %(( e.end %))</h3>
@@ -61,6 +63,7 @@
         %(- endfor -%)
       </div>
       <div id="other" class="tab-pane">
+      <noscript><h2>Other information</h2></noscript>
         <p><strong>Interests</strong>: %( for i in overview.interests -%)%(( i %))%( if not loop.last %), %(endif %)%(- endfor -%)</p>
         <h3>Languages</h3>
           <ul>
@@ -79,6 +82,7 @@
         </ul>
       </div>
       <div id="contact" class="tab-pane">
+      <noscript><h2>Contact</h2></noscript>
         <ul>
           %(- for p in contact.phone -%)<li>%(( p %))</li>%(- endfor -%)
           %(- for e in contact.email -%)<li><a href="mailto:%(( e %))">%(( e|safe %))</a></li>%(- endfor -%)
@@ -86,6 +90,7 @@
         </ul>
       </div>
       <div id="downloads" class="tab-pane">
+      <noscript><h2>Downloads</h2></noscript>
         <ul>
           %(- for d in downloads -%)<li>%(( d.name %)) (%(- for l in d.links -%)<a href="%(( l.url|safe %))">%(( l.type %))</a>%( if not loop.last %) | %( endif %)%(- endfor -%))</li>
           %(- endfor -%)
