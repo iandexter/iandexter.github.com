@@ -9,8 +9,19 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
     <!-- Additional styles -->
-    <link href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      body { font: normal 10pt/150% 'Roboto',sans-serif; width: 55%; margin: 1em auto 1em auto; padding: 1.5em; border: 1px solid #fff; }
+      h1 { font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 250%; }
+      h2 { font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 180%; }
+      h3 { font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 150%; }
+      h4 { font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 110%; }
+      #title h1, #title h2 { padding: 0; margin: 0; }
+      #title { padding-bottom: 1em; }
+      #experience h3 { font-weight: 400; font-size: 120%; }
+      .tab-content { height: 500px; overflow-y: auto; }
+      .tab-pane { padding-top: 1em; }
+    </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,13 +46,6 @@
     </ul>
     <div class="tab-content">
       <div id="overview" class="tab-pane active">
-      <noscript><h2>Overview</h2></noscript>
-        <h3>Qualifications</h3>
-        <ul>
-          %(- for e in credentials.education -%)<li><strong>%(( e.degree %))</strong> major in %(( e.major %)), %(( e.year %))<br />%(( e.school %))</li>%(- endfor -%)
-          %(- for c in credentials.certification -%)<li><strong>%( if c.verify.link %)<a href="%(( c.verify.link %))" title="%(( c.verify.title %))">%(( c.title %))</a>%( else %)%(( c.title %))%( endif %)</strong>, %(( c.date %))</li>
-          %(- endfor -%)
-        </ul>
         <h3>Skill areas</h3>
         <ul>
           %(- for s in overview.skills -%)<li>%(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %)))</li>
@@ -49,7 +53,6 @@
         </ul>
       </div>
       <div id="experience" class="tab-pane">
-      <noscript><h2>Experience</h2></noscript>
         %(- for e in experience -%)
         <div id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))">
           <h3>%(( e.title %)) &mdash; %(( e.start %)) to %(( e.end %))</h3>
@@ -63,8 +66,13 @@
         %(- endfor -%)
       </div>
       <div id="other" class="tab-pane">
-      <noscript><h2>Other information</h2></noscript>
         <p><strong>Interests</strong>: %( for i in overview.interests -%)%(( i %))%( if not loop.last %), %(endif %)%(- endfor -%)</p>
+        <h3>Qualifications</h3>
+        <ul>
+          %(- for e in credentials.education -%)<li><strong>%(( e.degree %))</strong> major in %(( e.major %)), %(( e.year %))<br />%(( e.school %))</li>%(- endfor -%)
+          %(- for c in credentials.certification -%)<li><strong>%( if c.verify.link %)<a href="%(( c.verify.link %))" title="%(( c.verify.title %))">%(( c.title %))</a>%( else %)%(( c.title %))%( endif %)</strong>, %(( c.date %))</li>
+          %(- endfor -%)
+        </ul>
         <h3>Languages</h3>
           <ul>
             %(- for l in overview.languages -%)<li>%(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %)))</li>
@@ -82,7 +90,6 @@
         </ul>
       </div>
       <div id="contact" class="tab-pane">
-      <noscript><h2>Contact</h2></noscript>
         <ul>
           %(- for p in contact.phone -%)<li>%(( p %))</li>%(- endfor -%)
           %(- for e in contact.email -%)<li><a href="mailto:%(( e %))">%(( e|safe %))</a></li>%(- endfor -%)
@@ -90,7 +97,6 @@
         </ul>
       </div>
       <div id="downloads" class="tab-pane">
-      <noscript><h2>Downloads</h2></noscript>
         <ul>
           %(- for d in downloads -%)<li>%(( d.name %)) (%(- for l in d.links -%)<a href="%(( l.url|safe %))">%(( l.type %))</a>%( if not loop.last %) | %( endif %)%(- endfor -%))</li>
           %(- endfor -%)
@@ -99,7 +105,7 @@
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

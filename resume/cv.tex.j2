@@ -74,22 +74,6 @@
 
 %%% OVERVIEW
 \begin{section}*{Overview}
-  \begin{inparadesc}
-    \item \textbf{Interests}:%( for i in overview.interests %)
-    \item %(( i %))%( if not loop.last %),%( endif %)%( endfor %)
-  \end{inparadesc}
-  \vspace{1em}
-  \begin{subsection}*{Qualifications}
-    \begin{compactitem}
-      \vspace{0.25em}
-      %( for e in credentials.education %)\item \textbf{%(( e.degree %)) major in %(( e.major %))}, \textsc{%(( e.year %))}\\
-      %(( e.school %))%( endfor %)
-      \vspace{0.25em}
-      %( for c in credentials.certification %)
-      \item \textbf{%(( c.title %))}, \textsc{%(( c.date %))}%( endfor %)
-    \end{compactitem}
-  \end{subsection}
-  \vspace{1em}
   \begin{subsection}*{Skill areas}
     \begin{compactitem}%( for s in overview.skills %)
       \item %(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %))) %( endfor %)
@@ -119,6 +103,22 @@
 
 %%% OTHER
 \begin{section}*{Other information}
+  \begin{inparadesc}
+    \item \textbf{Interests}:%( for i in overview.interests %)
+    \item %(( i %))%( if not loop.last %),%( endif %)%( endfor %)
+  \end{inparadesc}
+  \vspace{1em}
+  \begin{subsection}*{Qualifications}
+    \begin{compactitem}
+      \vspace{0.25em}
+      %( for e in credentials.education %)\item \textbf{%(( e.degree %)) major in %(( e.major %))}, \textsc{%(( e.year %))}\\
+      %(( e.school %))%( endfor %)
+      \vspace{0.25em}
+      %( for c in credentials.certification %)
+      \item \textbf{%(( c.title %))}, \textsc{%(( c.date %))}%( endfor %)
+    \end{compactitem}
+  \end{subsection}
+  \vspace{1em}
   \begin{subsection}*{Languages}
     \begin{compactitem}%( for l in overview.languages %)
       \item %(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %))) %( endfor %)

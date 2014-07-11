@@ -8,24 +8,10 @@ Linux system administrator
  * 37 Pvt Aurellana St, Bagong Ilog, 1600 Pasig City PHILIPPINES
 
 
-With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 7 December 2013]
+With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 11 July 2014]
 
 
 OVERVIEW
-
-Interests: DevOps, PaaS, IaaS, OpenShift, OpenStack, Google App Engine
-
-Qualifications
---------------
-
- * Bachelor of Science in Computing major in Computer Science, 2011
-   Technological University of the Philippines, Manila
-
- * Red Hat Certified Engineer, October 2008
- * ITIL v3 Foundation in IT Service Management, July 2008
- * Red Hat Certified Technician, November 2006
- * Microsoft Certified Professional, May 2006
- * Trend Micro Certified Security Expert, June 2006
 
 Skill areas
 -----------
@@ -49,13 +35,13 @@ Develops and maintains automation tools to manage the Unix infrastructure for th
  * Develops and maintains tools for application deployment, monitoring, and performance tuning.
  * Documents testing and deployment scenarios for the Unix infrastructure requirements of the Bank.
  * Supports Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software.
- * Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, the feature requests and bugs were reduced to less than 10%.
+ * Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, feature requests and bugs were reduced to less than 10%.
  * Wrote an orchestration tool that provides self-service capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks from the development and operations previously went through the service request queues before being acted on by other teams. The use of the tool significantly decreased these requests, improving workflows across various teams.
  * Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than hour.
  * Automated the security baseline configuration for Linux servers as part of compliance requirements at the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions to more than 60%.
  * Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a repository, and pulled by the corresponding servers, thus improving the scheduling workflow, and minimizing errors. This project was accepted in the League of Professional System Administrators (LOPSA) Mentorship Program <https://lopsa.org/mentor>.
- * Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in higher response times from different operations teams when acting on service alerts.
- * Writes Nagios plugins and scripts for a monitoring dashboard. The dashboard, used by analysts for a critical business application, provides a single interface for tracking message workflows across various platforms.
+ * Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in shorter response times from different operations teams when acting on service alerts.
+ * Wrote Nagios plugins and scripts for a monitoring dashboard. The dashboard, used by analysts for a critical business application, provides a single interface for tracking message workflows across various platforms.
  * Writes and maintains various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.
  * As subject-matter expert, provides quality control and source code review for automation tools and scripts used in the Unix infrastructure.
  * Current project: a simple RESTful API for retrieving objects from a configuration management tool. The API will be used to expose server configuration items in a dashboard tool.
@@ -131,6 +117,19 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
 
 
 OTHER INFORMATION
+
+Interests: DevOps, PaaS, IaaS, OpenShift, OpenStack, Google App Engine, Flask, MongoDB
+
+Qualifications
+--------------
+ * Bachelor of Science in Computing major in Computer Science, 2011
+   Technological University of the Philippines, Manila
+
+ * Red Hat Certified Engineer, October 2008 (not current)
+ * ITIL v3 Foundation in IT Service Management, July 2008
+ * Red Hat Certified Technician, November 2006
+ * Microsoft Certified Professional, May 2006
+ * Trend Micro Certified Security Expert, June 2006
 
 Languages
 ---------

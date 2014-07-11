@@ -12,16 +12,6 @@
 
 OVERVIEW
 
-Interests: %( for i in overview.interests %)%(( i %))%( if not loop.last %), %( endif %)%( endfor %)
-
-Qualifications
---------------
-
-%( for e in credentials.education %) * %(( e.degree %)) major in %(( e.major %)), %(( e.year %))
-   %(( e.school %))
-%( endfor %)
-%( for c in credentials.certification %) * %(( c.title %)), %(( c.date %))
-%( endfor %)
 Skill areas
 -----------
 %( for s in overview.skills %) * %(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %)))
@@ -39,6 +29,15 @@ EXPERIENCE
 %( endfor %)
 OTHER INFORMATION
 
+Interests: %( for i in overview.interests %)%(( i %))%( if not loop.last %), %( endif %)%( endfor %)
+
+Qualifications
+--------------
+%( for e in credentials.education %) * %(( e.degree %)) major in %(( e.major %)), %(( e.year %))
+   %(( e.school %))
+%( endfor %)
+%( for c in credentials.certification %) * %(( c.title %)), %(( c.date %))
+%( endfor %)
 Languages
 ---------
 %( for l in overview.languages %) * %(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %)))

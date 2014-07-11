@@ -14,7 +14,7 @@
   pdfauthor = {Ian Dexter D. Marquez},
   pdftitle = {Curriculum vitae - Ian Dexter D. Marquez},
   pdfsubject = {Generated using Python and LaTeX},
-  pdfkeywords = {Amazon Web Services, Ansible, Apache, Application deployment and support, Bash/Shell, CentOS, Cisco IOS, Courier, Debian, DevOps, Dokuwiki, Dovecot, Drupal, Ethereal/Wireshark, F5 BIG-IP ZebOS, Fedora, Google App Engine, IBM AIX, IaaS, Identity management, Infrastructure automation, Javascript, MediaWiki, Microsoft Windows 2003 Server, MySQL, Nagios, NetCool, Network design, development and administration, OpenShift, OpenStack, Oracle, PHP, PaaS, Perl, Postfix, PostgreSQL, Procmail, Puppet, Python, Red Hat Enterprise Linux, SQL, Sendmail, Sniffer, Squid, SuSE Linux Enterprise Server, Subversion, Sun Directory Server, Sun Identity Manager, Sun Solaris, Sybase, TWiki, Tomcat, Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix, Ubuntu, Unix/Linux systems administration, VMware, VirtualBox, Web design, development and management, WordPress, git, tcpdump, curriculum vitae, CV, LaTeX, Jinja2}
+  pdfkeywords = {Amazon Web Services, Ansible, Apache, Application deployment and support, Bash/Shell, CentOS, Cisco IOS, Courier, Debian, DevOps, Dokuwiki, Dovecot, Drupal, Ethereal/Wireshark, F5 BIG-IP ZebOS, Fedora, Flask, Google App Engine, IBM AIX, IaaS, Identity management, Infrastructure automation, Javascript, MediaWiki, Microsoft Windows 2003 Server, MongoDB, MySQL, Nagios, NetCool, Network design, development and administration, OpenShift, OpenStack, Oracle, PHP, PaaS, Perl, Postfix, PostgreSQL, Procmail, Puppet, Python, Red Hat Enterprise Linux, SQL, Sendmail, Sniffer, Squid, SuSE Linux Enterprise Server, Subversion, Sun Directory Server, Sun Identity Manager, Sun Solaris, Sybase, TWiki, Tomcat, Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix, Ubuntu, Unix/Linux systems administration, VMware, VirtualBox, Web design, development and management, WordPress, git, tcpdump, curriculum vitae, CV, LaTeX, Jinja2}
 }
 
 \usepackage[osf]{libertine}
@@ -75,28 +75,6 @@
 
 %%% OVERVIEW
 \begin{section}*{Overview}
-  \begin{inparadesc}
-    \item \textbf{Interests}:
-    \item DevOps,
-    \item PaaS, IaaS,
-    \item OpenShift, OpenStack, Google App Engine
-  \end{inparadesc}
-  \vspace{1em}
-  \begin{subsection}*{Qualifications}
-    \begin{compactitem}
-      \vspace{0.25em}
-      \item \textbf{Bachelor of Science in Computing major in Computer Science}, \textsc{2011}\\
-      Technological University of the Philippines, Manila
-      \vspace{0.25em}
-      
-      \item \textbf{Red Hat Certified Engineer}, \textsc{October 2008}
-      \item \textbf{ITIL v3 Foundation in IT Service Management}, \textsc{July 2008}
-      \item \textbf{Red Hat Certified Technician}, \textsc{November 2006}
-      \item \textbf{Microsoft Certified Professional}, \textsc{May 2006}
-      \item \textbf{Trend Micro Certified Security Expert}, \textsc{June 2006}
-    \end{compactitem}
-  \end{subsection}
-  \vspace{1em}
   \begin{subsection}*{Skill areas}
     \begin{compactitem}
       \item Unix/Linux systems administration (10 years / advanced) 
@@ -126,13 +104,13 @@
       \item Develops and maintains tools for application deployment, monitoring, and performance tuning.
       \item Documents testing and deployment scenarios for the Unix infrastructure requirements of the Bank.
       \item Supports Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software.
-      \item Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, the feature requests and bugs were reduced to less than 10\%.
+      \item Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, feature requests and bugs were reduced to less than 10\%.
       \item Wrote an orchestration tool that provides self-service capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks from the development and operations previously went through the service request queues before being acted on by other teams. The use of the tool significantly decreased these requests, improving workflows across various teams.
       \item Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than hour.
       \item Automated the security baseline configuration for Linux servers as part of compliance requirements at the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions to more than 60\%.
       \item Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a repository, and pulled by the corresponding servers, thus improving the scheduling workflow, and minimizing errors. This project was accepted in the \href{https://lopsa.org/mentor}{League of Professional System Administrators (LOPSA) Mentorship Program}.
-      \item Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in higher response times from different operations teams when acting on service alerts.
-      \item Writes Nagios plugins and scripts for a monitoring dashboard. The dashboard, used by analysts for a critical business application, provides a single interface for tracking message workflows across various platforms.
+      \item Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in shorter response times from different operations teams when acting on service alerts.
+      \item Wrote Nagios plugins and scripts for a monitoring dashboard. The dashboard, used by analysts for a critical business application, provides a single interface for tracking message workflows across various platforms.
       \item Writes and maintains various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.
       \item As subject-matter expert, provides quality control and source code review for automation tools and scripts used in the Unix infrastructure.
       \item Current project: a simple RESTful API for retrieving objects from a configuration management tool. The API will be used to expose server configuration items in a dashboard tool.
@@ -244,6 +222,29 @@
 
 %%% OTHER
 \begin{section}*{Other information}
+  \begin{inparadesc}
+    \item \textbf{Interests}:
+    \item DevOps,
+    \item PaaS, IaaS,
+    \item OpenShift, OpenStack, Google App Engine,
+    \item Flask, MongoDB
+  \end{inparadesc}
+  \vspace{1em}
+  \begin{subsection}*{Qualifications}
+    \begin{compactitem}
+      \vspace{0.25em}
+      \item \textbf{Bachelor of Science in Computing major in Computer Science}, \textsc{2011}\\
+      Technological University of the Philippines, Manila
+      \vspace{0.25em}
+      
+      \item \textbf{Red Hat Certified Engineer}, \textsc{October 2008 (not current)}
+      \item \textbf{ITIL v3 Foundation in IT Service Management}, \textsc{July 2008}
+      \item \textbf{Red Hat Certified Technician}, \textsc{November 2006}
+      \item \textbf{Microsoft Certified Professional}, \textsc{May 2006}
+      \item \textbf{Trend Micro Certified Security Expert}, \textsc{June 2006}
+    \end{compactitem}
+  \end{subsection}
+  \vspace{1em}
   \begin{subsection}*{Languages}
     \begin{compactitem}
       \item Bash/Shell (10 years / advanced) 
