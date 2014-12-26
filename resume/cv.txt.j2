@@ -4,7 +4,6 @@
 %( for p in contact.phone %) * %(( p %)) %( endfor %)
 %( for e in contact.email %) * <%(( e %))> %( endfor %)
 %( for w in contact.web %) * <%((w.link %))> %( endfor %)
-%( for h in contact.home %) * %(( h %))
 %( endfor %)
 
 %(( summary %)) [Last update: %(( last_update %))]
