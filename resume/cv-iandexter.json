@@ -4,7 +4,7 @@
     "title":"Linux system administrator",
     "contact":{
       "home":[
-        "26 Dona Narcisa Avenue, Kapitan Pepe Subdivision, 3100 Cabanatuan City PHILIPPINES",
+        "1854B Marimla St, Redwood Villas, Clark Freeport Zone, 2023 Pampanga PHILIPPINES",
         "37 Pvt Aurellana St, Bagong Ilog, 1600 Pasig City PHILIPPINES"
       ],
       "email":[
@@ -25,38 +25,43 @@
       "interests":[
         "DevOps",
         "PaaS, IaaS",
-        "OpenShift, OpenStack, Google App Engine",
-        "Flask, MongoDB"
+        "OpenShift, OpenStack, Google App Engine, Amazon Web Services"
       ],
       "skills":[
         {
           "area":"Unix/Linux systems administration",
           "years":10,
+          "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "area":"Infrastructure automation",
           "years":2,
+          "range":[["2010","present"]],
           "proficiency":"proficient"
         },
         {
           "area":"Application deployment and support",
           "years":6,
+          "range":[["2007","present"]],
           "proficiency":"advanced"
         },
         {
           "area":"Network design, development and administration",
           "years":5,
+          "range":[["2002","2006"]],
           "proficiency":"proficient"
         },
         {
           "area":"Web design, development and management",
           "years":3,
+          "range":[["2002","2006"]],
           "proficiency":"proficient"
         },
         {
           "area":"Identity management",
           "years":2,
+          "range":[["2008","2010"]],
           "proficiency":"proficient"
         }
       ],
@@ -64,31 +69,37 @@
         {
           "language":"Bash/Shell",
           "years":10,
+          "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "language":"Perl",
           "years":5,
+          "range":[["2007","present"]],
           "proficiency":"proficient"
         },
         {
           "language":"PHP",
           "years":3,
+          "range":[["2002","2006"]],
           "proficiency":"proficient"
         },
         {
           "language":"Python",
           "years":2,
+          "range":[["2012","present"]],
           "proficiency":"proficient"
         },
         {
           "language":"SQL",
           "years":2,
+          "range":[["2004","2006"]],
           "proficiency":"proficient"
         },
         {
           "language":"Javascript",
           "years":3,
+          "range":[["2003","2006"],["2014","present"]],
           "proficiency":"proficient"
         }
       ],
@@ -96,26 +107,31 @@
         {
           "platform":"Red Hat Enterprise Linux, CentOS, Fedora",
           "years":10,
+          "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "platform":"SuSE Linux Enterprise Server",
           "years":3,
+          "range":[["2010","present"]],
           "proficiency":"advanced"
         },
         {
           "platform":"Ubuntu, Debian",
           "years":2,
+          "range":[["2004","2006"]],
           "proficiency":"proficient"
         },
         {
           "platform":"Sun Solaris, IBM AIX",
           "years":1,
+          "range":[["2007","2008"]],
           "proficiency":"basic"
         },
         {
           "platform":"Microsoft Windows 2003 Server",
           "years":1,
+          "range":[["2006","2007"]],
           "proficiency":"basic"
         }
       ],
@@ -124,58 +140,69 @@
           "name":"Network and systems administration",
           "tools":[
             {
-              "tool":"Ansible, Puppet",
+              "tool":"Ansible, Chef",
               "years":1,
+              "range":[["2012","present"]],
               "proficiency":"basic"
             },
             {
               "tool":"Nagios, NetCool",
               "years":5,
+              "range":[["2007","present"]],
               "proficiency":"advanced"
             },
             {
               "tool":"Apache, Tomcat, Squid",
               "years":10,
+              "range":[["2002","present"]],
               "proficiency":"advanced"
             },
             {
               "tool":"Postfix, Sendmail, Courier, Dovecot, Procmail",
               "years":10,
+              "range":[["2002","present"]],
               "proficiency":"advanced"
             },
             {
               "tool":"MySQL, PostgreSQL, Sybase, Oracle",
               "years":5,
+              "range":[["2004","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix",
               "years":1,
+              "range":[["2006","2007"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Ethereal/Wireshark, Sniffer, tcpdump",
               "years":5,
+              "range":[["2006","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Cisco IOS, F5 BIG-IP ZebOS",
               "years":2,
+              "range":[["2007","2009"]],
               "proficiency":"proficient"
             },
             {
               "tool":"VMware, VirtualBox",
               "years":6,
+              "range":[["2006","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Subversion, git",
               "years":5,
+              "range":[["2010","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Amazon Web Services, OpenShift, OpenStack, Google App Engine",
               "years":1,
+              "range":[["2013","present"]],
               "proficiency":"basic"
             }
           ]
@@ -186,11 +213,13 @@
             {
               "tool":"Sun Directory Server",
               "years":2,
+              "range":[["2008","2010"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Sun Identity Manager",
               "years":2,
+              "range":[["2008","2010"]],
               "proficiency":"proficient"
             }
           ]
@@ -201,11 +230,13 @@
             {
               "tool":"Drupal, WordPress",
               "years":5,
+              "range":[["2002","2006"],["2014","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"TWiki, MediaWiki, Dokuwiki",
               "years":5,
+              "range":[["2004","2006"],["2007","2010"]],
               "proficiency":"proficient"
             }
           ]
@@ -233,7 +264,7 @@
           "Supports Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software.",
           "Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, feature requests and bugs were reduced to less than 10%.",
           "Wrote an orchestration tool that provides self-service capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks from the development and operations previously went through the service request queues before being acted on by other teams. The use of the tool significantly decreased these requests, improving workflows across various teams.",
-          "Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than hour.",
+          "Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than an hour.",
           "Automated the security baseline configuration for Linux servers as part of compliance requirements at the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions to more than 60%.",
           "Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a repository, and pulled by the corresponding servers, thus improving the scheduling workflow, and minimizing errors. This project was accepted in the [League of Professional System Administrators (LOPSA) Mentorship Program](https://lopsa.org/mentor).",
           "Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in shorter response times from different operations teams when acting on service alerts.",
