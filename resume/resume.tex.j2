@@ -117,9 +117,9 @@
 \begin{minipage}[t]{0.65\linewidth}
   \begin{section}*{Experience}%( for e in experience %)
     \begin{subsection}*{%(( e.title %)) \hfill\textsc{%(( e.start %)) to %(( e.end %))}}
-     %( if e.organization.link %) \href{%(( e.organization.link %))}{\textit{%(( e.organization.name %))}} %( else %) \textit{%(( e.organization.name %))}%( endif %)%( if e.organization.under %)(under %(( e.organization.under %)))%( endif %)
+     %( if e.organization.link %) \href{%(( e.organization.link %))}{\textit{%(( e.organization.name %))}} %( else %) \textit{%(( e.organization.name %))}%( endif %)%( if e.organization.under %)(under %(( e.organization.under %)))%( endif %) %( if e.in_resume %)
 
-      %(( e.summary %)) %(( e.organization.description %))
+      %(( e.summary %)) %(( e.organization.description %))%( endif %)
     \end{subsection}
     \vspace{1em}
   %( endfor %)\end{section}

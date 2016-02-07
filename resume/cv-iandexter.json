@@ -1,7 +1,7 @@
 ﻿{
   "cv":{
     "name":"Ian Dexter D. Marquez",
-    "title":"Linux system administrator",
+    "title":"DevOps engineer",
     "contact":{
       "home":[
         "1854B Marimla St, Redwood Villas, Clark Freeport Zone, 2023 Pampanga PHILIPPINES",
@@ -24,25 +24,25 @@
     "overview":{
       "interests":[
         "DevOps",
-        "PaaS, IaaS",
-        "OpenShift, OpenStack, Google App Engine, Amazon Web Services"
+        "Amazon Web Services, OpenShift, OpenStack, Google App Engine",
+        "PaaS, IaaS"
       ],
       "skills":[
         {
           "area":"Unix/Linux systems administration",
-          "years":10,
+          "years":14,
           "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "area":"Infrastructure automation",
-          "years":2,
+          "years":6,
           "range":[["2010","present"]],
           "proficiency":"proficient"
         },
         {
           "area":"Application deployment and support",
-          "years":6,
+          "years":9,
           "range":[["2007","present"]],
           "proficiency":"advanced"
         },
@@ -68,13 +68,13 @@
       "languages":[
         {
           "language":"Bash/Shell",
-          "years":10,
+          "years":14,
           "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "language":"Perl",
-          "years":5,
+          "years":9,
           "range":[["2007","present"]],
           "proficiency":"proficient"
         },
@@ -86,7 +86,7 @@
         },
         {
           "language":"Python",
-          "years":2,
+          "years":4,
           "range":[["2012","present"]],
           "proficiency":"proficient"
         },
@@ -98,7 +98,7 @@
         },
         {
           "language":"Javascript",
-          "years":3,
+          "years":5,
           "range":[["2003","2006"],["2014","present"]],
           "proficiency":"proficient"
         }
@@ -106,7 +106,7 @@
       "platforms":[
         {
           "platform":"Red Hat Enterprise Linux, CentOS, Fedora",
-          "years":10,
+          "years":14,
           "range":[["2002","present"]],
           "proficiency":"advanced"
         },
@@ -118,8 +118,8 @@
         },
         {
           "platform":"Ubuntu, Debian",
-          "years":2,
-          "range":[["2004","2006"]],
+          "years":4,
+          "range":[["2004","2006"],["2014","present"]],
           "proficiency":"proficient"
         },
         {
@@ -141,19 +141,19 @@
           "tools":[
             {
               "tool":"Ansible, Chef",
-              "years":1,
+              "years":4,
               "range":[["2012","present"]],
-              "proficiency":"basic"
+              "proficiency":"proficient"
             },
             {
               "tool":"Nagios, NetCool",
-              "years":5,
+              "years":9,
               "range":[["2007","present"]],
               "proficiency":"advanced"
             },
             {
-              "tool":"Apache, Tomcat, Squid",
-              "years":10,
+              "tool":"Apache, Tomcat, Squid, nginx",
+              "years":14,
               "range":[["2002","present"]],
               "proficiency":"advanced"
             },
@@ -164,7 +164,7 @@
               "proficiency":"advanced"
             },
             {
-              "tool":"MySQL, PostgreSQL, Sybase, Oracle",
+              "tool":"MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache",
               "years":5,
               "range":[["2004","present"]],
               "proficiency":"proficient"
@@ -194,16 +194,16 @@
               "proficiency":"proficient"
             },
             {
-              "tool":"Subversion, git",
+              "tool":"Subversion, Git",
               "years":5,
               "range":[["2010","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Amazon Web Services, OpenShift, OpenStack, Google App Engine",
-              "years":1,
+              "years":3,
               "range":[["2013","present"]],
-              "proficiency":"basic"
+              "proficiency":"proficient"
             }
           ]
         },
@@ -238,6 +238,12 @@
               "years":5,
               "range":[["2004","2006"],["2007","2010"]],
               "proficiency":"proficient"
+            },
+            {
+              "tool":"Laravel, Node.js, Flask",
+              "years":1,
+              "range":[["2014","present"]],
+              "proficiency":"basic"
             }
           ]
         }
@@ -245,9 +251,54 @@
     },
     "experience":[
       {
+        "title":"DevOps engineer",
+        "start":"December 2015",
+        "end":"present",
+        "organization":{
+          "name":"CompareGlobalGroup",
+          "link":"http://www.compareglobalgroup.com",
+          "location":"Hong Kong",
+          "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
+        },
+        "summary":"Heads the global team that handles the maintenance and operation of the organization's cloud infrastructure.",
+        "tasks":[
+          "Leads a team of system administrators and production engineers who manage the infrastructure spread out across multiple availability zones and regions.",
+          "Develops and maintains tools for infrastructure management and application deployment.",
+          "Provides technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/)."
+        ],
+        "areas":[
+          "DevOps",
+          "Application deployment and support",
+          "Infrastructure automation",
+          "Unix/Linux systems administration"
+        ],
+        "languages":[
+          "Bash/Shell",
+          "PHP",
+          "Python",
+          "SQL"
+        ],
+        "platforms":[
+          "Ubuntu"
+        ],
+        "tools":[
+          "Amazon Web Services",
+          "Apache",
+          "Chef",
+          "Git",
+          "Laravel",
+          "Memcache",
+          "nginx",
+          "Node.js",
+          "Redis",
+          "Tomcat"
+        ],
+        "in_resume":true
+      },
+      {
         "title":"Linux system administrator",
         "start":"April 2010",
-        "end":"present",
+        "end":"December 2015",
         "organization":{
           "name":"Asian Development Bank",
           "link":"http://www.adb.org/",
@@ -255,23 +306,22 @@
           "under":"RCG IT, Inc.",
           "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
         },
-        "summary":"Develops and maintains automation tools to manage the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
+        "summary":"Developed and maintained automation tools to manage the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
         "tasks":[
-          "Provides platform-level support to the Bank's development and infrastructure operations teams.",
-          "Coordinates with various software development teams on continuous integration, rapid deployment, performance monitoring and tuning, and application support.",
-          "Develops and maintains tools for application deployment, monitoring, and performance tuning.",
-          "Documents testing and deployment scenarios for the Unix infrastructure requirements of the Bank.",
-          "Supports Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software.",
-          "Maintains an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, feature requests and bugs were reduced to less than 10%.",
+          "Provided platform-level support to the Bank's development and infrastructure operations teams.",
+          "Coordinated with various software development teams on continuous integration, rapid deployment, performance monitoring and tuning, and application support.",
+          "Developed and maintained tools for application deployment, monitoring, and performance tuning.",
+          "Documented testing and deployment scenarios for the Unix infrastructure requirements of the Bank.",
+          "Supported Unix servers that run Apache, Tomcat and WebSphere web servers, Oracle and MySQL database servers, Oracle ERP applications, and IBM business intelligence software.",
+          "Maintained an automation script that improves the deployment of Oracle applications. The deployment script, used within the Oracle web UI, was not actively maintained, and had numerous feature requests and issues submitted by the development teams. Upon assumption of code maintenance, feature requests and bugs were reduced to less than 10%.",
           "Wrote an orchestration tool that provides self-service capabilities for tasks such as database and application server restarts, log retrieval, initiation of cold backups, among others. Commonly requested tasks from the development and operations previously went through the service request queues before being acted on by other teams. The use of the tool significantly decreased these requests, improving workflows across various teams.",
           "Streamlined the provisioning process for Linux (physical and virtual) servers, which reduced build times from one day to less than an hour.",
           "Automated the security baseline configuration for Linux servers as part of compliance requirements at the Bank. Quarterly security audits tended to be time-consuming exercises for administrators. The automation process helped decrease the number of audit findings and interventions to more than 60%.",
           "Created and deployed a management tool for setting scheduled jobs from a centralized repository. Scheduled jobs were previously stored and managed locally. With the sync tool, jobs were centrally managed from a repository, and pulled by the corresponding servers, thus improving the scheduling workflow, and minimizing errors. This project was accepted in the [League of Professional System Administrators (LOPSA) Mentorship Program](https://lopsa.org/mentor).",
           "Re-factored a service that routes SMS acknowledgements for Nagios alerts. The previous service was not capable of accepting alert acknowledgements through SMS. The new service resulted in shorter response times from different operations teams when acting on service alerts.",
           "Wrote Nagios plugins and scripts for a monitoring dashboard. The dashboard, used by analysts for a critical business application, provides a single interface for tracking message workflows across various platforms.",
-          "Writes and maintains various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.",
-          "As subject-matter expert, provides quality control and source code review for automation tools and scripts used in the Unix infrastructure.",
-          "Current project: a simple RESTful API for retrieving objects from a configuration management tool. The API will be used to expose server configuration items in a dashboard tool."
+          "Wrote and maintained various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.",
+          "As subject-matter expert, provided quality control and source code review for automation tools and scripts used in the Unix infrastructure."
         ],
         "areas":[
           "Application deployment and support",
@@ -310,11 +360,12 @@
           "Tomcat",
           "VMware",
           "VirtualBox",
-          "git",
+          "Git",
           "tcpdump",
           "Flask",
           "MongoDB"
-        ]
+        ],
+        "in_resume":true
       },
       {
         "title":"Senior software engineer",
@@ -361,7 +412,8 @@
           "Sybase",
           "TWiki",
           "Tomcat"
-        ]
+        ],
+        "in_resume":true
       },
       {
         "title":"Unix system administrator",
@@ -398,7 +450,8 @@
           "Subversion",
           "Tomcat",
           "VMware"
-        ]
+        ],
+        "in_resume":true
       },
       {
         "title":"Systems engineer",
@@ -442,7 +495,8 @@
           "Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix",
           "VMware",
           "tcpdump"
-        ]
+        ],
+        "in_resume":true
       },
       {
         "title":"Linux and web administrator",
@@ -500,7 +554,8 @@
           "Squid",
           "Tomcat",
           "WordPress"
-        ]
+        ],
+        "in_resume":true
       },
       {
         "title":"Network administrator",
@@ -540,7 +595,8 @@
           "MySQL",
           "Sniffer",
           "Squid"
-        ]
+        ],
+        "in_resume":false
       },
       {
         "title":"Community relations / information assistant",
@@ -561,7 +617,8 @@
         ],
         "keywords":[
           ""
-        ]
+        ],
+        "in_resume":false
       }
     ],
     "credentials":{

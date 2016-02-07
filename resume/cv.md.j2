@@ -4,7 +4,6 @@
 %( for p in contact.phone %) * %(( p %)) %( endfor %)
 %( for e in contact.email %) * <%(( e %))> %( endfor %)
 %( for w in contact.web %) * <%((w.link %))> %( endfor %)
-%( endfor %)
 
 > %(( summary %)) [Last update: %(( last_update %))]
 
@@ -47,11 +46,4 @@
 %( endfor %)
 ### Tools
 %( for t in overview.tools %) * %(( t.name %)): %( for n in t.tools %)%(( n.tool %))%( if not loop.last %), %( endif %)%( endfor %)
-%( endfor %)
-
-## References
-%( for r in references %)
- * %(( r.name %))
-   %( if r.title %)%(( r.title %)), %(( r.organization %))%( endif %)
-   %( if r.contact.phone %)%(( r.contact.phone %))%( endif %)%( if r.contact.email %), %(( r.contact.email %))%( endif %)
 %( endfor %)

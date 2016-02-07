@@ -1,0 +1,5 @@
+cv.tex.j2 cv-iandexter.tex
+cv.txt.j2 cv-iandexter.txt
+cv.md.j2 cv-iandexter.md
+cv.html.j2 index.html
+resume.tex.j2 resume-iandexter.tex
