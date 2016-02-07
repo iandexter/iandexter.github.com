@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-*.out
-*.log
-*.aux
-=======
 *.aux
 *.log
 *.out
 *.synctex.gz
->>>>>>> a984b8b64d80166ec196d8305a49e0eae4110e27
