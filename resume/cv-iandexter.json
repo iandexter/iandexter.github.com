@@ -4,8 +4,7 @@
     "title":"DevOps engineer",
     "contact":{
       "home":[
-        "1854B Marimla St, Redwood Villas, Clark Freeport Zone, 2023 Pampanga PHILIPPINES",
-        "37 Pvt Aurellana St, Bagong Ilog, 1600 Pasig City PHILIPPINES"
+        "1854B Marimla St, Redwood Villas, Clark Freeport Zone, 2023 Pampanga PHILIPPINES"
       ],
       "email":[
         "im@iandexter.net"
@@ -260,11 +259,55 @@
           "location":"Hong Kong",
           "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
         },
-        "summary":"Heads the global team that handles the maintenance and operation of the organization's cloud infrastructure.",
+        "summary":"Heads the distributed team that handles the maintenance and operation of the organization's cloud infrastructure.",
         "tasks":[
           "Leads a team of system administrators and production engineers who manage the infrastructure spread out across multiple availability zones and regions.",
           "Develops and maintains tools for infrastructure management and application deployment.",
           "Provides technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/)."
+        ],
+        "areas":[
+          "DevOps",
+          "Application deployment and support",
+          "Infrastructure automation",
+          "Unix/Linux systems administration"
+        ],
+        "languages":[
+          "Bash/Shell",
+          "PHP",
+          "Python",
+          "SQL"
+        ],
+        "platforms":[
+          "Ubuntu"
+        ],
+        "tools":[
+          "Amazon Web Services",
+          "Apache",
+          "Chef",
+          "Git",
+          "Laravel",
+          "Memcache",
+          "nginx",
+          "Node.js",
+          "Redis",
+          "Tomcat"
+        ],
+        "in_resume":true
+      },
+      {
+        "title":"DevOps engineer (part-time)",
+        "start":"November 2014",
+        "end":"November 2015",
+        "organization":{
+          "name":"CompareGlobalGroup",
+          "link":"http://www.compareglobalgroup.com",
+          "location":"Makati City, Philippines",
+          "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
+        },
+        "summary":"Part of the global team that created and upgraded the organization's cloud infrastructure.",
+        "tasks":[
+          "Managed the infrastructure spread out across multiple availability zones and regions.",
+          "Developed and maintained tools for infrastructure management and application deployment."
         ],
         "areas":[
           "DevOps",
@@ -375,7 +418,6 @@
           "name":"Accenture, Inc.",
           "link":"http://www.accenture.com",
           "location":"Pasig City",
-          "under":"",
           "description":"Accenture is an industry leader in global management consulting, technology services, and outsourcing."
         },
         "summary":"Supported the global directory services, identity management, and web infrastructure of a leading financial services firm.",
@@ -461,7 +503,6 @@
           "name":"Trend Micro, Inc.",
           "link":"http://www.trendmicro.com",
           "location":"Quezon City",
-          "under":"",
           "description":"Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments."
         },
         "summary":"Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Center infrastructure.",
@@ -506,7 +547,6 @@
           "name":"Philippine Rice Research Institute",
           "link":"http://www.philrice.gov.ph",
           "location":"Science City of Mu&ntilde;oz",
-          "under":"",
           "description":"The Philippine Rice Research Institute is a premier research and development facility in Asia that pioneers and promotes rice science and technology."
         },
         "summary":"Managed Linux servers of the corporate intranet in the local and wide area networks, and numerous web-based services for the Institute. Developed a portal for the Open Academy for Philippine Agriculture, the [Pinoy Farmers' Internet](http://www.openacademy.ph).",
@@ -555,7 +595,7 @@
           "Tomcat",
           "WordPress"
         ],
-        "in_resume":true
+        "in_resume":false
       },
       {
         "title":"Network administrator",
@@ -565,7 +605,6 @@
           "name":"National Irrigation Administration",
           "link":"http://www.nia.gov.ph",
           "location":"Quezon City",
-          "under":"",
           "description":"The National Irrigation Administration is the lead Philippine agency that provides irrigation services, development, operation and maintenance."
         },
         "summary":"Designed and implemented the NIA Central Office local area network, and implemented services such as Active Directory, intranet, web, e-mail, and instant messaging.",
@@ -606,7 +645,6 @@
           "name":"National Irrigation Administration",
           "link":"",
           "location":"Science City of Mu&ntilde;oz",
-          "under":"",
           "description":"The CMIPP is NIA's flagship project that provide irrigation services to northern Central Luzon and supplementary power to the Luzon grid of the National Power Corporation."
         },
         "summary":"Implemented the public information infrastructure for the Casecnan Multipurpose Irrigation and Power Project (CMIPP), and frequently assigned to IT-related activities.",
@@ -680,12 +718,30 @@
     },
     "references":[
       {
-        "name":"Available on request.",
-        "title":"",
-        "organization":"",
+        "name":"Rhodora Ricafrente Borlas",
+        "title":"Unix Implementation Engineer",
+        "organization":"Bank of America Merrill Lynch, Harbourfront, Singapore",
         "contact":{
-          "phone":"",
-          "email":""
+          "phone":"+65 9002 0397",
+          "email":"rhodora.borlas@baml.com"
+        }
+      },
+      {
+        "name":"Josette Angeles Salac",
+        "title":"Senior Merchandise Manager",
+        "organization":"Robinsons Retail Holdings, Inc., Quezon City, Philippines",
+        "contact":{
+          "phone":"+63 998 846 6207",
+          "email":"josette.salac@daiso.com.ph"
+        }
+      },
+      {
+        "name":"Wilmeir Arevalo",
+        "title":"Senior Portal Architect",
+        "organization":"Teradyne Philippines, Ltd., Cebu, Philippines",
+        "contact":{
+          "phone":"+63 932 429 7965",
+          "email":"wilmeir.arevalo@teradyne.com"
         }
       }
     ],

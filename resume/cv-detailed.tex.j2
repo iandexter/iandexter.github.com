@@ -1,0 +1,155 @@
+\documentclass[10pt, a4paper, final]{article}
+
+%%% PACKAGES and FORMATTING
+\usepackage{marginnote}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm, vcentering=true, marginparwidth=5cm, marginparsep=1cm}
+
+\usepackage[english]{babel}
+\usepackage[UKenglish]{isodate}
+\cleanlookdateon
+
+\usepackage[hidelinks, final]{hyperref}
+\hypersetup{
+  pdfauthor = {%(( name %))},
+  pdftitle = {Curriculum vitae - %(( name %))},
+  pdfsubject = {Generated using Python and LaTeX},
+  pdfkeywords = {%( for k in keywords %)%(( k %)), %( endfor %)curriculum vitae, CV, LaTeX, Jinja2}
+}
+
+\usepackage[osf]{libertine}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\usepackage{titlesec}
+\titleformat{\section}{\sc\large\center}{}{}{}
+\titleformat{\subsection}{\bf\raggedright}{}{}{}
+\titlespacing{\section}{0pt}{1em}{1.5em}
+\titlespacing{\subsection}{0pt}{0.5em}{0em}
+
+\usepackage{paralist}
+\usepackage{setspace}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{dark-gray}{gray}{0.30}
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.1pt}
+\renewcommand{\footrule}{\hbox to\headwidth{%
+  \color{gray}\leaders\hrule height \footrulewidth\hfill}}
+\fancyfoot[L]{\small \textcolor{gray}{CV - \textsc{%(( name %))} (Last update:  \textsc{\today})}}
+\fancyfoot[R]{\small \textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+\pagestyle{fancy}
+
+\setlength{\parskip}{0cm}
+\setlength{\parindent}{0cm}
+%%% end - PACKAGES and FORMATTING
+
+\begin{document}
+
+%%% TITLE
+\begin{center}
+  \Huge %(( name %))\\
+  \Large %(( title %))
+\end{center}
+%%% end - TITLE
+
+%%% ADDRESS
+\begin{center}\begin{spacing}{1}\small
+  %( for p in contact.phone %)%(( p %))%( endfor %)~\textbullet~%( for e in contact.email %)\href{mailto:%(( e %))}{%(( e %))}%( endfor %)~\textbullet~%( for w in contact.web %)\href{%(( w.link %))}{%(( w.link %))}%( endfor %)\\
+  %( for h in contact.home %)%(( h %))\\
+  %( endfor %)
+\end{spacing}\end{center}
+\vspace{1.5em}
+%%% end - ADDRESS
+
+%%% SUMMARY
+\normalsize %(( summary %)) \small \textcolor{dark-gray}{Last update: \textsc{\today}} \normalsize
+%%% end - SUMMARY
+
+\vspace{1em}
+
+%%% OVERVIEW
+\begin{section}*{Overview}
+  \begin{subsection}*{Skill areas}
+    \begin{compactitem}%( for s in overview.skills %)
+      \item %(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %))) %( endfor %)
+    \end{compactitem}
+  \end{subsection}
+\end{section}
+%%% end - OVERVIEW
+
+\vspace{1em}
+
+%%% EXPERIENCE
+\begin{section}*{Experience}%( for e in experience %)
+  \begin{subsection}*{%(( e.title %)) \hfill\textsc{%(( e.start %)) to %(( e.end %))}}
+    %( if e.organization.link %)\href{%(( e.organization.link %))}{\textit{%(( e.organization.name %))}}%( else %)\textit{%(( e.organization.name %))}%( endif %)%( if e.organization.under %) (under %(( e.organization.under %)))%( endif %) \hfill %(( e.organization.location %))
+    \vspace{1em}
+
+    %(( e.summary %)) %(( e.organization.description %))
+    \vspace{1em}
+    \begin{compactitem}
+      %( for t in e.tasks %)\item %(( t %))
+      %( endfor %)
+    \end{compactitem}
+  \end{subsection}
+  \vspace{2.5em}
+%( endfor %)\end{section}
+%%% end - EXPERIENCE
+
+%%% OTHERS
+\begin{section}*{Other information}
+  \begin{inparadesc}
+    \item \textbf{Interests}:%( for i in overview.interests %)
+    \item %(( i %))%( if not loop.last %),%( endif %)%( endfor %)
+  \end{inparadesc}
+  \vspace{1em}
+  \begin{subsection}*{Qualifications}
+    \begin{compactitem}
+      \vspace{0.25em}
+      %( for e in credentials.education %)\item \textbf{%(( e.degree %)) major in %(( e.major %))}, \textsc{%(( e.year %))}\\
+      %(( e.school %))%( endfor %)
+      \vspace{0.25em}
+      %( for c in credentials.certification %)
+      \item \textbf{%(( c.title %))}, \textsc{%(( c.date %))}%( endfor %)
+    \end{compactitem}
+  \end{subsection}
+  \vspace{1em}
+  \begin{subsection}*{Languages}
+    \begin{compactitem}%( for l in overview.languages %)
+      \item %(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %))) %( endfor %)
+    \end{compactitem}
+  \end{subsection}
+  \vspace{1em}
+  \begin{subsection}*{Platforms}
+    \begin{compactitem}%( for p in overview.platforms %)
+      \item %(( p.platform %)) (%(( p.years %)) %( if p.years > 1 %)years%( else %)year%( endif %) / %(( p.proficiency %))) %( endfor %)
+    \end{compactitem}
+  \end{subsection}
+  \vspace{1em}
+  \begin{subsection}*{Tools}
+    \begin{compactitem}%( for t in overview.tools %)
+      \item %(( t.name %)): %( for n in t.tools %)%(( n.tool %))%( if not loop.last %), %( endif %)%( endfor %)%( endfor %)
+    \end{compactitem}
+  \end{subsection}
+\end{section}
+\vspace{1em}
+%%% end - OTHERS
+
+%%% REFERENCES
+\begin{section}*{References}%( for r in references %)
+  \begin{subsection}*{%(( r.name %))}
+    \begin{compactitem}
+      \item[] \textit{%(( r.title %))}
+      \item[] %(( r.organization %))
+      \item[] %(( r.contact.phone %)), \href{mailto:%(( r.contact.email %))}{%(( r.contact.email %))}
+    \end{compactitem}
+  \end{subsection}
+%( endfor %)\end{section}
+\vspace{1em}
+\end{document}
+%%% end - REFERENCES
