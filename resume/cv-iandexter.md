@@ -34,7 +34,7 @@ Heads the distributed team that handles the maintenance and operation of the org
 
 
 ### DevOps engineer (part-time) -- November 2014 to November 2015
-#### [CompareGlobalGroup](http://www.compareglobalgroup.com), Makati City, Philippines
+#### [CompareGlobalGroup](http://www.compareglobalgroup.com), Makati City
 
 Part of the global team that created and upgraded the organization's cloud infrastructure. CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America.
 
@@ -43,7 +43,7 @@ Part of the global team that created and upgraded the organization's cloud infra
 
 
 ### Linux system administrator -- April 2010 to December 2015
-#### [Asian Development Bank](http://www.adb.org/) (under RCG IT, Inc.), Pasig City
+#### [Asian Development Bank](http://www.adb.org) (under RCG IT, Inc.), Pasig City
 
 Developed and maintained automation tools to manage the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence. The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries.
 

@@ -228,7 +228,7 @@
           "tools":[
             {
               "tool":"Drupal, WordPress",
-              "years":5,
+              "years":6,
               "range":[["2002","2006"],["2014","present"]],
               "proficiency":"proficient"
             },
@@ -301,7 +301,7 @@
         "organization":{
           "name":"CompareGlobalGroup",
           "link":"http://www.compareglobalgroup.com",
-          "location":"Makati City, Philippines",
+          "location":"Makati City",
           "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
         },
         "summary":"Part of the global team that created and upgraded the organization's cloud infrastructure.",
@@ -344,7 +344,7 @@
         "end":"December 2015",
         "organization":{
           "name":"Asian Development Bank",
-          "link":"http://www.adb.org/",
+          "link":"http://www.adb.org",
           "location":"Pasig City",
           "under":"RCG IT, Inc.",
           "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
@@ -720,16 +720,16 @@
       {
         "name":"Rhodora Ricafrente Borlas",
         "title":"Unix Implementation Engineer",
-        "organization":"Bank of America Merrill Lynch, Harbourfront, Singapore",
+        "organization":"Bank of America Merrill Lynch, Singapore",
         "contact":{
           "phone":"+65 9002 0397",
           "email":"rhodora.borlas@baml.com"
         }
       },
       {
-        "name":"Josette Angeles Salac",
+        "name":"Josette Salac",
         "title":"Senior Merchandise Manager",
-        "organization":"Robinsons Retail Holdings, Inc., Quezon City, Philippines",
+        "organization":"Robinsons Retail Holdings, Inc., Quezon City",
         "contact":{
           "phone":"+63 998 846 6207",
           "email":"josette.salac@daiso.com.ph"
@@ -738,7 +738,7 @@
       {
         "name":"Wilmeir Arevalo",
         "title":"Senior Portal Architect",
-        "organization":"Teradyne Philippines, Ltd., Cebu, Philippines",
+        "organization":"Teradyne Philippines Ltd., Lapu-lapu City",
         "contact":{
           "phone":"+63 932 429 7965",
           "email":"wilmeir.arevalo@teradyne.com"
