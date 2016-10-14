@@ -58,7 +58,7 @@
         <div id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))">
           <h3>%(( e.title %)) &mdash; %(( e.start %)) to %(( e.end %))</h3>
           <h4><em>%( if e.organization.link %)<a href="%(( e.organization.link%))">%(( e.organization.name %))</a>%( else %)%(( e.organization.name %))%( endif %)</em>%( if e.organization.under %) (under %(( e.organization.under %)))%( endif %), %(( e.organization.location %))</h4>
-          <p>%(( e.summary %)) %(( e.organization.description %)) <a data-toggle="collapse" href="#%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))_tasks">More</a></p>
+          <p>%(( e.summary %)) %(( e.organization.description %)) <a data-toggle="collapse" href="#%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|replace('(','')|replace(')','')|lower %))_tasks">More</a></p>
           <ul id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))_tasks" class="collapse">
             %(- for t in e.tasks -%)<li>%(( t %))</li>
             %(- endfor -%)
