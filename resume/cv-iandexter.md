@@ -5,7 +5,7 @@
  * <im@iandexter.net> 
  * <http://www.iandexter.net> 
 
-> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 12 April 2016]
+> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 14 October 2016]
 
 
 
@@ -23,7 +23,7 @@
 
 ## Experience
 
-### DevOps engineer -- December 2015 to present
+### Senior DevOps engineer -- December 2015 to present
 #### [CompareGlobalGroup](http://www.compareglobalgroup.com), Hong Kong
 
 Heads the distributed team that handles the maintenance and operation of the organization's cloud infrastructure. CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America.

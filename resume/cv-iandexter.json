@@ -4,7 +4,7 @@
     "title":"DevOps engineer",
     "contact":{
       "home":[
-        "1854B Marimla St, Redwood Villas, Clark Freeport Zone, 2023 Pampanga PHILIPPINES"
+        "1854B Marimla St, Redwood Villas, Clark Freeport Zone 2023 Pampanga"
       ],
       "email":[
         "im@iandexter.net"
@@ -250,7 +250,7 @@
     },
     "experience":[
       {
-        "title":"DevOps engineer",
+        "title":"Senior DevOps engineer",
         "start":"December 2015",
         "end":"present",
         "organization":{
@@ -278,7 +278,8 @@
           "SQL"
         ],
         "platforms":[
-          "Ubuntu"
+          "Ubuntu",
+          "Amazon Linux"
         ],
         "tools":[
           "Amazon Web Services",
@@ -742,6 +743,15 @@
         "contact":{
           "phone":"+63 932 429 7965",
           "email":"wilmeir.arevalo@teradyne.com"
+        }
+      },
+      {
+        "name":"John Paul Villaran",
+        "title":"Senior Developer",
+        "organization":"KMC Solutions, Taguig City",
+        "contact": {
+          "phone":"+63 998 558 9361",
+          "email":"jp.villaran@gmail.com"
         }
       }
     ],

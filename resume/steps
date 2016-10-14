@@ -1,0 +1,2 @@
+while read line ; do template=$(echo $line | awk '{print $1}') ; output=$(echo $line | awk '{print $NF}') ; ./buildr.py -d cv-iandexter.json -t ${template} -o ${output} -v ; done < batch.list
+for f in *.tex ; do pdflatex ${f} ; done
