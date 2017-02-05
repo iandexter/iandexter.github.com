@@ -2,5 +2,5 @@ Sources for https://www.iandexter.net
 
 To minify:
 
-sed -e "s/^[ \t]*//g" -e "/^$/d" template.html | \
+sed -e "s/^[ \t]*//g" -e "/^$/d" tmpl_index.html | \
 sed -e 's/^[ \t]*//g' -e ':a;N;$!ba;s/\n//g' > index.html
