@@ -59,19 +59,19 @@
     font-style: normal;
 }
 
-body { font: normal 12pt/120% 'Philosopher','TitilliumText22LRegular',Helvetica,san-serif; width: 55%; margin: 1em auto 1em auto; padding: 1.5em; border: 1px solid #fff; }
+body { font: normal 12pt/120% 'TitilliumText22LRegular',Helvetica,san-serif; width: 55%; margin: 1em auto 1em auto; padding: 1.5em; border: 1px solid #fff; }
 h1 { font-size: 250%; }
 h2 { font-size: 100%; text-decoration: none; }
 a { text-decoration: none; }
 ul { list-style: none; }
 li { padding: 0 0 0 19px; }
-a, b, strong { font-family: 'Philosopher','TitilliumText22LBold'; }
+a, b, strong { font-family: 'TitilliumText22LBold'; }
 #main { margin: 1em 0 0 0; border: 1px dotted #999; padding: 0 1em 0 1em; }
 #content p { line-height: 140%; }
 a img { border: none; }
 ul#elsewhere { list-style: none; padding: 0; margin: 0; }
-#elsewhere li { display: inline; padding: 0; margin: 0; }
+#elsewhere li { display: inline; padding: 0 5px 0 0; margin: 0; }
 #elsewhere li img { vertical-align: middle; }
-.note { font-family: 'Philosopher','TitilliumText22LThin'; }
+.note { font-family: 'TitilliumText22LThin'; }
 .maintenance { height: 300px; margin-top: 50px; padding-right: 210px; background: #fff url('../img/crash-test-dummy.jpg') no-repeat right bottom; }
 .qr { position: relative; float: left; padding: 0; }

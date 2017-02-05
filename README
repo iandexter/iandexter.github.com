@@ -1,1 +1,6 @@
-Sources for http://www.iandexter.net
+Sources for https://www.iandexter.net
+
+To minify:
+
+sed -e "s/^[ \t]*//g" -e "/^$/d" template.html | \
+sed -e 's/^[ \t]*//g' -e ':a;N;$!ba;s/\n//g' > index.html
