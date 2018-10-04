@@ -5,7 +5,7 @@
  * <im@iandexter.net> 
  * <https://www.iandexter.net> 
 
-> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 10 September 2018]
+> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 4 October 2018]
 
 
 
@@ -28,9 +28,9 @@
 
 Heads the distributed team that handles the maintenance and operation of the organization's cloud infrastructure. CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America.
 
- * Leads a team of system administrators and production engineers who manage the infrastructure spread out across multiple availability zones and regions.
- * As part of the technology management team, sets the technology direction for the organisation as mandated by the CTO.
- * Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the process for responding to production issues.
+ * Leads a team of system administrators and engineers who manage the infrastructure spread out across multiple availability zones and regions.
+ * As part of the technology management team, assists the CTO in setting the technology direction for the organisation.
+ * Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the response time to production issues.
  * Led the project to develop and maintain a business monitoring platform, which improved the visibility of application uptime.
  * Develops and maintains tools for infrastructure management and application deployment.
  * Provides technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/).
@@ -73,26 +73,26 @@ Supported the global directory services, identity management, and web infrastruc
 
  * Maintained the firm's directory services and identity management infrastructure using third-party open source and internally developed tools.
  * Supported the firm's global web and enterprise products infrastructure.
- * Worked closely with global software development teams in the areas of application deployment, monitoing and support.
+ * Worked closely with global software development teams in the areas of application deployment, monitoring and support.
  * Resolved infrastructure issues reported through automated alerts, and from the global help desk.
  * Subject-matter expert and training resource for shell scripting and Linux administration.
- * Created a web application that interfaced with a service fulfillment facility. The application significantly streamlined the creation and closure of service requests for common tasks.
+ * Created a web application that interfaced with a service fulfilment facility. The application significantly streamlined the creation and closure of service requests for common tasks.
  * Wrote and maintained various scripts to automate administrative tasks, including a tool for group management notification, a helper script that gathers LDAP information from various sources, and checkout scripts that provide inputs for the global monitoring framework.
 
 
 ### Unix system administrator -- January 2007 to April 2007
 #### [Asian Development Bank](http://www.adb.org) (under Cytronics, Inc.), Pasig City
 
-Operated and maintained Unix servers in the Bank's data center. The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries.
+Operated and maintained Unix servers in the Bank's data centre. The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries.
 
- * Ensured 99.999% uptime of production Unix (Solaris, AIX, and SLES) servers in the Bank's data center.
+ * Ensured 99.999% uptime of production Unix (Solaris, AIX, and SLES) servers in the Bank's data centre.
  * Projects included the deployment of Subversion repositories for more than 20 software development projects; server consolidation; staging and installation of centralized log servers for Unix and Windows platforms; and testing and deployment of server backup strategies (on SAN) for about 100 Unix servers.
 
 
 ### Systems engineer -- April 2006 to January 2007
 #### [Trend Micro, Inc.](http://www.trendmicro.com), Quezon City
 
-Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Center infrastructure. Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments.
+Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Centre infrastructure. Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments.
 
  * Handled troubleshooting and technical issue resolution for internet gateway (web and messaging) security products on Windows, Solaris and Linux platforms, using intensive testing procedures and set-up of lab environments for simulations and software patch testing.
  * Initiated customer recovery procedures through teleconferences and web-based live meetings with senior product specialists and developers.
@@ -167,6 +167,6 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
  * Microsoft Windows 2003 Server (1 year / basic)
 
 ### Tools
- * Network and systems administration: Ansible, Chef, Nagios, NetCool, Apache, Tomcat, Squid, Nginx, Postfix, Sendmail, Courier, Dovecot, Procmail, MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache, Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix, Ethereal/Wireshark, Sniffer, tcpdump, Cisco IOS, F5 BIG-IP ZebOS, VMware, VirtualBox, Docker, Subversion, Git, Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform
+ * Network and systems administration: Ansible, Chef, Nagios, Netcool, Apache, Tomcat, Squid, Nginx, Postfix, Sendmail, Courier, Dovecot, Procmail, MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache, Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix, Ethereal/Wireshark, Sniffer, tcpdump, Cisco IOS, F5 BIG-IP ZebOS, VMware, VirtualBox, Docker, Subversion, Git, Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform
  * Identity management: Sun Directory Server, Sun Identity Manager
  * Web and content development: Drupal, WordPress, TWiki, MediaWiki, Dokuwiki, Laravel, Node.js, Flask

@@ -145,7 +145,7 @@
               "proficiency":"proficient"
             },
             {
-              "tool":"Nagios, NetCool",
+              "tool":"Nagios, Netcool",
               "years":9,
               "range":[["2007","2016"]],
               "proficiency":"advanced"
@@ -261,9 +261,9 @@
         },
         "summary":"Heads the distributed team that handles the maintenance and operation of the organization's cloud infrastructure.",
         "tasks":[
-          "Leads a team of system administrators and production engineers who manage the infrastructure spread out across multiple availability zones and regions.",
-          "As part of the technology management team, sets the technology direction for the organisation as mandated by the CTO.",
-          "Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the process for responding to production issues.",
+          "Leads a team of system administrators and engineers who manage the infrastructure spread out across multiple availability zones and regions.",
+          "As part of the technology management team, assists the CTO in setting the technology direction for the organisation.",
+          "Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the response time to production issues.",
           "Led the project to develop and maintain a business monitoring platform, which improved the visibility of application uptime.",
           "Develops and maintains tools for infrastructure management and application deployment.",
           "Provides technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/)."
@@ -429,10 +429,10 @@
         "tasks":[
           "Maintained the firm's directory services and identity management infrastructure using third-party open source and internally developed tools.",
           "Supported the firm's global web and enterprise products infrastructure.",
-          "Worked closely with global software development teams in the areas of application deployment, monitoing and support.",
+          "Worked closely with global software development teams in the areas of application deployment, monitoring and support.",
           "Resolved infrastructure issues reported through automated alerts, and from the global help desk.",
           "Subject-matter expert and training resource for shell scripting and Linux administration.",
-          "Created a web application that interfaced with a service fulfillment facility. The application significantly streamlined the creation and closure of service requests for common tasks.",
+          "Created a web application that interfaced with a service fulfilment facility. The application significantly streamlined the creation and closure of service requests for common tasks.",
           "Wrote and maintained various scripts to automate administrative tasks, including a tool for group management notification, a helper script that gathers LDAP information from various sources, and checkout scripts that provide inputs for the global monitoring framework."
         ],
         "areas":[
@@ -453,7 +453,7 @@
           "Apache",
           "Cisco IOS",
           "F5 BIG-IP ZebOS",
-          "NetCool",
+          "Netcool",
           "Sun Directory Server",
           "Sun Identity Manager",
           "Sybase",
@@ -473,9 +473,9 @@
           "under":"Cytronics, Inc.",
           "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
         },
-        "summary":"Operated and maintained Unix servers in the Bank's data center.",
+        "summary":"Operated and maintained Unix servers in the Bank's data centre.",
         "tasks":[
-          "Ensured 99.999% uptime of production Unix (Solaris, AIX, and SLES) servers in the Bank's data center.",
+          "Ensured 99.999% uptime of production Unix (Solaris, AIX, and SLES) servers in the Bank's data centre.",
           "Projects included the deployment of Subversion repositories for more than 20 software development projects; server consolidation; staging and installation of centralized log servers for Unix and Windows platforms; and testing and deployment of server backup strategies (on SAN) for about 100 Unix servers."
         ],
         "areas":[
@@ -510,7 +510,7 @@
           "location":"Quezon City",
           "description":"Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments."
         },
-        "summary":"Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Center infrastructure.",
+        "summary":"Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Centre infrastructure.",
         "tasks":[
           "Handled troubleshooting and technical issue resolution for internet gateway (web and messaging) security products on Windows, Solaris and Linux platforms, using intensive testing procedures and set-up of lab environments for simulations and software patch testing.",
           "Initiated customer recovery procedures through teleconferences and web-based live meetings with senior product specialists and developers.",
