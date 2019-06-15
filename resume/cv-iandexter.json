@@ -278,13 +278,13 @@
           "location":"Amsterdam, The Netherlands",
           "description":"Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms."
         },
-        "summary":"Supports customers with managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
+        "summary":"Supports customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
         "tasks":[
           "Provides intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.",
-          "Deploys high-density HPCs for global customers",
+          "Deploys high-density HPCs for global customers.",
           "Coordinates closely with software development teams in identifying and resolving issues identified through customer reports or testing.",
           "Works on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.",
-          "Evaluates new technologies in the HPC space to validate integrations with BCM."
+          "Evaluates new technologies in the HPC space for integration with BCM."
         ],
         "areas":[
           "High-performance computing",
