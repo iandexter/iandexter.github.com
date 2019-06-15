@@ -1,10 +1,11 @@
 ﻿{
   "cv":{
     "name":"Ian Dexter D. Marquez",
-    "title":"DevOps engineer",
+    "title":"Linux systems administrator",
     "contact":{
       "home":[
-        "1854B Marimla St, Redwood Villas, Clark Freeport Zone 2023 Pampanga"
+        "Faas Wilkestraat 109K, 1095MD Amsterdam, North Holland, The Netherlands",
+        "1854B Marimla St, Redwood Villas, Clark Freeport Zone 2023 Pampanga, Philippines"
       ],
       "email":[
         "im@iandexter.net"
@@ -16,6 +17,7 @@
         }
       ],
       "phone":[
+        "+31 6 1197 1691",
         "+63 917 887 6260"
       ]
     },
@@ -29,19 +31,19 @@
       "skills":[
         {
           "area":"Unix/Linux systems administration",
-          "years":16,
+          "years":17,
           "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "area":"Infrastructure automation",
-          "years":8,
+          "years":9,
           "range":[["2010","present"]],
           "proficiency":"proficient"
         },
         {
           "area":"Application deployment and support",
-          "years":11,
+          "years":12,
           "range":[["2007","present"]],
           "proficiency":"advanced"
         },
@@ -67,7 +69,7 @@
       "languages":[
         {
           "language":"Bash",
-          "years":16,
+          "years":17,
           "range":[["2002","present"]],
           "proficiency":"advanced"
         },
@@ -85,7 +87,7 @@
         },
         {
           "language":"Python",
-          "years":6,
+          "years":7,
           "range":[["2012","present"]],
           "proficiency":"proficient"
         },
@@ -98,26 +100,26 @@
         {
           "language":"JavaScript",
           "years":7,
-          "range":[["2003","2006"],["2014","present"]],
+          "range":[["2003","2006"],["2014","2018"]],
           "proficiency":"proficient"
         }
       ],
       "platforms":[
         {
           "platform":"Red Hat Enterprise Linux, CentOS, Fedora",
-          "years":16,
+          "years":17,
           "range":[["2002","present"]],
           "proficiency":"advanced"
         },
         {
           "platform":"SuSE Linux Enterprise Server",
           "years":3,
-          "range":[["2010","2016"]],
+          "range":[["2010","2016"],["2019","present"]],
           "proficiency":"advanced"
         },
         {
           "platform":"Ubuntu, Debian",
-          "years":6,
+          "years":7,
           "range":[["2004","2006"],["2014","present"]],
           "proficiency":"proficient"
         },
@@ -141,7 +143,7 @@
             {
               "tool":"Ansible, Chef",
               "years":6,
-              "range":[["2012","present"]],
+              "range":[["2012","2018"]],
               "proficiency":"proficient"
             },
             {
@@ -153,19 +155,19 @@
             {
               "tool":"Apache, Tomcat, Squid, Nginx",
               "years":16,
-              "range":[["2002","present"]],
+              "range":[["2002","2018"]],
               "proficiency":"advanced"
             },
             {
               "tool":"Postfix, Sendmail, Courier, Dovecot, Procmail",
               "years":12,
-              "range":[["2002","present"]],
+              "range":[["2002","2018"]],
               "proficiency":"advanced"
             },
             {
               "tool":"MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache",
-              "years":7,
-              "range":[["2004","present"]],
+              "years":14,
+              "range":[["2004","2018"]],
               "proficiency":"proficient"
             },
             {
@@ -187,20 +189,20 @@
               "proficiency":"proficient"
             },
             {
-              "tool":"VMware, VirtualBox, Docker",
-              "years":6,
+              "tool":"VMware, VirtualBox, Docker, Kubernetes",
+              "years":8,
               "range":[["2006","present"]],
               "proficiency":"proficient"
             },
             {
               "tool":"Subversion, Git",
-              "years":7,
+              "years":9,
               "range":[["2010","present"]],
               "proficiency":"proficient"
             },
             {
-              "tool":"Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform",
-              "years":5,
+              "tool":"Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, Azure",
+              "years":6,
               "range":[["2013","present"]],
               "proficiency":"proficient"
             }
@@ -229,7 +231,7 @@
             {
               "tool":"Drupal, WordPress",
               "years":8,
-              "range":[["2002","2006"],["2014","present"]],
+              "range":[["2002","2006"],["2014","2018"]],
               "proficiency":"proficient"
             },
             {
@@ -240,8 +242,25 @@
             },
             {
               "tool":"Laravel, Node.js, Flask",
-              "years":3,
-              "range":[["2014","present"]],
+              "years":4,
+              "range":[["2014","2018"]],
+              "proficiency":"basic"
+            }
+          ]
+        },
+        {
+          "name":"High-performance computing",
+          "tools":[
+            {
+              "tool":"Bright Cluster Manager",
+              "years":"1",
+              "range":[["2019","present"]],
+              "proficiency":"basic"
+            },
+            {
+              "tool":"Slurm",
+              "years":"1",
+              "range":[["2019","present"]],
               "proficiency":"basic"
             }
           ]
@@ -250,9 +269,51 @@
     },
     "experience":[
       {
+        "title":"Support and deployment engineer",
+        "start":"February 2019",
+        "end":"present",
+        "organization":{
+          "name":"Bright Computing",
+          "link":"https://www.brightcomputing.com/",
+          "location":"Amsterdam, The Netherlands",
+          "description":"Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms."
+        },
+        "summary":"Supports customers with managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
+        "tasks":[
+          "Provides intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.",
+          "Deploys high-density HPCs for global customers",
+          "Coordinates closely with software development teams in identifying and resolving issues identified through customer reports or testing.",
+          "Works on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.",
+          "Evaluates new technologies in the HPC space to validate integrations with BCM."
+        ],
+        "areas":[
+          "High-performance computing",
+          "Unix/Linux systems administration",
+          "Application deployment and support"
+        ],
+        "languages":[
+          "Bash",
+          "Python"
+        ],
+        "platforms":[
+          "Red Hat Enterprise Linux",
+          "SuSE Linux Enterprise Server",
+          "Ubuntu"
+        ],
+        "tools":[
+          "Bright Cluster Manager",
+          "Slurm",
+          "Kubernetes",
+          "Docker",
+          "Amazon Web Services",
+          "Azure"
+        ],
+        "in_resume":true
+      },
+      {
         "title":"Senior DevOps engineer",
         "start":"December 2015",
-        "end":"present",
+        "end":"December 2018",
         "organization":{
           "name":"CompareGlobalGroup",
           "link":"http://www.compareglobalgroup.com",
@@ -498,7 +559,7 @@
           "Tomcat",
           "VMware"
         ],
-        "in_resume":true
+        "in_resume":false
       },
       {
         "title":"Systems engineer",
@@ -519,7 +580,8 @@
           "Contributed technical solutions articles to Trend Micro's knowledge base."
         ],
         "areas":[
-          ""
+          "Unix/Linux systems administration",
+          "Application deployment and support"
         ],
         "languages":[
           "Bash",
@@ -542,7 +604,7 @@
           "VMware",
           "tcpdump"
         ],
-        "in_resume":true
+        "in_resume":false
       },
       {
         "title":"Linux and web administrator",
