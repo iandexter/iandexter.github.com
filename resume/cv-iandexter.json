@@ -294,6 +294,7 @@
           "Python"
         ],
         "platforms":[
+          "CentOS",
           "Red Hat Enterprise Linux",
           "SuSE Linux Enterprise Server",
           "Ubuntu"
@@ -304,7 +305,8 @@
           "Kubernetes",
           "Docker",
           "Amazon Web Services",
-          "Azure"
+          "Azure",
+          "OpenStack"
         ],
         "in_resume":true
       },
@@ -318,14 +320,14 @@
           "location":"Hong Kong",
           "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
         },
-        "summary":"Heads the distributed team that handles the maintenance and operation of the organization's cloud infrastructure.",
+        "summary":"Headed the distributed team that handles the maintenance and operation of the organization's cloud infrastructure.",
         "tasks":[
-          "Leads a team of system administrators and engineers who manage the infrastructure spread out across multiple availability zones and regions.",
-          "As part of the technology management team, assists the CTO in setting the technology direction for the organisation.",
+          "Led a team of system administrators and engineers who manage the infrastructure spread out across multiple availability zones and regions.",
+          "As part of the technology management team, assisted the CTO in setting the technology direction for the organisation.",
           "Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the response time to production issues.",
           "Led the project to develop and maintain a business monitoring platform, which improved the visibility of application uptime.",
-          "Develops and maintains tools for infrastructure management and application deployment.",
-          "Provides technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/)."
+          "Developed and maintained tools for infrastructure management and application deployment.",
+          "Provided technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/)."
         ],
         "areas":[
           "DevOps",
