@@ -145,9 +145,9 @@
 \begin{section}*{References}%( for r in references %)
   \begin{subsection}*{%(( r.name %))}
     \begin{compactitem}
-      \item[] \textit{%(( r.title %))}
-      \item[] %(( r.organization %))
+      \item[] \textit{%(( r.title %))}, %(( r.organization %))
       \item[] %(( r.contact.phone %)), \href{mailto:%(( r.contact.email %))}{%(( r.contact.email %))}
+      \item[] (%(( r.relationship %)))
     \end{compactitem}
   \end{subsection}
 %( endfor %)\end{section}

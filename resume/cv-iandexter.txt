@@ -5,7 +5,7 @@ Linux systems administrator
  * <im@iandexter.net> 
  * <https://www.iandexter.net> 
 
-With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 11 August 2019]
+With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 26 October 2019]
 
 
 OVERVIEW
@@ -39,7 +39,7 @@ CompareGlobalGroup <http://www.compareglobalgroup.com> , Hong Kong
 
 Headed the distributed team that handles the maintenance and operation of the organization's cloud infrastructure. CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America.
 
- * Led a team of system administrators and engineers who manage the infrastructure spread out across multiple availability zones and regions.
+ * Led a team of system administrators and engineers who managed the infrastructure spread out across multiple availability zones and regions.
  * As part of the technology management team, assisted the CTO in setting the technology direction for the organisation.
  * Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the response time to production issues.
  * Led the project to develop and maintain a business monitoring platform, which improved the visibility of application uptime.

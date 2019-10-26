@@ -1,305 +1,500 @@
-﻿{
-  "cv":{
-    "name":"Ian Dexter D. Marquez",
-    "title":"Linux systems administrator",
-    "contact":{
-      "home":[
+{
+  "cv": {
+    "name": "Ian Dexter D. Marquez",
+    "title": "Linux systems administrator",
+    "contact": {
+      "home": [
         "Faas Wilkestraat 109K, 1095MD Amsterdam, North Holland, The Netherlands"
       ],
-      "email":[
+      "email": [
         "im@iandexter.net"
       ],
-      "web":[
+      "web": [
         {
-          "link":"https://www.iandexter.net",
-          "title":"Launch page"
+          "link": "https://www.iandexter.net",
+          "title": "Launch page"
         }
       ],
-      "phone":[
+      "phone": [
         "+31 6 1197 1691"
       ]
     },
-    "summary":"With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
-    "overview":{
-      "interests":[
+    "summary": "With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
+    "overview": {
+      "interests": [
         "DevOps",
         "Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform",
         "PaaS, IaaS"
       ],
-      "skills":[
+      "skills": [
         {
-          "area":"Unix/Linux systems administration",
-          "years":17,
-          "range":[["2002","present"]],
-          "proficiency":"advanced"
+          "area": "Unix/Linux systems administration",
+          "years": 17,
+          "range": [
+            [
+              "2002",
+              "present"
+            ]
+          ],
+          "proficiency": "advanced"
         },
         {
-          "area":"Infrastructure automation",
-          "years":9,
-          "range":[["2010","present"]],
-          "proficiency":"proficient"
+          "area": "Infrastructure automation",
+          "years": 9,
+          "range": [
+            [
+              "2010",
+              "present"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "area":"Application deployment and support",
-          "years":12,
-          "range":[["2007","present"]],
-          "proficiency":"advanced"
+          "area": "Application deployment and support",
+          "years": 12,
+          "range": [
+            [
+              "2007",
+              "present"
+            ]
+          ],
+          "proficiency": "advanced"
         },
         {
-          "area":"Network design, development and administration",
-          "years":5,
-          "range":[["2002","2006"]],
-          "proficiency":"proficient"
+          "area": "Network design, development and administration",
+          "years": 5,
+          "range": [
+            [
+              "2002",
+              "2006"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "area":"Web design, development and management",
-          "years":3,
-          "range":[["2002","2006"]],
-          "proficiency":"proficient"
+          "area": "Web design, development and management",
+          "years": 3,
+          "range": [
+            [
+              "2002",
+              "2006"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "area":"Identity management",
-          "years":2,
-          "range":[["2008","2010"]],
-          "proficiency":"proficient"
+          "area": "Identity management",
+          "years": 2,
+          "range": [
+            [
+              "2008",
+              "2010"
+            ]
+          ],
+          "proficiency": "proficient"
         }
       ],
-      "languages":[
+      "languages": [
         {
-          "language":"Bash",
-          "years":17,
-          "range":[["2002","present"]],
-          "proficiency":"advanced"
+          "language": "Bash",
+          "years": 17,
+          "range": [
+            [
+              "2002",
+              "present"
+            ]
+          ],
+          "proficiency": "advanced"
         },
         {
-          "language":"Perl",
-          "years":9,
-          "range":[["2007","2016"]],
-          "proficiency":"proficient"
+          "language": "Perl",
+          "years": 9,
+          "range": [
+            [
+              "2007",
+              "2016"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "language":"PHP",
-          "years":3,
-          "range":[["2002","2006"]],
-          "proficiency":"proficient"
+          "language": "PHP",
+          "years": 3,
+          "range": [
+            [
+              "2002",
+              "2006"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "language":"Python",
-          "years":7,
-          "range":[["2012","present"]],
-          "proficiency":"proficient"
+          "language": "Python",
+          "years": 7,
+          "range": [
+            [
+              "2012",
+              "present"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "language":"SQL",
-          "years":2,
-          "range":[["2004","2006"]],
-          "proficiency":"proficient"
+          "language": "SQL",
+          "years": 2,
+          "range": [
+            [
+              "2004",
+              "2006"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "language":"JavaScript",
-          "years":7,
-          "range":[["2003","2006"],["2014","2018"]],
-          "proficiency":"proficient"
+          "language": "JavaScript",
+          "years": 7,
+          "range": [
+            [
+              "2003",
+              "2006"
+            ],
+            [
+              "2014",
+              "2018"
+            ]
+          ],
+          "proficiency": "proficient"
         }
       ],
-      "platforms":[
+      "platforms": [
         {
-          "platform":"Red Hat Enterprise Linux, CentOS, Fedora",
-          "years":17,
-          "range":[["2002","present"]],
-          "proficiency":"advanced"
+          "platform": "Red Hat Enterprise Linux, CentOS, Fedora",
+          "years": 17,
+          "range": [
+            [
+              "2002",
+              "present"
+            ]
+          ],
+          "proficiency": "advanced"
         },
         {
-          "platform":"SuSE Linux Enterprise Server",
-          "years":3,
-          "range":[["2010","2016"],["2019","present"]],
-          "proficiency":"advanced"
+          "platform": "SuSE Linux Enterprise Server",
+          "years": 3,
+          "range": [
+            [
+              "2010",
+              "2016"
+            ],
+            [
+              "2019",
+              "present"
+            ]
+          ],
+          "proficiency": "advanced"
         },
         {
-          "platform":"Ubuntu, Debian",
-          "years":7,
-          "range":[["2004","2006"],["2014","present"]],
-          "proficiency":"proficient"
+          "platform": "Ubuntu, Debian",
+          "years": 7,
+          "range": [
+            [
+              "2004",
+              "2006"
+            ],
+            [
+              "2014",
+              "present"
+            ]
+          ],
+          "proficiency": "proficient"
         },
         {
-          "platform":"Sun Solaris, IBM AIX",
-          "years":1,
-          "range":[["2007","2008"]],
-          "proficiency":"basic"
+          "platform": "Sun Solaris, IBM AIX",
+          "years": 1,
+          "range": [
+            [
+              "2007",
+              "2008"
+            ]
+          ],
+          "proficiency": "basic"
         },
         {
-          "platform":"Microsoft Windows 2003 Server",
-          "years":1,
-          "range":[["2006","2007"]],
-          "proficiency":"basic"
+          "platform": "Microsoft Windows 2003 Server",
+          "years": 1,
+          "range": [
+            [
+              "2006",
+              "2007"
+            ]
+          ],
+          "proficiency": "basic"
         }
       ],
-      "tools":[
+      "tools": [
         {
-          "name":"Network and systems administration",
-          "tools":[
+          "name": "Network and systems administration",
+          "tools": [
             {
-              "tool":"Ansible, Chef",
-              "years":6,
-              "range":[["2012","2018"]],
-              "proficiency":"proficient"
+              "tool": "Ansible, Chef",
+              "years": 6,
+              "range": [
+                [
+                  "2012",
+                  "2018"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Nagios, Netcool",
-              "years":9,
-              "range":[["2007","2016"]],
-              "proficiency":"advanced"
+              "tool": "Nagios, Netcool",
+              "years": 9,
+              "range": [
+                [
+                  "2007",
+                  "2016"
+                ]
+              ],
+              "proficiency": "advanced"
             },
             {
-              "tool":"Apache, Tomcat, Squid, Nginx",
-              "years":16,
-              "range":[["2002","2018"]],
-              "proficiency":"advanced"
+              "tool": "Apache, Tomcat, Squid, Nginx",
+              "years": 16,
+              "range": [
+                [
+                  "2002",
+                  "2018"
+                ]
+              ],
+              "proficiency": "advanced"
             },
             {
-              "tool":"Postfix, Sendmail, Courier, Dovecot, Procmail",
-              "years":12,
-              "range":[["2002","2018"]],
-              "proficiency":"advanced"
+              "tool": "Postfix, Sendmail, Courier, Dovecot, Procmail",
+              "years": 12,
+              "range": [
+                [
+                  "2002",
+                  "2018"
+                ]
+              ],
+              "proficiency": "advanced"
             },
             {
-              "tool":"MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache",
-              "years":14,
-              "range":[["2004","2018"]],
-              "proficiency":"proficient"
+              "tool": "MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache",
+              "years": 14,
+              "range": [
+                [
+                  "2004",
+                  "2018"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix",
-              "years":1,
-              "range":[["2006","2007"]],
-              "proficiency":"proficient"
+              "tool": "Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix",
+              "years": 1,
+              "range": [
+                [
+                  "2006",
+                  "2007"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Ethereal/Wireshark, Sniffer, tcpdump",
-              "years":7,
-              "range":[["2006","present"]],
-              "proficiency":"proficient"
+              "tool": "Ethereal/Wireshark, Sniffer, tcpdump",
+              "years": 7,
+              "range": [
+                [
+                  "2006",
+                  "present"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Cisco IOS, F5 BIG-IP ZebOS",
-              "years":2,
-              "range":[["2007","2009"]],
-              "proficiency":"proficient"
+              "tool": "Cisco IOS, F5 BIG-IP ZebOS",
+              "years": 2,
+              "range": [
+                [
+                  "2007",
+                  "2009"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"VMware, VirtualBox, Docker, Kubernetes",
-              "years":8,
-              "range":[["2006","present"]],
-              "proficiency":"proficient"
+              "tool": "VMware, VirtualBox, Docker, Kubernetes",
+              "years": 8,
+              "range": [
+                [
+                  "2006",
+                  "present"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Subversion, Git",
-              "years":9,
-              "range":[["2010","present"]],
-              "proficiency":"proficient"
+              "tool": "Subversion, Git",
+              "years": 9,
+              "range": [
+                [
+                  "2010",
+                  "present"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, Azure",
-              "years":6,
-              "range":[["2013","present"]],
-              "proficiency":"proficient"
+              "tool": "Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, Azure",
+              "years": 6,
+              "range": [
+                [
+                  "2013",
+                  "present"
+                ]
+              ],
+              "proficiency": "proficient"
             }
           ]
         },
         {
-          "name":"Identity management",
-          "tools":[
+          "name": "Identity management",
+          "tools": [
             {
-              "tool":"Sun Directory Server",
-              "years":2,
-              "range":[["2008","2010"]],
-              "proficiency":"proficient"
+              "tool": "Sun Directory Server",
+              "years": 2,
+              "range": [
+                [
+                  "2008",
+                  "2010"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Sun Identity Manager",
-              "years":2,
-              "range":[["2008","2010"]],
-              "proficiency":"proficient"
+              "tool": "Sun Identity Manager",
+              "years": 2,
+              "range": [
+                [
+                  "2008",
+                  "2010"
+                ]
+              ],
+              "proficiency": "proficient"
             }
           ]
         },
         {
-          "name":"Web and content development",
-          "tools":[
+          "name": "Web and content development",
+          "tools": [
             {
-              "tool":"Drupal, WordPress",
-              "years":8,
-              "range":[["2002","2006"],["2014","2018"]],
-              "proficiency":"proficient"
+              "tool": "Drupal, WordPress",
+              "years": 8,
+              "range": [
+                [
+                  "2002",
+                  "2006"
+                ],
+                [
+                  "2014",
+                  "2018"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"TWiki, MediaWiki, Dokuwiki",
-              "years":5,
-              "range":[["2004","2006"],["2007","2010"]],
-              "proficiency":"proficient"
+              "tool": "TWiki, MediaWiki, Dokuwiki",
+              "years": 5,
+              "range": [
+                [
+                  "2004",
+                  "2006"
+                ],
+                [
+                  "2007",
+                  "2010"
+                ]
+              ],
+              "proficiency": "proficient"
             },
             {
-              "tool":"Laravel, Node.js, Flask",
-              "years":4,
-              "range":[["2014","2018"]],
-              "proficiency":"basic"
+              "tool": "Laravel, Node.js, Flask",
+              "years": 4,
+              "range": [
+                [
+                  "2014",
+                  "2018"
+                ]
+              ],
+              "proficiency": "basic"
             }
           ]
         },
         {
-          "name":"High-performance computing",
-          "tools":[
+          "name": "High-performance computing",
+          "tools": [
             {
-              "tool":"Bright Cluster Manager",
-              "years":"1",
-              "range":[["2019","present"]],
-              "proficiency":"basic"
+              "tool": "Bright Cluster Manager",
+              "years": "1",
+              "range": [
+                [
+                  "2019",
+                  "present"
+                ]
+              ],
+              "proficiency": "basic"
             },
             {
-              "tool":"Slurm",
-              "years":"1",
-              "range":[["2019","present"]],
-              "proficiency":"basic"
+              "tool": "Slurm",
+              "years": "1",
+              "range": [
+                [
+                  "2019",
+                  "present"
+                ]
+              ],
+              "proficiency": "basic"
             }
           ]
         }
       ]
     },
-    "experience":[
+    "experience": [
       {
-        "title":"Support and deployment engineer",
-        "start":"February 2019",
-        "end":"present",
-        "organization":{
-          "name":"Bright Computing",
-          "link":"https://www.brightcomputing.com/",
-          "location":"Amsterdam, The Netherlands",
-          "description":"Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms."
+        "title": "Support and deployment engineer",
+        "start": "February 2019",
+        "end": "present",
+        "organization": {
+          "name": "Bright Computing",
+          "link": "https://www.brightcomputing.com/",
+          "location": "Amsterdam, The Netherlands",
+          "description": "Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms."
         },
-        "summary":"Supports customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
-        "tasks":[
+        "summary": "Supports customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
+        "tasks": [
           "Provides intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.",
           "Deploys high-density HPCs for global customers.",
           "Coordinates closely with software development teams in identifying and resolving issues identified through customer reports or testing.",
           "Works on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.",
           "Evaluates new technologies in the HPC space for integration with BCM."
         ],
-        "areas":[
+        "areas": [
           "High-performance computing",
           "Unix/Linux systems administration",
           "Application deployment and support"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "Python"
         ],
-        "platforms":[
+        "platforms": [
           "CentOS",
           "Red Hat Enterprise Linux",
           "SuSE Linux Enterprise Server",
           "Ubuntu"
         ],
-        "tools":[
+        "tools": [
           "Bright Cluster Manager",
           "Slurm",
           "Kubernetes",
@@ -308,44 +503,44 @@
           "Azure",
           "OpenStack"
         ],
-        "in_resume":true
+        "in_resume": true
       },
       {
-        "title":"Senior DevOps engineer",
-        "start":"December 2015",
-        "end":"December 2018",
-        "organization":{
-          "name":"CompareGlobalGroup",
-          "link":"http://www.compareglobalgroup.com",
-          "location":"Hong Kong",
-          "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
+        "title": "Senior DevOps engineer",
+        "start": "December 2015",
+        "end": "December 2018",
+        "organization": {
+          "name": "CompareGlobalGroup",
+          "link": "http://www.compareglobalgroup.com",
+          "location": "Hong Kong",
+          "description": "CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
         },
-        "summary":"Headed the distributed team that handles the maintenance and operation of the organization's cloud infrastructure.",
-        "tasks":[
-          "Led a team of system administrators and engineers who manage the infrastructure spread out across multiple availability zones and regions.",
+        "summary": "Headed the distributed team that handles the maintenance and operation of the organization's cloud infrastructure.",
+        "tasks": [
+          "Led a team of system administrators and engineers who managed the infrastructure spread out across multiple availability zones and regions.",
           "As part of the technology management team, assisted the CTO in setting the technology direction for the organisation.",
           "Established a service desk for incident management, providing a single point of contact for customers, and greatly improved the response time to production issues.",
           "Led the project to develop and maintain a business monitoring platform, which improved the visibility of application uptime.",
           "Developed and maintained tools for infrastructure management and application deployment.",
           "Provided technical guidance in infrastructure management for other ventures under [Nova Founders Capital](http://www.novafounders.com/)."
         ],
-        "areas":[
+        "areas": [
           "DevOps",
           "Application deployment and support",
           "Infrastructure automation",
           "Unix/Linux systems administration"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "PHP",
           "Python",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "Ubuntu",
           "Amazon Linux"
         ],
-        "tools":[
+        "tools": [
           "Amazon Web Services",
           "Apache",
           "Chef",
@@ -358,39 +553,39 @@
           "Redis",
           "Tomcat"
         ],
-        "in_resume":true
+        "in_resume": true
       },
       {
-        "title":"DevOps engineer (part-time)",
-        "start":"November 2014",
-        "end":"November 2015",
-        "organization":{
-          "name":"CompareGlobalGroup",
-          "link":"http://www.compareglobalgroup.com",
-          "location":"Makati City",
-          "description":"CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
+        "title": "DevOps engineer (part-time)",
+        "start": "November 2014",
+        "end": "November 2015",
+        "organization": {
+          "name": "CompareGlobalGroup",
+          "link": "http://www.compareglobalgroup.com",
+          "location": "Makati City",
+          "description": "CompareGlobalGroup is the most comprehensive financial comparison platform in the world, with presence in Asia, Europe and Latin America."
         },
-        "summary":"Part of the global team that created and upgraded the organization's cloud infrastructure.",
-        "tasks":[
+        "summary": "Part of the global team that created and upgraded the organization's cloud infrastructure.",
+        "tasks": [
           "Managed the infrastructure spread out across multiple availability zones and regions.",
           "Developed and maintained tools for infrastructure management and application deployment."
         ],
-        "areas":[
+        "areas": [
           "DevOps",
           "Application deployment and support",
           "Infrastructure automation",
           "Unix/Linux systems administration"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "PHP",
           "Python",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "Ubuntu"
         ],
-        "tools":[
+        "tools": [
           "Amazon Web Services",
           "Apache",
           "Chef",
@@ -402,21 +597,21 @@
           "Redis",
           "Tomcat"
         ],
-        "in_resume":true
+        "in_resume": true
       },
       {
-        "title":"Linux system administrator",
-        "start":"April 2010",
-        "end":"December 2015",
-        "organization":{
-          "name":"Asian Development Bank",
-          "link":"http://www.adb.org",
-          "location":"Pasig City",
-          "under":"RCG IT, Inc.",
-          "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
+        "title": "Linux system administrator",
+        "start": "April 2010",
+        "end": "December 2015",
+        "organization": {
+          "name": "Asian Development Bank",
+          "link": "http://www.adb.org",
+          "location": "Pasig City",
+          "under": "RCG IT, Inc.",
+          "description": "The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
         },
-        "summary":"Developed and maintained automation tools to manage the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
-        "tasks":[
+        "summary": "Developed and maintained automation tools to manage the Unix infrastructure for the Bank's mission-critical applications like ERP, data warehousing, financials, and business intelligence.",
+        "tasks": [
           "Provided platform-level support to the Bank's development and infrastructure operations teams.",
           "Coordinated with various software development teams on continuous integration, rapid deployment, performance monitoring and tuning, and application support.",
           "Developed and maintained tools for application deployment, monitoring, and performance tuning.",
@@ -432,7 +627,7 @@
           "Wrote and maintained various scripts in Perl, Python and Bash for automating system administration, performance monitoring, and tuning tasks.",
           "As subject-matter expert, provided quality control and source code review for automation tools and scripts used in the Unix infrastructure."
         ],
-        "areas":[
+        "areas": [
           "Application deployment and support",
           "DevOps",
           "IaaS",
@@ -441,20 +636,20 @@
           "Unix/Linux systems administration",
           "Web design, development and management"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "PHP",
           "Perl",
           "Python",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "IBM AIX",
           "Red Hat Enterprise Linux",
           "SuSE Linux Enterprise Server",
           "Sun Solaris"
         ],
-        "tools":[
+        "tools": [
           "Ansible",
           "Apache",
           "Ethereal/Wireshark",
@@ -474,20 +669,20 @@
           "Flask",
           "MongoDB"
         ],
-        "in_resume":true
+        "in_resume": true
       },
       {
-        "title":"Senior software engineer",
-        "start":"May 2007",
-        "end":"April 2010",
-        "organization":{
-          "name":"Accenture, Inc.",
-          "link":"http://www.accenture.com",
-          "location":"Pasig City",
-          "description":"Accenture is an industry leader in global management consulting, technology services, and outsourcing."
+        "title": "Senior software engineer",
+        "start": "May 2007",
+        "end": "April 2010",
+        "organization": {
+          "name": "Accenture, Inc.",
+          "link": "http://www.accenture.com",
+          "location": "Pasig City",
+          "description": "Accenture is an industry leader in global management consulting, technology services, and outsourcing."
         },
-        "summary":"Supported the global directory services, identity management, and web infrastructure of a leading financial services firm.",
-        "tasks":[
+        "summary": "Supported the global directory services, identity management, and web infrastructure of a leading financial services firm.",
+        "tasks": [
           "Maintained the firm's directory services and identity management infrastructure using third-party open source and internally developed tools.",
           "Supported the firm's global web and enterprise products infrastructure.",
           "Worked closely with global software development teams in the areas of application deployment, monitoring and support.",
@@ -496,21 +691,21 @@
           "Created a web application that interfaced with a service fulfilment facility. The application significantly streamlined the creation and closure of service requests for common tasks.",
           "Wrote and maintained various scripts to automate administrative tasks, including a tool for group management notification, a helper script that gathers LDAP information from various sources, and checkout scripts that provide inputs for the global monitoring framework."
         ],
-        "areas":[
+        "areas": [
           "Application deployment and support",
           "Identity management",
           "Web design, development and management"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "Perl",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "Red Hat Enterprise Linux",
           "Sun Solaris"
         ],
-        "tools":[
+        "tools": [
           "Apache",
           "Cisco IOS",
           "F5 BIG-IP ZebOS",
@@ -521,79 +716,79 @@
           "TWiki",
           "Tomcat"
         ],
-        "in_resume":true
+        "in_resume": true
       },
       {
-        "title":"Unix system administrator",
-        "start":"January 2007",
-        "end":"April 2007",
-        "organization":{
-          "name":"Asian Development Bank",
-          "link":"http://www.adb.org",
-          "location":"Pasig City",
-          "under":"Cytronics, Inc.",
-          "description":"The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
+        "title": "Unix system administrator",
+        "start": "January 2007",
+        "end": "April 2007",
+        "organization": {
+          "name": "Asian Development Bank",
+          "link": "http://www.adb.org",
+          "location": "Pasig City",
+          "under": "Cytronics, Inc.",
+          "description": "The Asian Development Bank is a multilateral financial institution that provides technical and financial assistance to developing countries."
         },
-        "summary":"Operated and maintained Unix servers in the Bank's data centre.",
-        "tasks":[
+        "summary": "Operated and maintained Unix servers in the Bank's data centre.",
+        "tasks": [
           "Ensured 99.999% uptime of production Unix (Solaris, AIX, and SLES) servers in the Bank's data centre.",
           "Projects included the deployment of Subversion repositories for more than 20 software development projects; server consolidation; staging and installation of centralized log servers for Unix and Windows platforms; and testing and deployment of server backup strategies (on SAN) for about 100 Unix servers."
         ],
-        "areas":[
+        "areas": [
           "Unix/Linux systems administration"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "Perl",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "IBM AIX",
           "Red Hat Enterprise Linux",
           "SuSE Linux Enterprise Server"
         ],
-        "tools":[
+        "tools": [
           "Apache",
           "Oracle",
           "Subversion",
           "Tomcat",
           "VMware"
         ],
-        "in_resume":false
+        "in_resume": false
       },
       {
-        "title":"Systems engineer",
-        "start":"April 2006",
-        "end":"January 2007",
-        "organization":{
-          "name":"Trend Micro, Inc.",
-          "link":"http://www.trendmicro.com",
-          "location":"Quezon City",
-          "description":"Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments."
+        "title": "Systems engineer",
+        "start": "April 2006",
+        "end": "January 2007",
+        "organization": {
+          "name": "Trend Micro, Inc.",
+          "link": "http://www.trendmicro.com",
+          "location": "Quezon City",
+          "description": "Trend Micro is a global leader in anti-virus and security solutions, providing comprehensive enterprise-level services across multiple platforms and customer segments."
         },
-        "summary":"Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Centre infrastructure.",
-        "tasks":[
+        "summary": "Provided intermediate-level technical and engineering support for Trend Micro enterprise products as part of its EMEA Technical Support Centre infrastructure.",
+        "tasks": [
           "Handled troubleshooting and technical issue resolution for internet gateway (web and messaging) security products on Windows, Solaris and Linux platforms, using intensive testing procedures and set-up of lab environments for simulations and software patch testing.",
           "Initiated customer recovery procedures through teleconferences and web-based live meetings with senior product specialists and developers.",
           "Performed beta testing and technical documentation of upcoming products such as network appliances and gateway security software.",
           "Acted as a subject-matter resource on Linux and systems administration, and provided technical coaching for new engineers.",
           "Contributed technical solutions articles to Trend Micro's knowledge base."
         ],
-        "areas":[
+        "areas": [
           "Unix/Linux systems administration",
           "Application deployment and support"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "Perl"
         ],
-        "platforms":[
+        "platforms": [
           "CentOS",
           "Microsoft Windows 2003 Server",
           "Red Hat Enterprise Linux",
           "Sun Solaris"
         ],
-        "tools":[
+        "tools": [
           "Ethereal/Wireshark",
           "Postfix",
           "PostgreSQL",
@@ -604,20 +799,20 @@
           "VMware",
           "tcpdump"
         ],
-        "in_resume":false
+        "in_resume": false
       },
       {
-        "title":"Linux and web administrator",
-        "start":"July 2004",
-        "end":"March 2006",
-        "organization":{
-          "name":"Philippine Rice Research Institute",
-          "link":"http://www.philrice.gov.ph",
-          "location":"Science City of Mu&ntilde;oz",
-          "description":"The Philippine Rice Research Institute is a premier research and development facility in Asia that pioneers and promotes rice science and technology."
+        "title": "Linux and web administrator",
+        "start": "July 2004",
+        "end": "March 2006",
+        "organization": {
+          "name": "Philippine Rice Research Institute",
+          "link": "http://www.philrice.gov.ph",
+          "location": "Science City of Mu&ntilde;oz",
+          "description": "The Philippine Rice Research Institute is a premier research and development facility in Asia that pioneers and promotes rice science and technology."
         },
-        "summary":"Managed Linux servers of the corporate intranet in the local and wide area networks, and numerous web-based services for the Institute. Developed a portal for the Open Academy for Philippine Agriculture, the [Pinoy Farmers' Internet](http://www.openacademy.ph).",
-        "tasks":[
+        "summary": "Managed Linux servers of the corporate intranet in the local and wide area networks, and numerous web-based services for the Institute. Developed a portal for the Open Academy for Philippine Agriculture, the [Pinoy Farmers' Internet](http://www.openacademy.ph).",
+        "tasks": [
           "Managed Linux systems (on Red Hat, Fedora and CentOS) with services such as DNS, IMAP, LDAP, proxy, database, and HTTP.",
           "Developed and maintained the web portal for the Pinoy Farmers' Internet.",
           "Successfully deployed a 30-node Linux Terminal Server Project (LTSP) site running Ubuntu Linux as the IT training lab for the PhilRice Biotechnology Intellectual Property Rights Center.",
@@ -625,25 +820,25 @@
           "As a science research specialist, performed research on the evaluation and usability of learning management and content delivery systems for agriculture extension workers; and the evaluation and installation of a content management system for the corporate intranet and the web portal. These studies were presented and gained recognition in various scientific research fora.",
           "Other projects: configuration, deployment and maintenance of redundant database servers with high-availability and fail-over; high-availability and load-balancing clusters for WAN routers and local web proxy caches; improved network security through reformulation and implementation of network policies; and migration from proprietary software to open source."
         ],
-        "areas":[
+        "areas": [
           "Network design, development and administration",
           "Unix/Linux systems administration",
           "Web design, development and management"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "JavaScript",
           "PHP",
           "Perl",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "CentOS",
           "Fedora",
           "Red Hat Enterprise Linux",
           "Ubuntu"
         ],
-        "tools":[
+        "tools": [
           "Apache",
           "Cisco IOS",
           "Courier",
@@ -662,39 +857,39 @@
           "Tomcat",
           "WordPress"
         ],
-        "in_resume":false
+        "in_resume": false
       },
       {
-        "title":"Network administrator",
-        "start":"April 2002",
-        "end":"July 2004",
-        "organization":{
-          "name":"National Irrigation Administration",
-          "link":"http://www.nia.gov.ph",
-          "location":"Quezon City",
-          "description":"The National Irrigation Administration is the lead Philippine agency that provides irrigation services, development, operation and maintenance."
+        "title": "Network administrator",
+        "start": "April 2002",
+        "end": "July 2004",
+        "organization": {
+          "name": "National Irrigation Administration",
+          "link": "http://www.nia.gov.ph",
+          "location": "Quezon City",
+          "description": "The National Irrigation Administration is the lead Philippine agency that provides irrigation services, development, operation and maintenance."
         },
-        "summary":"Designed and implemented the NIA Central Office local area network, and implemented services such as Active Directory, intranet, web, e-mail, and instant messaging.",
-        "tasks":[
+        "summary": "Designed and implemented the NIA Central Office local area network, and implemented services such as Active Directory, intranet, web, e-mail, and instant messaging.",
+        "tasks": [
           "Initiated the partnership between the NIA and PREGINET of DOST ASTI for the Agency's inclusion to the nationwide broadband research and education network.",
           "Designed, prepared bid documents and specifications, and managed the structured cabling project of the NIA CO LAN.",
           "Developed the roll-out and implementation strategy for the NIA CO LAN.",
           "Developed and maintained the company intranet using Apache, PHP and MySQL, with a content management system running on Drupal."
         ],
-        "areas":[
+        "areas": [
           "Network design, development and administration"
         ],
-        "languages":[
+        "languages": [
           "Bash",
           "JavaScript",
           "PHP",
           "SQL"
         ],
-        "platforms":[
+        "platforms": [
           "Fedora",
           "Red Hat Enterprise Linux"
         ],
-        "tools":[
+        "tools": [
           "Apache",
           "Drupal",
           "Ethereal/Wireshark",
@@ -702,149 +897,193 @@
           "Sniffer",
           "Squid"
         ],
-        "in_resume":false
+        "in_resume": false
       },
       {
-        "title":"Community relations / information assistant",
-        "start":"February 1999",
-        "end":"March 2002",
-        "organization":{
-          "name":"National Irrigation Administration",
-          "link":"",
-          "location":"Science City of Mu&ntilde;oz",
-          "description":"The CMIPP is NIA's flagship project that provide irrigation services to northern Central Luzon and supplementary power to the Luzon grid of the National Power Corporation."
+        "title": "Community relations / information assistant",
+        "start": "February 1999",
+        "end": "March 2002",
+        "organization": {
+          "name": "National Irrigation Administration",
+          "link": "",
+          "location": "Science City of Mu&ntilde;oz",
+          "description": "The CMIPP is NIA's flagship project that provide irrigation services to northern Central Luzon and supplementary power to the Luzon grid of the National Power Corporation."
         },
-        "summary":"Implemented the public information infrastructure for the Casecnan Multipurpose Irrigation and Power Project (CMIPP), and frequently assigned to IT-related activities.",
-        "tasks":[
+        "summary": "Implemented the public information infrastructure for the Casecnan Multipurpose Irrigation and Power Project (CMIPP), and frequently assigned to IT-related activities.",
+        "tasks": [
           "Designed and developed information materials such as stand-alone kiosks, multimedia presentations, magazines, newsletters, brochures, flyers, and radio plugs.",
           "Involved in the Project's IT initiatives like software and hardware acquisitions, technical evaluation in IT procurement activities, and maintenance and troubleshooting of PC hardware.",
           "Spearheaded the creation of a Public Information Desk for the Project."
         ],
-        "keywords":[
+        "keywords": [
           ""
         ],
-        "in_resume":false
+        "in_resume": false
       }
     ],
-    "credentials":{
-      "education":[
+    "credentials": {
+      "education": [
         {
-          "degree":"Bachelor of Science in Computing",
-          "major":"Computer Science",
-          "year":"2011",
-          "school":"Technological University of the Philippines, Manila"
+          "degree": "Bachelor of Science in Computing",
+          "major": "Computer Science",
+          "year": "2011",
+          "school": "Technological University of the Philippines, Manila"
         }
       ],
-      "certification":[
+      "certification": [
         {
-          "title":"Red Hat Certified Engineer",
-          "license":"805008554934387",
-          "date":"October 2008 (not current)",
-          "verify":{
-            "link":"https://www.redhat.com/wapps/training/certification/verify.html?certNumber=805008554934387&isSearch=False&verify=Verify",
-            "title":""
+          "title": "Red Hat Certified Engineer",
+          "license": "805008554934387",
+          "date": "October 2008 (not current)",
+          "verify": {
+            "link": "https://www.redhat.com/wapps/training/certification/verify.html?certNumber=805008554934387&isSearch=False&verify=Verify",
+            "title": ""
           }
         },
         {
-          "title":"ITIL v3 Foundation in IT Service Management",
-          "license":"",
-          "date":"July 2008",
-          "verify":{
-            "link":"http://www.itil-officialsite.com/ITILEISCRSquery.aspx",
-            "title":""
+          "title": "ITIL v3 Foundation in IT Service Management",
+          "license": "",
+          "date": "July 2008",
+          "verify": {
+            "link": "http://www.itil-officialsite.com/ITILEISCRSquery.aspx",
+            "title": ""
           }
         },
         {
-          "title":"Red Hat Certified Technician",
-          "license":"604006187810538",
-          "date":"November 2006",
-          "verify":{
-            "link":"https://www.redhat.com/wapps/training/certification/verify.html?certNumber=604006187810538&isSearch=False&verify=Verify",
-            "title":""
+          "title": "Red Hat Certified Technician",
+          "license": "604006187810538",
+          "date": "November 2006",
+          "verify": {
+            "link": "https://www.redhat.com/wapps/training/certification/verify.html?certNumber=604006187810538&isSearch=False&verify=Verify",
+            "title": ""
           }
         },
         {
-          "title":"Microsoft Certified Professional",
-          "license":"",
-          "date":"May 2006",
-          "verify":{
-            "link":"https://mcp.microsoft.com/authenticate/validatemcp.aspx",
-            "title":"Transcript ID 731041, Access Code 1aNd3x73r"
+          "title": "Microsoft Certified Professional",
+          "license": "",
+          "date": "May 2006",
+          "verify": {
+            "link": "https://mcp.microsoft.com/authenticate/validatemcp.aspx",
+            "title": "Transcript ID 731041, Access Code 1aNd3x73r"
           }
         },
         {
-          "title":"Trend Micro Certified Security Expert",
-          "license":"",
-          "date":"June 2006",
-          "verify":{
-            "link":"",
-            "title":""
+          "title": "Trend Micro Certified Security Expert",
+          "license": "",
+          "date": "June 2006",
+          "verify": {
+            "link": "",
+            "title": ""
           }
         }
       ]
     },
-    "references":[
+    "references": [
       {
-        "name":"Rhodora Ricafrente Borlas",
-        "title":"Unix Implementation Engineer",
-        "organization":"Bank of America Merrill Lynch, Singapore",
-        "contact":{
-          "phone":"+65 9002 0397",
-          "email":"rhodora.borlas@baml.com"
-        }
-      },
-      {
-        "name":"Josette Salac",
-        "title":"Senior Merchandise Manager",
-        "organization":"Robinsons Retail Holdings, Inc., Quezon City",
-        "contact":{
-          "phone":"+63 998 846 6207",
-          "email":"josette.salac@daiso.com.ph"
-        }
-      },
-      {
-        "name":"Wilmeir Arevalo",
-        "title":"Senior Portal Architect",
-        "organization":"Teradyne Philippines Ltd., Lapu-lapu City",
-        "contact":{
-          "phone":"+63 932 429 7965",
-          "email":"wilmeir.arevalo@teradyne.com"
-        }
-      },
-      {
-        "name":"John Paul Villaran",
-        "title":"Senior Developer",
-        "organization":"KMC Solutions, Taguig City",
+        "name": "Wilmeir Arevalo",
+        "title": "Senior Portal Architect",
+        "organization": "Teradyne Philippines Ltd., Philippines",
         "contact": {
-          "phone":"+63 998 558 9361",
-          "email":"jp.villaran@gmail.com"
-        }
+          "phone": "+63 932 429 7965",
+          "email": "wilmeir.arevalo@teradyne.com"
+        },
+        "relationship": "Peer at Asian Development Bank, April 2010 to December 2015"
+      },
+      {
+        "name": "Rhodora Ricafrente Borlas",
+        "title": "Unix Implementation Engineer",
+        "organization": "Bank of America Merrill Lynch, Singapore",
+        "contact": {
+          "phone": "+65 9002 0397",
+          "email": "rhodora.borlas@baml.com"
+        },
+        "relationship": "Peer at Asian Development Bank, April 2010 to December 2015"
+      },
+      {
+        "name": "J. Albert Casas",
+        "title": "Cloud support engineer",
+        "organization": "Amazon Web Services, Australia",
+        "contact": {
+          "phone": "+61 413 659 914",
+          "email": "abet.casas@gmail.com"
+        },
+        "relationship": "Peer at Accenture, May 2007 to April 2010"
+      },
+      {
+        "name": "Giuseppe Maggiore",
+        "title": "Senior IT specialist, Linux and data center administration",
+        "organization": "Asian Development Bank, Philippines",
+        "contact": {
+          "phone": "+63 999 999 4031",
+          "email": "gmaggiore@adb.org"
+        },
+        "relationship": "Manager at Asian Development Bank, April 2010 to December 2015"
+      },
+      {
+        "name": "Josef Puchinger",
+        "title": "Vice president, Engineering",
+        "organization": "Lalamove, Hong Kong",
+        "contact": {
+          "phone": "+852 9473 6839",
+          "email": "josef.puchinger@lalamove.com"
+        },
+        "relationship": "Manager at CompareGlobalGroup, November 2017 to May 2018"
+      },
+      {
+        "name": "Frytz Razal",
+        "title": "Front-end lead engineer, APAC Online",
+        "organization": "Est&eacute;e Lauder Companies, Hong Kong",
+        "contact": {
+          "phone": "+852 6468 4819",
+          "email": "frazal@hk.estee.com"
+        },
+        "relationship": "Peer at CompareGlobalGroup, May 2017 to June 2018"
+      },
+      {
+        "name": "Josette Salac",
+        "title": "Senior Merchandise Manager",
+        "organization": "Robinsons Retail Holdings, Inc., Philippines",
+        "contact": {
+          "phone": "+63 998 846 6207",
+          "email": "josette.salac@daiso.com.ph"
+        },
+        "relationship": "Sister-in-law"
+      },
+      {
+        "name": "John Paul Villaran",
+        "title": "Senior Developer",
+        "organization": "KMC Solutions, Philippines",
+        "contact": {
+          "phone": "+63 998 558 9361",
+          "email": "jp.villaran@gmail.com"
+        },
+        "relationship": "Peer at CompareGlobalGroup, November 2014 to March 2015"
       }
     ],
-    "downloads":[
+    "downloads": [
       {
-        "name":"One-page resume",
-        "links":[
+        "name": "One-page resume",
+        "links": [
           {
-            "type":"PDF",
-            "url":"resume-iandexter.pdf"
+            "type": "PDF",
+            "url": "resume-iandexter.pdf"
           }
         ]
       },
       {
-        "name":"Full CV",
-        "links":[
+        "name": "Full CV",
+        "links": [
           {
-            "type":"PDF",
-            "url":"cv-iandexter.pdf"
+            "type": "PDF",
+            "url": "cv-iandexter.pdf"
           },
           {
-            "type":"plain text",
-            "url":"cv-iandexter.txt"
+            "type": "plain text",
+            "url": "cv-iandexter.txt"
           },
           {
-            "type":"Markdown",
-            "url":"cv-iandexter.md"
+            "type": "Markdown",
+            "url": "cv-iandexter.md"
           }
         ]
       }

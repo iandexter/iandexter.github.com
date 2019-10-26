@@ -112,13 +112,15 @@ def search_replace(json_data = None, template_file = None):
               '_sub': r'\\href{\2}{\1}'
             },
             { '_regex': '\&ntilde;', '_sub': r'{\\~n}' },
+            { '_regex': '\&eacute;', '_sub': r"{\\'e}" },
             { '_regex': '([\d+])%', '_sub': r'\1\\%' }
         ],
         'txt': [
             { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
               '_sub': r'\1 <\2>'
             },
-            { '_regex': '\&ntilde;', '_sub': r'n' }
+            { '_regex': '\&ntilde;', '_sub': r'n' },
+            { '_regex': '\&eacute;', '_sub': r'e' }
         ],
         'html': [
             { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
