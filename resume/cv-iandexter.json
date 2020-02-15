@@ -537,7 +537,7 @@
         "summary": "Supported customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
         "tasks": [
           "Provided intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.",
-          "Deployed high-density HPCs for global customers.",
+          "Deployed large-scale HPCs for global customers.",
           "Coordinated closely with software development teams in identifying and resolving issues identified through customer reports or testing.",
           "Worked on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.",
           "Evaluated new technologies in the HPC space for integration with BCM."
