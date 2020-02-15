@@ -5,16 +5,16 @@
  * <im@iandexter.net> 
  * <https://www.iandexter.net> 
 
-> With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 26 October 2019]
+> With more than 15 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 15 February 2020]
 
 
 
 ## Overview
 
 ### Skill areas
- * Unix/Linux systems administration (17 years / advanced)
- * Infrastructure automation (9 years / proficient)
- * Application deployment and support (12 years / advanced)
+ * Unix/Linux systems administration (18 years / advanced)
+ * Infrastructure automation (10 years / proficient)
+ * Application deployment and support (13 years / advanced)
  * Network design, development and administration (5 years / proficient)
  * Web design, development and management (3 years / proficient)
  * Identity management (2 years / proficient)
@@ -23,16 +23,27 @@
 
 ## Experience
 
-### Support and deployment engineer -- February 2019 to present
+### Platform technical solutions engineer -- February 2020 to present
+#### [Databricks](https://databricks.com/), Amsterdam, The Netherlands
+
+Provides technical guidance and advice to customers in their Databricks journey. Databricks helps data teams solve the world's toughest problems by providing a unified data analytics platform for massive scale data engineering and collaborative data science.
+
+ * Troubleshoots, and resolves complex customer issues related to the Databricks platform.
+ * Delivers proactive suggestions, and best-practice guidance for improving performance and efficiency in customer environments.
+ * Assists with issues around third-party integrations with the Databricks environment.
+ * Participates in the creation and maintenance of Databricks documentation and knowledge articles.
+
+
+### Support and deployment engineer -- February 2019 to January 2020
 #### [Bright Computing](https://www.brightcomputing.com/), Amsterdam, The Netherlands
 
-Supports customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM). Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms.
+Supported customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM). Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms.
 
- * Provides intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.
- * Deploys high-density HPCs for global customers.
- * Coordinates closely with software development teams in identifying and resolving issues identified through customer reports or testing.
- * Works on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.
- * Evaluates new technologies in the HPC space for integration with BCM.
+ * Provided intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.
+ * Deployed high-density HPCs for global customers.
+ * Coordinated closely with software development teams in identifying and resolving issues identified through customer reports or testing.
+ * Worked on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.
+ * Evaluated new technologies in the HPC space for integration with BCM.
 
 
 ### Senior DevOps engineer -- December 2015 to December 2018
@@ -150,7 +161,7 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
 
 ## Other information
 
-**Interests**: DevOps, Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, PaaS, IaaS
+**Interests**: DevOps, Cloud infrastructure, PaaS, IaaS
 
 ### Qualifications
  * **Bachelor of Science in Computing** major in Computer Science, 2011
@@ -164,17 +175,17 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
  * **Trend Micro Certified Security Expert**, June 2006
 
 ### Languages
- * Bash (17 years / advanced)
+ * Bash (18 years / advanced)
  * Perl (9 years / proficient)
  * PHP (3 years / proficient)
- * Python (7 years / proficient)
+ * Python (8 years / proficient)
  * SQL (2 years / proficient)
  * JavaScript (7 years / proficient)
 
 ### Platforms
- * Red Hat Enterprise Linux, CentOS, Fedora (17 years / advanced)
- * SuSE Linux Enterprise Server (3 years / advanced)
- * Ubuntu, Debian (7 years / proficient)
+ * Red Hat Enterprise Linux, CentOS, Fedora (18 years / advanced)
+ * SuSE Linux Enterprise Server (4 years / advanced)
+ * Ubuntu, Debian (8 years / proficient)
  * Sun Solaris, IBM AIX (1 year / basic)
  * Microsoft Windows 2003 Server (1 year / basic)
 
@@ -182,4 +193,5 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
  * Network and systems administration: Ansible, Chef, Nagios, Netcool, Apache, Tomcat, Squid, Nginx, Postfix, Sendmail, Courier, Dovecot, Procmail, MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache, Trend Micro InterScan Web and Messaging Security Suite for Windows and Unix, Ethereal/Wireshark, Sniffer, tcpdump, Cisco IOS, F5 BIG-IP ZebOS, VMware, VirtualBox, Docker, Kubernetes, Subversion, Git, Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, Azure
  * Identity management: Sun Directory Server, Sun Identity Manager
  * Web and content development: Drupal, WordPress, TWiki, MediaWiki, Dokuwiki, Laravel, Node.js, Flask
- * High-performance computing: Bright Cluster Manager, Slurm
+ * High-performance computing: Bright Cluster Manager, Slurm, PBS Pro, Univa Grid Engine
+ * Big data and analytics: Databricks, Apache Spark

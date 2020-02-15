@@ -19,17 +19,17 @@
         "+31 6 1197 1691"
       ]
     },
-    "summary": "With more than 10 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
+    "summary": "With more than 15 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
     "overview": {
       "interests": [
         "DevOps",
-        "Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform",
+        "Cloud infrastructure",
         "PaaS, IaaS"
       ],
       "skills": [
         {
           "area": "Unix/Linux systems administration",
-          "years": 17,
+          "years": 18,
           "range": [
             [
               "2002",
@@ -40,7 +40,7 @@
         },
         {
           "area": "Infrastructure automation",
-          "years": 9,
+          "years": 10,
           "range": [
             [
               "2010",
@@ -51,7 +51,7 @@
         },
         {
           "area": "Application deployment and support",
-          "years": 12,
+          "years": 13,
           "range": [
             [
               "2007",
@@ -97,7 +97,7 @@
       "languages": [
         {
           "language": "Bash",
-          "years": 17,
+          "years": 18,
           "range": [
             [
               "2002",
@@ -130,7 +130,7 @@
         },
         {
           "language": "Python",
-          "years": 7,
+          "years": 8,
           "range": [
             [
               "2012",
@@ -169,7 +169,7 @@
       "platforms": [
         {
           "platform": "Red Hat Enterprise Linux, CentOS, Fedora",
-          "years": 17,
+          "years": 18,
           "range": [
             [
               "2002",
@@ -180,7 +180,7 @@
         },
         {
           "platform": "SuSE Linux Enterprise Server",
-          "years": 3,
+          "years": 4,
           "range": [
             [
               "2010",
@@ -188,14 +188,14 @@
             ],
             [
               "2019",
-              "present"
+              "2020"
             ]
           ],
           "proficiency": "advanced"
         },
         {
           "platform": "Ubuntu, Debian",
-          "years": 7,
+          "years": 8,
           "range": [
             [
               "2004",
@@ -203,7 +203,7 @@
             ],
             [
               "2014",
-              "present"
+              "2020"
             ]
           ],
           "proficiency": "proficient"
@@ -325,7 +325,7 @@
             },
             {
               "tool": "VMware, VirtualBox, Docker, Kubernetes",
-              "years": 8,
+              "years": 7,
               "range": [
                 [
                   "2006",
@@ -336,7 +336,7 @@
             },
             {
               "tool": "Subversion, Git",
-              "years": 9,
+              "years": 10,
               "range": [
                 [
                   "2010",
@@ -347,7 +347,7 @@
             },
             {
               "tool": "Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, Azure",
-              "years": 6,
+              "years": 7,
               "range": [
                 [
                   "2013",
@@ -440,21 +440,43 @@
               "range": [
                 [
                   "2019",
-                  "present"
+                  "2020"
                 ]
               ],
               "proficiency": "basic"
             },
             {
-              "tool": "Slurm",
+              "tool": "Slurm, PBS Pro, Univa Grid Engine",
               "years": "1",
               "range": [
                 [
                   "2019",
-                  "present"
+                  "2020"
                 ]
               ],
               "proficiency": "basic"
+            }
+          ]
+        },
+        {
+          "name": "Big data and analytics",
+          "tools": [
+            {
+              "tool": "Databricks",
+              "years": "1",
+              "range": [
+                "2020",
+                "present"
+              ],
+              "proficiency": "basic"
+            },
+            {
+              "tool": "Apache Spark",
+              "years": "1",
+              "range": [
+                "2020",
+                "present"
+              ]
             }
           ]
         }
@@ -462,22 +484,63 @@
     },
     "experience": [
       {
+        "title": "Platform technical solutions engineer",
+        "start": "February 2020",
+        "end": "present",
+        "organization": {
+          "name": "Databricks",
+          "link": "https://databricks.com/",
+          "location": "Amsterdam, The Netherlands",
+          "description": "Databricks helps data teams solve the world's toughest problems by providing a unified data analytics platform for massive scale data engineering and collaborative data science."
+        },
+        "summary": "Provides technical guidance and advice to customers in their Databricks journey.",
+        "tasks": [
+          "Troubleshoots, and resolves complex customer issues related to the Databricks platform.",
+          "Delivers proactive suggestions, and best-practice guidance for improving performance and efficiency in customer environments.",
+          "Assists with issues around third-party integrations with the Databricks environment.",
+          "Participates in the creation and maintenance of Databricks documentation and knowledge articles."
+        ],
+        "areas": [
+          "High-performance computing",
+          "Unix/Linux systems administration",
+          "Application deployment and support",
+          "Big data and analytics"
+        ],
+        "languages": [
+          "Bash",
+          "Python"
+        ],
+        "platforms": [
+          "CentOS",
+          "Red Hat Enterprise Linux"
+        ],
+        "tools": [
+          "Kubernetes",
+          "Docker",
+          "Amazon Web Services",
+          "Azure",
+          "Databricks",
+          "Apache Spark"
+        ],
+        "in_resume": true
+      },
+      {
         "title": "Support and deployment engineer",
         "start": "February 2019",
-        "end": "present",
+        "end": "January 2020",
         "organization": {
           "name": "Bright Computing",
           "link": "https://www.brightcomputing.com/",
           "location": "Amsterdam, The Netherlands",
           "description": "Bright Computing develops high-quality software for deploying and managing high-performance clusters, Kubernetes clusters, and OpenStack private clouds in on-premise data centers and public cloud platforms."
         },
-        "summary": "Supports customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
+        "summary": "Supported customers in managing their high-performance clusters (HPC) using Bright Cluster Manager (BCM).",
         "tasks": [
-          "Provides intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.",
-          "Deploys high-density HPCs for global customers.",
-          "Coordinates closely with software development teams in identifying and resolving issues identified through customer reports or testing.",
-          "Works on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.",
-          "Evaluates new technologies in the HPC space for integration with BCM."
+          "Provided intermediate-level support for managing HPCs, workload schedulers, Kubernetes clusters, and OpenStack private clouds.",
+          "Deployed high-density HPCs for global customers.",
+          "Coordinated closely with software development teams in identifying and resolving issues identified through customer reports or testing.",
+          "Worked on the latest hardware like GPUs and high-speed interconnects, and software stacks such as distributed filesystems and hypervisors, to leverage the functionalities of the HPC management software.",
+          "Evaluated new technologies in the HPC space for integration with BCM."
         ],
         "areas": [
           "High-performance computing",
@@ -597,7 +660,7 @@
           "Redis",
           "Tomcat"
         ],
-        "in_resume": true
+        "in_resume": false
       },
       {
         "title": "Linux system administrator",
@@ -716,7 +779,7 @@
           "TWiki",
           "Tomcat"
         ],
-        "in_resume": true
+        "in_resume": false
       },
       {
         "title": "Unix system administrator",
