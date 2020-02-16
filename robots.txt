@@ -1,4 +1,1 @@
 User-agent: *
-Disallow: /cdn-cgi/
-Disallow: /tag*
-Disallow: /660*
