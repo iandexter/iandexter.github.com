@@ -164,6 +164,17 @@
             ]
           ],
           "proficiency": "proficient"
+        },
+        {
+          "language": "Scala",
+          "years": 1,
+          "range": [
+            [
+              "2020",
+              "present"
+            ]
+          ],
+          "proficiency": "basic"
         }
       ],
       "platforms": [
@@ -491,7 +502,7 @@
           "name": "Databricks",
           "link": "https://databricks.com/",
           "location": "Amsterdam, The Netherlands",
-          "description": "Databricks helps data teams solve the world's toughest problems by providing a unified data analytics platform for massive scale data engineering and collaborative data science."
+          "description": "Databricks, the data and AI company, helps data teams solve the world’s toughest problems. Thousands of organizations — including Comcast, Nationwide and H&M — rely on the Databricks platform to accelerate data-driven innovation."
         },
         "summary": "Provides technical guidance and advice to customers in their Databricks journey.",
         "tasks": [
@@ -508,11 +519,12 @@
         ],
         "languages": [
           "Bash",
-          "Python"
+          "Python",
+          "SQL",
+          "Scala"
         ],
         "platforms": [
-          "CentOS",
-          "Red Hat Enterprise Linux"
+          "Ubuntu"
         ],
         "tools": [
           "Kubernetes",
