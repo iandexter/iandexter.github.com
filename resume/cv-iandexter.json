@@ -502,7 +502,7 @@
           "name": "Databricks",
           "link": "https://databricks.com/",
           "location": "Amsterdam, The Netherlands",
-          "description": "Databricks, the data and AI company, helps data teams solve the world’s toughest problems. Thousands of organizations — including Comcast, Nationwide and H&M — rely on the Databricks platform to accelerate data-driven innovation."
+          "description": "Databricks, the data and AI company, helps data teams solve the world's toughest problems. Thousands of organizations -- including Comcast, Nationwide and H&amp;M -- rely on the Databricks platform to accelerate data-driven innovation."
         },
         "summary": "Provides technical guidance and advice to customers in their Databricks journey.",
         "tasks": [

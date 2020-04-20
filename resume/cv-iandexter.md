@@ -5,7 +5,7 @@
  * <im@iandexter.net> 
  * <https://www.iandexter.net> 
 
-> With more than 15 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 16 February 2020]
+> With more than 15 years extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 20 April 2020]
 
 
 
@@ -26,7 +26,7 @@
 ### Platform technical solutions engineer -- February 2020 to present
 #### [Databricks](https://databricks.com/), Amsterdam, The Netherlands
 
-Provides technical guidance and advice to customers in their Databricks journey. Databricks helps data teams solve the world's toughest problems by providing a unified data analytics platform for massive scale data engineering and collaborative data science.
+Provides technical guidance and advice to customers in their Databricks journey. Databricks, the data and AI company, helps data teams solve the world's toughest problems. Thousands of organizations -- including Comcast, Nationwide and H&amp;M -- rely on the Databricks platform to accelerate data-driven innovation.
 
  * Troubleshoots, and resolves complex customer issues related to the Databricks platform.
  * Delivers proactive suggestions, and best-practice guidance for improving performance and efficiency in customer environments.
@@ -181,6 +181,7 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
  * Python (8 years / proficient)
  * SQL (2 years / proficient)
  * JavaScript (7 years / proficient)
+ * Scala (1 year / basic)
 
 ### Platforms
  * Red Hat Enterprise Linux, CentOS, Fedora (18 years / advanced)
