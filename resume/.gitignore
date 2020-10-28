@@ -5,3 +5,4 @@
 steps
 batch.list
 cv-detailed-iandexter.*
+*.gcloudignore

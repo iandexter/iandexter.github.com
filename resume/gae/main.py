@@ -1,14 +1,10 @@
-import webapp2 as webapp
-from google.appengine.ext.webapp.util import run_wsgi_app
+from flask import Flask, redirect
 
-class AllHandler(webapp.RequestHandler):
-    def get(self):
-        self.redirect("https://www.iandexter.net/resume/", True)
+app = Flask(__name__)
 
-app = webapp.WSGIApplication([('/.*', AllHandler)])
-
+@app.route('/')
 def main():
-    run_wsgi_app(app)
+    return redirect("https://www.iandexter.net/resume/", code=301)
 
 if __name__ == '__main__':
-    main()
+    app.run(debug=True)
