@@ -6,22 +6,25 @@ Generates a CV or resume from JSON data using various templates
 (LaTeX, plain-text, or HTML).
 """
 
-import json
-import codecs
-import jinja2
 import os
 import re
 import sys
-from optparse import OptionParser
+import subprocess
+import json
+import codecs
+from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from time import localtime, strftime
+from collections.abc import Mapping, Set, Sequence
+from jinja2 import Environment, FileSystemLoader
+import minify_html
 
-__version__ = '0.4'
+__version__ = '0.5'
 
 def objwalk(obj, path = (), memo = None):
-    """From http://code.activestate.com/recipes/577982-recursively-walk-python-objects/"""
-    from collections import Mapping, Set, Sequence
+    """
+    http://code.activestate.com/recipes/577982-recursively-walk-python-objects/
+    """
 
-    string_types = (str, unicode) if str is bytes else (str, bytes)
     iteritems = lambda mapping: getattr(mapping, 'iteritems', mapping.items)()
 
     if memo is None:
@@ -29,7 +32,7 @@ def objwalk(obj, path = (), memo = None):
     iterator = None
     if isinstance(obj, Mapping):
         iterator = iteritems
-    elif isinstance(obj, (Sequence, Set)) and not isinstance(obj, string_types):
+    elif isinstance(obj, (Sequence, Set)) and not isinstance(obj, str):
         iterator = enumerate
     if iterator:
         if id(obj) not in memo:
@@ -42,87 +45,115 @@ def objwalk(obj, path = (), memo = None):
         yield path, obj
 
 def transform(obj, patt, repl):
-    """From http://stackoverflow.com/questions/11501090/iterate-over-nested-lists-and-dictionaries"""
+    """
+    http://stackoverflow.com/questions/11501090/iterate-over-nested-lists-and-dictionaries
+    """
     regex = re.compile(patt)
-    for p, v in objwalk(obj):
-        if isinstance(v, basestring):
-            if regex.findall(v):
+    for path, val in objwalk(obj):
+        if isinstance(val, str):
+            if regex.findall(val):
                 new_obj = obj
-                for s in p[:-1]:
-                    new_obj = new_obj[s]
-                new_obj[p[-1]] = regex.sub(repl, v)
+                for step in path[:-1]:
+                    new_obj = new_obj[step]
+                new_obj[path[-1]] = regex.sub(repl, val)
 
 def load_json(json_file = None):
-    return json.load(codecs.open(json_file, 'r', 'utf-8-sig'))
+    """
+    Load the data file.
+    """
+    try:
+        return json.load(codecs.open(json_file, 'r', 'utf-8-sig'))
+    except json.decoder.JSONDecodeError:
+        print("Error: Invalid JSON")
+        sys.exit(1)
 
 def get_keywords(json_data = None):
+    """
+    Collect and transform the keywords.
+    """
     keywords = []
-    for k in json_data['overview']['skills']:
-        keywords.append(k['area'].replace(',', ';'))
-    for k in json_data['overview']['platforms']:
-        keywords.append(k['platform'])
-    for k in json_data['overview']['languages']:
-        keywords.append(k['language'])
-    for k in json_data['overview']['tools']:
-        for t in k["tools"]:
-            keywords.append(t["tool"])
-    for k in json_data['overview']['interests']:
-        keywords.append(k)
-    keywords = ','.join([ k.replace(', ', ',') for k in keywords ]).split(',')
+    for keyword in json_data['overview']['skills']:
+        keywords.append(keyword['area'].replace(',', ';'))
+    for keyword in json_data['overview']['platforms']:
+        keywords.append(keyword['platform'])
+    for keyword in json_data['overview']['languages']:
+        keywords.append(keyword['language'])
+    for keyword in json_data['overview']['tools']:
+        for tool in keyword["tools"]:
+            keywords.append(tool["tool"])
+    for keyword in json_data['overview']['interests']:
+        keywords.append(keyword)
+    keywords = ','.join([ keyword.replace(', ', ',') for keyword in keywords ]).split(',')
     keywords = list(set(keywords))
     keywords.sort()
-    keywords = [ k.replace(';', ',') for k in keywords ]
+    keywords = [ keyword.replace(';', ',') for keyword in keywords ]
     return keywords
 
 def render_cv():
-    cv_renderer = jinja2.Environment(
-        block_start_string = '%(',
-        block_end_string = '%)',
-        variable_start_string = '%((',
-        variable_end_string = '%))',
-        loader = jinja2.FileSystemLoader(os.path.abspath('.')))
+    """
+    Render the data using the Jinja template.
+    """
+    cv_renderer = Environment(
+        block_start_string='%(',
+        block_end_string='%)',
+        variable_start_string='%((',
+        variable_end_string='%))',
+        loader=FileSystemLoader(os.path.abspath('.')))
     return cv_renderer
 
-def parse_opts():
-    usage = """
-    Generates a CV or resume from JSON data using various templates
-    (LaTeX, plain-text, or HTML).
+def parse_args():
+    """
+    Parse command-line arguments.
+    """
+    description = (
+        "Generates a CV or resume from JSON data using various templates "
+        "(LaTeX, plain-text, or HTML)."
+    )
 
-    %s [options]
-    """ % sys.argv[0]
+    parser = ArgumentParser(description=description,
+            formatter_class=ArgumentDefaultsHelpFormatter)
+    parser.add_argument('-d', '--data', dest='data_file',
+            default='cv.json', help='specify JSON data')
+    parser.add_argument('-t', '--template', dest='template_file',
+        default='cv.tex.j2', help='specify Jinja template')
+    parser.add_argument('-o', '--output', dest='output_file',
+        default='cv.tex', help='specify output (LaTeX|plain-text|HTML)')
+    parser.add_argument('-m', '--minify', action='store_true',
+            default=False, help='minify HTML')
+    parser.add_argument('-c', '--convert', action='store_true',
+            default=False, help='convert TeX to PDF')
+    parser.add_argument('-v', '--verbose', action='store_true',
+            default=False, help='be more verbose')
+    parser.add_argument('-V', '--version', action='version',
+            version=f"%(prog)s {__version__}")
 
-    parser = OptionParser(usage=usage,
-        version="%s %s" % (sys.argv[0], __version__))
-    parser.add_option('-d', '--data', dest='data_file',
-        default='cv.json', help='JSON data file')
-    parser.add_option('-t', '--template', dest='template_file',
-        default='cv.tex.j2', help='Template file (LaTeX|plain-text|HTML)')
-    parser.add_option('-o', '--output', dest='output_file',
-        default='cv.tex', help='Output file (LaTeX|plain-text|HTML)')
-    parser.add_option('-v', '--verbose', action="store_true",
-        default=False, help='Be more verbose')
-
-    (opts, args) = parser.parse_args()
-    return (opts, args)
+    if len(sys.argv) == 1:
+        parser.print_help(sys.stderr)
+        sys.exit(1)
+    args = parser.parse_args()
+    return args
 
 def search_replace(json_data = None, template_file = None):
+    """
+    Search and replace special characters.
+    """
     transform_list = {
         'tex': [
             { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
               '_sub': r'\\href{\2}{\1}'
             },
-            { '_regex': '\&ntilde;', '_sub': r'{\\~n}' },
-            { '_regex': '\&eacute;', '_sub': r"{\\'e}" },
-            { '_regex': '\&amp;', '_sub': r"{\\&}" },
-            { '_regex': '([\d+])%', '_sub': r'\1\\%' }
+            { '_regex': r'\&ntilde;', '_sub': r'{\\~n}' },
+            { '_regex': r'\&eacute;', '_sub': r"{\\'e}" },
+            { '_regex': r'\&amp;', '_sub': r"{\\&}" },
+            { '_regex': r'([\d+])%', '_sub': r'\1\\%' }
         ],
         'txt': [
             { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
               '_sub': r'\1 <\2>'
             },
-            { '_regex': '\&ntilde;', '_sub': r'n' },
-            { '_regex': '\&eacute;', '_sub': r'e' },
-            { '_regex': '\&amp;', '_sub': r'&' },
+            { '_regex': r'\&ntilde;', '_sub': r'n' },
+            { '_regex': r'\&eacute;', '_sub': r'e' },
+            { '_regex': r'\&amp;', '_sub': r'&' },
         ],
         'html': [
             { '_regex': '\\[([^\\]]+)\\]\\(([^\\)]+)\\)',
@@ -131,39 +162,76 @@ def search_replace(json_data = None, template_file = None):
         ]
     }
 
-    for k,v in transform_list.items():
-        if k in template_file:
-            for t in v:
-                transform(json_data, t['_regex'], t['_sub'])
+    for key, val in transform_list.items():
+        if key in template_file:
+            for text in val:
+                transform(json_data, text['_regex'], text['_sub'])
+
+def minify(html_file):
+    """
+    Minify the HTML file.
+    """
+    with open(html_file, 'r+') as raw_file:
+        html = raw_file.read()
+        try:
+            minified = minify_html.minify(html, minify_js=True, minify_css=True)
+        except SyntaxError as err:
+            print(err)
+        raw_file.seek(0)
+        raw_file.write(minified)
+        raw_file.truncate()
+
+def tex2pdf(tex_file):
+    """
+    Convert TeX to PDF.
+    """
+    cmd = ['pdflatex', tex_file]
+    return subprocess.call(cmd, stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL)
 
 def main():
-    (opts, args) = parse_opts()
+    """
+    All the work goes here.
+    """
+    args = parse_args()
 
-    if not os.path.exists(opts.data_file):
-        print "Cannot open data file %s" % opts.data_file
+    if not os.path.exists(args.data_file):
+        print(f"Cannot open data file {args.data_file}")
         sys.exit(1)
 
-    if not os.path.exists(opts.template_file):
-        print "Cannot open template %s" % opts.template_file
+    if not os.path.exists(args.template_file):
+        print(f"Cannot open template {args.template_file}")
         sys.exit(1)
 
-    if opts.verbose:
-        print "Loading JSON from %s" % opts.data_file
-    cv_data = load_json(opts.data_file)['cv']
+    if args.verbose:
+        print(f"Loading JSON from {args.data_file}")
+    cv_data = load_json(args.data_file)['cv']
     cv_data[u'keywords'] = get_keywords(cv_data)
     cv_data[u'last_update'] = strftime("%-d %B %Y", localtime())
 
-    if opts.verbose:
-        print "Converting special characters"
-    search_replace(cv_data, opts.template_file)
+    if args.verbose:
+        print("Converting special characters")
+    search_replace(cv_data, args.template_file)
 
-    if opts.verbose:
-        print "Rendering using %s" % opts.template_file
-    cv_template = render_cv().get_template(opts.template_file)
-    with open(opts.output_file, 'w') as cv:
-        cv.write(cv_template.render(cv_data))
-    if opts.verbose:
-        print "Output file: %s" % opts.output_file
+    if args.verbose:
+        print(f"Rendering using {args.template_file}")
+    cv_template = render_cv().get_template(args.template_file)
+    with open(args.output_file, 'w') as cv_file:
+        cv_file.write(cv_template.render(cv_data))
+        if args.verbose:
+            print(f"Output file: {args.output_file}")
+
+    if 'html' in args.output_file and args.minify:
+        minify(args.output_file)
+        if args.verbose:
+            print(f"Minified {args.output_file}")
+    if 'tex' in args.output_file and args.convert:
+        pdf_file = f"{os.path.splitext(args.output_file)[0]}.pdf"
+        if not tex2pdf(args.output_file):
+            if args.verbose:
+                print(f"Converted {args.output_file} to {pdf_file}")
+        else:
+            print(f"Failed to convert {args.output_file} to {pdf_file}")
 
 if __name__ == '__main__':
     main()
