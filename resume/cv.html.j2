@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htmy>
+<html>
   <head>
     <title>CV - %(( name %))</title>
     <link rel="canonical" href="https://www.iandexter.net/resume/" />
@@ -22,13 +22,10 @@
       #experience h3 { font-weight: 600; font-size: 120%; }
       .tab-content { height: 500px; overflow-y: auto; }
       .tab-pane { padding-top: 1em; }
+      a.collapsible { font-size:80%; }
+      a.collapsible.collapsed:before { content: "More..."; }
+      a.collapsible:before { content: "Less..."; }
     </style>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
     <div id="title">
@@ -49,45 +46,39 @@
       <div id="overview" class="tab-pane active">
         <h3>Skill areas</h3>
         <ul>
-          %(- for s in overview.skills -%)<li>%(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %)))</li>
-          %(- endfor -%)
+          %(- for s in overview.skills -%)<li>%(( s.area %)) (%(( s.years %)) %( if s.years > 1 %)years%( else %)year%( endif %) / %(( s.proficiency %)))</li>%(- endfor -%)
         </ul>
       </div>
       <div id="experience" class="tab-pane">
-        %(- for e in experience -%)
-        <div id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))">
+        %( for e in experience %)<div id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|lower %))">
           <h3>%(( e.title %)) &mdash; %(( e.start %)) to %(( e.end %))</h3>
           <h4><em>%( if e.organization.link %)<a href="%(( e.organization.link%))">%(( e.organization.name %))</a>%( else %)%(( e.organization.name %))%( endif %)</em>%( if e.organization.under %) (under %(( e.organization.under %)))%( endif %), %(( e.organization.location %))</h4>
-          <p>%(( e.summary %)) %(( e.organization.description %)) <a data-toggle="collapse" href="#%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|replace('(','')|replace(')','')|lower %))_tasks">More</a></p>
+          <p>%(( e.summary %)) %(( e.organization.description %)) <a data-toggle="collapse" href="#%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|replace('(','')|replace(')','')|lower %))_tasks" class="collapsible collapsed"></a></p>
           <ul id="%(( e.title|replace(' ', '')|replace(',', '')|replace('/', '')|replace('(','')|replace(')','')|lower %))_tasks" class="collapse">
-            %(- for t in e.tasks -%)<li>%(( t %))</li>
-            %(- endfor -%)
+            %(- for t in e.tasks -%)<li>%(( t %))</li>%(- endfor -%)
           </ul>
         </div>
-        %(- endfor -%)
+        %( endfor %)
+
       </div>
       <div id="other" class="tab-pane">
         <p><strong>Interests</strong>: %( for i in overview.interests -%)%(( i %))%( if not loop.last %), %(endif %)%(- endfor -%)</p>
         <h3>Qualifications</h3>
         <ul>
           %(- for e in credentials.education -%)<li><strong>%(( e.degree %))</strong> major in %(( e.major %)), %(( e.year %))<br />%(( e.school %))</li>%(- endfor -%)
-          %(- for c in credentials.certification -%)<li><strong>%( if c.verify.link %)<a href="%(( c.verify.link %))" title="%(( c.verify.title %))">%(( c.title %))</a>%( else %)%(( c.title %))%( endif %)</strong>, %(( c.date %))</li>
-          %(- endfor -%)
+          %(- for c in credentials.certification -%)<li><strong>%( if c.verify.link %)<a href="%(( c.verify.link %))" title="%(( c.verify.title %))">%(( c.title %))</a>%( else %)%(( c.title %))%( endif %)</strong>, %(( c.date %))</li>%(- endfor -%)
         </ul>
         <h3>Languages</h3>
           <ul>
-            %(- for l in overview.languages -%)<li>%(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %)))</li>
-            %(- endfor -%)
+            %(- for l in overview.languages -%)<li>%(( l.language %)) (%(( l.years %)) %( if l.years > 1 %)years%( else %)year%( endif %) / %(( l.proficiency %)))</li>%(- endfor -%)
           </ul>
         <h3>Platforms</h3>
         <ul>
-          %(- for p in overview.platforms -%)<li>%(( p.platform %)) (%(( p.years %)) %( if p.years > 1 %)years%( else %)year%( endif %) / %(( p.proficiency %)))</li>
-          %(- endfor -%)
+          %(- for p in overview.platforms -%)<li>%(( p.platform %)) (%(( p.years %)) %( if p.years > 1 %)years%( else %)year%( endif %) / %(( p.proficiency %)))</li>%(- endfor -%)
         </ul>
         <h3>Tools</h3>
         <ul>
-          %(- for t in overview.tools -%)<li>%(( t.name %)): %( for n in t.tools %)%(( n.tool %))%( if not loop.last %), %( endif %)%( endfor %)</li>
-          %(- endfor -%)
+          %(- for t in overview.tools -%)<li>%(( t.name %)): %( for n in t.tools %)%(( n.tool %))%( if not loop.last %), %( endif %)%( endfor %)</li>%(- endfor -%)
         </ul>
       </div>
       <div id="contact" class="tab-pane">
@@ -99,8 +90,7 @@
       </div>
       <div id="downloads" class="tab-pane">
         <ul>
-          %(- for d in downloads -%)<li>%(( d.name %)) (%(- for l in d.links -%)<a href="%(( l.url|safe %))">%(( l.type %))</a>%( if not loop.last %) | %( endif %)%(- endfor -%))</li>
-          %(- endfor -%)
+          %(- for d in downloads -%)<li>%(( d.name %)) (%(- for l in d.links -%)<a href="%(( l.url|safe %))">%(( l.type %))</a>%( if not loop.last %) | %( endif %)%(- endfor -%))</li>%(- endfor -%)
         </ul>
       </div>
     </div>
