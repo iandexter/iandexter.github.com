@@ -4,7 +4,7 @@
     "title": "Linux systems administrator",
     "contact": {
       "home": [
-        "Faas Wilkestraat 109K, 1095MD Amsterdam, North Holland, The Netherlands"
+        "Bijlmerdreef 1147, 1103 TT Amsterdam, North Holland, The Netherlands"
       ],
       "email": [
         "im@iandexter.net"
@@ -19,7 +19,7 @@
         "+31 6 1197 1691"
       ]
     },
-    "summary": "With almost 20 years of extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
+    "summary": "With 20 years of extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management.",
     "overview": {
       "interests": [
         "DevOps",
@@ -29,7 +29,7 @@
       "skills": [
         {
           "area": "Unix/Linux systems administration",
-          "years": 19,
+          "years": 20,
           "range": [
             [
               "2002",
@@ -40,7 +40,7 @@
         },
         {
           "area": "Infrastructure automation",
-          "years": 11,
+          "years": 12,
           "range": [
             [
               "2010",
@@ -51,7 +51,7 @@
         },
         {
           "area": "Application deployment and support",
-          "years": 14,
+          "years": 15,
           "range": [
             [
               "2007",
@@ -97,7 +97,7 @@
       "languages": [
         {
           "language": "Bash",
-          "years": 19,
+          "years": 20,
           "range": [
             [
               "2002",
@@ -130,7 +130,7 @@
         },
         {
           "language": "Python",
-          "years": 9,
+          "years": 10,
           "range": [
             [
               "2012",
@@ -141,7 +141,7 @@
         },
         {
           "language": "SQL",
-          "years": 3,
+          "years": 4,
           "range": [
             [
               "2004",
@@ -171,7 +171,7 @@
         },
         {
           "language": "Scala",
-          "years": 1,
+          "years": 2,
           "range": [
             [
               "2020",
@@ -184,7 +184,7 @@
       "platforms": [
         {
           "platform": "Red Hat Enterprise Linux, CentOS, Fedora",
-          "years": 19,
+          "years": 20,
           "range": [
             [
               "2002",
@@ -210,7 +210,7 @@
         },
         {
           "platform": "Ubuntu, Debian",
-          "years": 9,
+          "years": 10,
           "range": [
             [
               "2004",
@@ -252,11 +252,15 @@
           "tools": [
             {
               "tool": "Ansible, Chef, Terraform",
-              "years": 6,
+              "years": 7,
               "range": [
                 [
                   "2012",
                   "2018"
+                ],
+                [
+                  "2021",
+                  "present"
                 ]
               ],
               "proficiency": "proficient"
@@ -296,7 +300,7 @@
             },
             {
               "tool": "MySQL, PostgreSQL, Sybase, Oracle, Redis, Memcache",
-              "years": 15,
+              "years": 16,
               "range": [
                 [
                   "2004",
@@ -322,7 +326,7 @@
             },
             {
               "tool": "Ethereal/Wireshark, Sniffer, tcpdump",
-              "years": 8,
+              "years": 9,
               "range": [
                 [
                   "2006",
@@ -344,7 +348,7 @@
             },
             {
               "tool": "VMware, VirtualBox, Docker, Kubernetes",
-              "years": 8,
+              "years": 9,
               "range": [
                 [
                   "2006",
@@ -355,7 +359,7 @@
             },
             {
               "tool": "Subversion, Git",
-              "years": 11,
+              "years": 12,
               "range": [
                 [
                   "2010",
@@ -366,7 +370,7 @@
             },
             {
               "tool": "Amazon Web Services, OpenShift, OpenStack, Google Cloud Platform, Azure",
-              "years": 8,
+              "years": 9,
               "range": [
                 [
                   "2013",
@@ -482,20 +486,21 @@
           "tools": [
             {
               "tool": "Databricks",
-              "years": "1",
+              "years": "2",
               "range": [
                 "2020",
                 "present"
               ],
-              "proficiency": "basic"
+              "proficiency": "proficient"
             },
             {
               "tool": "Apache Spark",
-              "years": "1",
+              "years": "2",
               "range": [
                 "2020",
                 "present"
-              ]
+              ],
+              "proficiency": "proficient"
             }
           ]
         }
@@ -503,8 +508,8 @@
     },
     "experience": [
       {
-        "title": "Backline technical solutions engineer",
-        "start": "February 2021",
+        "title": "Staff technical solutions engineer",
+        "start": "August 2022",
         "end": "present",
         "organization": {
           "name": "Databricks",
@@ -547,6 +552,52 @@
           "Apache Spark"
         ],
         "in_resume": true
+      },
+      {
+        "title": "Backline technical solutions engineer",
+        "start": "February 2021",
+        "end": "July 2022",
+        "organization": {
+          "name": "Databricks",
+          "link": "https://databricks.com/",
+          "location": "Amsterdam, The Netherlands",
+          "description": "Databricks, the data and AI company, helps data teams solve the world's toughest problems. Thousands of organizations -- including Comcast, Nationwide and H&amp;M -- rely on the Databricks platform to accelerate data-driven innovation."
+        },
+        "summary": "Acted as technical escalation for frontline support teams, and provided technical guidance and advice to customers in their Databricks journey.",
+        "tasks": [
+          "Troubleshoot, and resolved complex customer issues related to the Databricks platform.",
+          "Resolved critical technical escalations from the frontline support teams, and customers.",
+          "Served as the technical bridge between the frontline support teams, and the engineering teams.",
+          "Provided deep-dive technical training, workshops, and other enablement programs for the support teams.",
+          "Delivered proactive suggestions, and best-practice guidance for improving performance and efficiency in customer environments.",
+          "Assisted with issues around third-party integrations with the Databricks environment.",
+          "Developed detailed guides and runbooks, and automation tools to improve the efficiency of the support organisation.",
+          "Contributed in the creation and maintenance of Databricks documentation and knowledge articles."
+        ],
+        "areas": [
+          "High-performance computing",
+          "Unix/Linux systems administration",
+          "Application deployment and support",
+          "Big data and analytics"
+        ],
+        "languages": [
+          "Bash",
+          "Python",
+          "SQL",
+          "Scala"
+        ],
+        "platforms": [
+          "Ubuntu"
+        ],
+        "tools": [
+          "Kubernetes",
+          "Docker",
+          "Amazon Web Services",
+          "Azure",
+          "Databricks",
+          "Apache Spark"
+        ],
+        "in_resume": false 
       },
       {
         "title": "Platform technical solutions engineer",
@@ -683,7 +734,7 @@
           "Terraform",
           "Tomcat"
         ],
-        "in_resume": true
+        "in_resume": false 
       },
       {
         "title": "DevOps engineer (part-time)",

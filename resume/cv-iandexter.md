@@ -5,16 +5,16 @@
  * <im@iandexter.net> 
  * <https://www.iandexter.net> 
 
-> With almost 20 years of extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 27 February 2021]
+> With 20 years of extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 8 August 2022]
 
 
 
 ## Overview
 
 ### Skill areas
- * Unix/Linux systems administration (19 years / advanced)
- * Infrastructure automation (11 years / proficient)
- * Application deployment and support (14 years / advanced)
+ * Unix/Linux systems administration (20 years / advanced)
+ * Infrastructure automation (12 years / proficient)
+ * Application deployment and support (15 years / advanced)
  * Network design, development and administration (5 years / proficient)
  * Web design, development and management (3 years / proficient)
  * Identity management (2 years / proficient)
@@ -23,7 +23,7 @@
 
 ## Experience
 
-### Backline technical solutions engineer -- February 2021 to present
+### Staff technical solutions engineer -- August 2022 to present
 #### [Databricks](https://databricks.com/), Amsterdam, The Netherlands
 
 Acts as technical escalation for frontline support teams, and provides technical guidance and advice to customers in their Databricks journey. Databricks, the data and AI company, helps data teams solve the world's toughest problems. Thousands of organizations -- including Comcast, Nationwide and H&amp;M -- rely on the Databricks platform to accelerate data-driven innovation.
@@ -36,6 +36,21 @@ Acts as technical escalation for frontline support teams, and provides technical
  * Assists with issues around third-party integrations with the Databricks environment.
  * Develops detailed guides and runbooks, and automation tools to improve the efficiency of the support organisation.
  * Contributes in the creation and maintenance of Databricks documentation and knowledge articles.
+
+
+### Backline technical solutions engineer -- February 2021 to July 2022
+#### [Databricks](https://databricks.com/), Amsterdam, The Netherlands
+
+Acted as technical escalation for frontline support teams, and provided technical guidance and advice to customers in their Databricks journey. Databricks, the data and AI company, helps data teams solve the world's toughest problems. Thousands of organizations -- including Comcast, Nationwide and H&amp;M -- rely on the Databricks platform to accelerate data-driven innovation.
+
+ * Troubleshoot, and resolved complex customer issues related to the Databricks platform.
+ * Resolved critical technical escalations from the frontline support teams, and customers.
+ * Served as the technical bridge between the frontline support teams, and the engineering teams.
+ * Provided deep-dive technical training, workshops, and other enablement programs for the support teams.
+ * Delivered proactive suggestions, and best-practice guidance for improving performance and efficiency in customer environments.
+ * Assisted with issues around third-party integrations with the Databricks environment.
+ * Developed detailed guides and runbooks, and automation tools to improve the efficiency of the support organisation.
+ * Contributed in the creation and maintenance of Databricks documentation and knowledge articles.
 
 
 ### Platform technical solutions engineer -- February 2020 to January 2021
@@ -190,18 +205,18 @@ Implemented the public information infrastructure for the Casecnan Multipurpose 
  * **Trend Micro Certified Security Expert**, June 2006
 
 ### Languages
- * Bash (19 years / advanced)
+ * Bash (20 years / advanced)
  * Perl (9 years / proficient)
  * PHP (3 years / proficient)
- * Python (9 years / proficient)
- * SQL (3 years / proficient)
+ * Python (10 years / proficient)
+ * SQL (4 years / proficient)
  * JavaScript (7 years / proficient)
- * Scala (1 year / basic)
+ * Scala (2 years / basic)
 
 ### Platforms
- * Red Hat Enterprise Linux, CentOS, Fedora (19 years / advanced)
+ * Red Hat Enterprise Linux, CentOS, Fedora (20 years / advanced)
  * SuSE Linux Enterprise Server (4 years / advanced)
- * Ubuntu, Debian (9 years / proficient)
+ * Ubuntu, Debian (10 years / proficient)
  * Sun Solaris, IBM AIX (1 year / basic)
  * Microsoft Windows 2003 Server (1 year / basic)
 
