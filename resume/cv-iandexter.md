@@ -5,7 +5,7 @@
  * <im@iandexter.net> 
  * <https://www.iandexter.net> 
 
-> With 20 years of extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 8 August 2022]
+> With 20 years of extensive experience in administering Linux and Unix platforms. Develops and maintains various automation tools for infrastructure management and application deployment. Collaborates with global software development and operations teams in application delivery and support. Certified in Red Hat Enterprise Linux, Microsoft Windows, and ITIL Foundation in IT Service Management. [Last update: 5 August 2023]
 
 
 
@@ -23,7 +23,7 @@
 
 ## Experience
 
-### Staff technical solutions engineer -- August 2022 to present
+### Staff backline engineer -- August 2022 to present
 #### [Databricks](https://databricks.com/), Amsterdam, The Netherlands
 
 Acts as technical escalation for frontline support teams, and provides technical guidance and advice to customers in their Databricks journey. Databricks, the data and AI company, helps data teams solve the world's toughest problems. Thousands of organizations -- including Comcast, Nationwide and H&amp;M -- rely on the Databricks platform to accelerate data-driven innovation.
